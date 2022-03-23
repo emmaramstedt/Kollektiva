@@ -1,5 +1,9 @@
 <?php
 
+use App\Http\Controllers\ContactController;
+use App\Http\Controllers\HelpController;
+use App\Http\Controllers\HyrkontraktController;
+use App\Http\Controllers\HyrutController;
 use Illuminate\Support\Facades\Route;
 
 /*
@@ -13,6 +17,8 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-Route::get('/', function () {
-    return view('welcome');
-});
+Route::view('/', 'index')->name('index');
+Route::get('contact', ContactController::class);
+Route::get('help', HelpController::class);
+Route::get('hyrkontrakt', HyrkontraktController::class);
+Route::get('hyrut', HyrutController::class);
