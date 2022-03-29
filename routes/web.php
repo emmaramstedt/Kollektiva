@@ -1,5 +1,6 @@
 <?php
 
+use App\Http\Controllers\SokBostadController;
 use App\Http\Controllers\ContactController;
 use App\Http\Controllers\HelpController;
 use App\Http\Controllers\HyrkontraktController;
@@ -22,3 +23,4 @@ Route::get('contact', ContactController::class);
 Route::get('help', HelpController::class);
 Route::get('hyrkontrakt', HyrkontraktController::class);
 Route::get('hyrut', HyrutController::class);
+Route::get('sokbostad', [SokBostadController::class, 'searchView']);
