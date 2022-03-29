@@ -1,0 +1,53 @@
+footer {
+font-size: 18px;
+display: flex;
+flex-direction: column;
+}
+
+footer hr{
+    height: 1px;
+    border: none;
+    background-color: #888888;
+}
+
+footer > * {
+    margin-top: 0.2em;
+}
+
+footer ul{
+    padding: 0;
+}
+footer li {
+   list-style: none;
+   line-height: 2.5em;
+}
+
+footer li img {
+    margin-right: 0.2em;
+}
+
+footer svg {
+    vertical-align: middle;
+    margin-right: 0.2em;
+}
+
+.footerDescription{
+
+}
+
+.footerContact{
+
+}
+
+.footerAbout{
+    vertical-align: middle;
+}
+
+.footerSocial{
+
+}
+
+.footerOrg{
+margin-top: 1.2em;
+}
+
