@@ -37,7 +37,7 @@
         <div class="collapse navbar-collapse" id="navbarNavDropdown">
             <ul class="navbar-nav">
                 <li class="nav-item">
-                    <a class="nav-link" href="/index">Hem</a>
+                    <a class="nav-link" href="/">Hem</a>
                 </li>
                 <div class="headerLine">
                     <hr>
