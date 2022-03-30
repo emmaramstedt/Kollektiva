@@ -31,6 +31,10 @@ footer svg {
     margin-right: 0.2em;
 }
 
+.footerWrapper{
+
+}
+
 .footerDescription{
 
 }
@@ -50,4 +54,33 @@ footer svg {
 .footerOrg{
 margin-top: 1.2em;
 }
+
+@media only screen and (min-width: 834px) {
+    .footerLine{
+        display: none;
+    }
+
+footer{
+flex-direction: row;
+flex-wrap: wrap;
+justify-content: space-between;
+    }
+    .footerDescription{
+    width: 100vw;
+    }
+    .footerContact{
+    }
+
+    .footerAbout{
+
+    }
+
+    .footerSocial{
+
+    }
+
+    .footerOrg{
+    width: 100vw;
+    }
+  }
 
