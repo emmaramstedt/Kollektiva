@@ -34,37 +34,38 @@
         <div class="collapse navbar-collapse" id="navbarNavDropdown">
             <ul class="navbar-nav">
                 <li class="nav-item">
-                    <a class="nav-link" href="#">Hem</a>
+                    <a class="nav-link" href="/index">Hem</a>
                 </li>
                 <div class="headerLine">
                     <hr>
                 </div>
                 <li class="nav-item">
-                    <a class="nav-link" href="#">Hyr ut din bostad</a>
+                    <a class="nav-link" href="/hyrut">Hyr ut din bostad</a>
                 </li>
                 <div class="headerLine">
                     <hr>
                 </div>
                 <li class="nav-item">
-                    <a class="nav-link" href="#">Sök bostad</a>
+                    <a class="nav-link" href="hyrkontrakt">Sök bostad</a>
                 </li>
                 <div class="headerLine">
                     <hr>
                 </div>
                 <li class="nav-item">
+                    <!-- no corresponding blade.file -->
                     <a class="nav-link" href="#">Hur fungerar Kollektiva?</a>
                 </li>
                 <div class="headerLine">
                     <hr>
                 </div>
                 <li class="nav-item">
-                    <a class="nav-link" href="#">Hjälpcenter</a>
+                    <a class="nav-link" href="/help">Hjälpcenter</a>
                 </li>
                 <div class="headerLine">
                     <hr>
                 </div>
                 <li class="nav-item">
-                    <a class="nav-link" href="#">Kontakt</a>
+                    <a class="nav-link" href="/contact">Kontakt</a>
                 </li>
                 <div class="headerLine">
                     <hr>
