@@ -46,6 +46,12 @@
     color: black;
 }
 
+hr {
+    height: 1px;
+    border: none;
+    background-color: #888888;
+}
+
 /* Login and sign up buttons and wrapper (in open menu view) */
 
 .openMenuButtonWrapper {
@@ -66,5 +72,12 @@
     margin: 3%;
     padding: 2%;
     justify-self: center;
+}
+
+@media only screen and (min-width: 834px) {
+    /* make so that buttons lie next to each other */
+    .openMenuButtonWrapper {
+        display: inline-block;
+    }
 }
 

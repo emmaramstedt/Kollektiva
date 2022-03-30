@@ -36,21 +36,39 @@
                 <li class="nav-item">
                     <a class="nav-link" href="#">Hem</a>
                 </li>
+                <div class="headerLine">
+                    <hr>
+                </div>
                 <li class="nav-item">
                     <a class="nav-link" href="#">Hyr ut din bostad</a>
                 </li>
+                <div class="headerLine">
+                    <hr>
+                </div>
                 <li class="nav-item">
                     <a class="nav-link" href="#">Sök bostad</a>
                 </li>
+                <div class="headerLine">
+                    <hr>
+                </div>
                 <li class="nav-item">
                     <a class="nav-link" href="#">Hur fungerar Kollektiva?</a>
                 </li>
+                <div class="headerLine">
+                    <hr>
+                </div>
                 <li class="nav-item">
                     <a class="nav-link" href="#">Hjälpcenter</a>
                 </li>
+                <div class="headerLine">
+                    <hr>
+                </div>
                 <li class="nav-item">
                     <a class="nav-link" href="#">Kontakt</a>
                 </li>
+                <div class="headerLine">
+                    <hr>
+                </div>
             </ul>
             <div class="openMenuButtonWrapper">
                 <button class="menuButton">Logga in</button>
