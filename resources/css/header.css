@@ -6,17 +6,19 @@
     background-color: #e5e5e5;
     display: flex;
     justify-content: space-between;
-    padding: 1%;
+    /* padding: 1%; */
 }
 
 .languageAndSearchWrapper {
     width: 100%;
     display: flex;
     justify-content: flex-end;
+    margin-top: 2%;
 }
 
 .logo {
     font-size: xx-large;
+    margin-top: 2%;
 }
 
 .languageBox {
@@ -43,6 +45,10 @@
     display: flex;
     justify-content: flex-end;
     background-color: white;
+}
+
+.navbar {
+    padding: 0%;
 }
 
 /* Why won't the text color change?? */
