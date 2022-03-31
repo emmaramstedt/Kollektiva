@@ -52,6 +52,10 @@
     background-color: #ef9001;
 }
 
+.formSearchButton svg {
+    fill: white;
+}
+
 /* Search form */
 
 .searchContainer {
