@@ -3,19 +3,15 @@ var __webpack_exports__ = {};
 /*!********************************!*\
   !*** ./resources/js/header.js ***!
   \********************************/
-console.log("hai");
-var searchButton = document.querySelector("searchFormButton");
-
-searchButton.addEventListener = function () {
-  var x = document.getElementById("searchcontainer");
+var searchButton = document.querySelector(".searchButton");
+searchButton.addEventListener("click", function (e) {
+  var x = document.querySelector(".searchContainer");
 
   if (x.style.display === "none") {
     x.style.display = "block";
   } else {
     x.style.display = "none";
   }
-
-  console.log("hai");
-};
+});
 /******/ })()
 ;
