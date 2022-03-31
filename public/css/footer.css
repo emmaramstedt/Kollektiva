@@ -2,6 +2,8 @@ footer {
 font-size: 18px;
 display: flex;
 flex-direction: column;
+margin-left: 0.6em;
+margin-right: 0.6em;
 }
 
 footer hr{
@@ -54,6 +56,11 @@ footer svg {
 .footerOrg{
 margin-top: 1.2em;
 }
+@media only screen and (min-width: 481px) {
+    footer p{
+        max-width: 300px;
+    }
+}
 
 @media only screen and (min-width: 834px) {
     .footerLine{
@@ -64,9 +71,15 @@ footer{
 flex-direction: row;
 flex-wrap: wrap;
 justify-content: space-between;
+max-width: 1116px;
+margin-left: 32px;
+    }
+    footer p{
+        max-width: 390px;
     }
     .footerDescription{
     width: 100vw;
+    margin-bottom: 80px;
     }
     .footerContact{
     }
@@ -81,6 +94,7 @@ justify-content: space-between;
 
     .footerOrg{
     width: 100vw;
+    margin-top: 80px;
     }
   }
 

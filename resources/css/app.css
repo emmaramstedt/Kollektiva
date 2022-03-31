@@ -3,6 +3,10 @@
 body {
     background-color: #f5faf4;
     font-family: "Roboto", sans-serif;
+    margin: 0px;
+}
+
+main{
     margin-left: 0.6em;
     margin-right: 0.6em;
 }
@@ -10,4 +14,10 @@ body {
 h3 {
     font-weight: 500;
     font-size: 24px;
+}
+
+@media only screen and (min-width: 834px) {
+    main{
+        margin-left: 32px;
+    }
 }
