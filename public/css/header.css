@@ -37,6 +37,20 @@
     padding: 1%;
 }
 
+/* Header buttons */
+
+.searchButton {
+    all: unset;
+}
+.languageButton {
+    all: unset;
+}
+.formSearchButton {
+    all: unset;
+    padding: 1%;
+    background-color: white;
+}
+
 /* Search form */
 
 .searchContainer {
@@ -51,10 +65,6 @@
 
 .searchForm input {
     width: 100%;
-}
-
-.searchform button {
-    border: none;
 }
 
 /* Navbar/Menu section */
