@@ -6,7 +6,6 @@
     background-color: #e5e5e5;
     display: flex;
     justify-content: space-between;
-    /* padding: 1%; */
 }
 
 .languageAndSearchWrapper {
@@ -36,6 +35,26 @@
     align-items: center;
     margin-right: 2%;
     padding: 1%;
+}
+
+/* Search form */
+
+.searchContainer {
+    /* display: none; */
+}
+
+.searchForm {
+    display: flex;
+    flex-direction: row;
+    /* margin: 2%; */
+}
+
+.searchForm input {
+    width: 100%;
+}
+
+.searchform button {
+    border: none;
 }
 
 /* Navbar/Menu section */
@@ -97,7 +116,8 @@ hr {
 @media only screen and (min-width: 834px) {
     /* make so that buttons lie next to each other */
     .openMenuButtonWrapper {
-        display: inline-block;
+        display: flex;
+        flex-direction: row;
     }
 
     .topWrapper {
