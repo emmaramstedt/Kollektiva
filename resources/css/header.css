@@ -52,10 +52,6 @@
     background-color: #ef9001;
 }
 
-.formSearchButton svg {
-    fill: white;
-}
-
 /* Search form */
 
 .searchContainer {
@@ -128,6 +124,8 @@ hr {
 }
 
 /* Media queries */
+
+/* vid 990px blir hamburgermenyn galen. byta till laptopview här?  */
 
 @media only screen and (min-width: 834px) {
     /* make so that buttons lie next to each other */
