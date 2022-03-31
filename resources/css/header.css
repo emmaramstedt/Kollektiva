@@ -28,6 +28,11 @@
     margin-right: 2%;
     padding: 1%;
 }
+
+.laptop {
+    display: none;
+}
+
 .searchBox {
     display: flex;
     flex-direction: column;
@@ -135,6 +140,14 @@ hr {
 
 @media only screen and (min-width: 834px) {
     /* make so that buttons lie next to each other */
+
+    .mobile {
+        display: none;
+    }
+
+    .laptop {
+        display: block;
+    }
     .openMenuButtonWrapper {
         display: flex;
         flex-direction: row;
@@ -157,8 +170,19 @@ hr {
         flex-direction: row;
     }
 
+    .laptopNav a {
+        text-decoration: none;
+        color: black;
+        font-weight: bold;
+    }
+
     .laptopNav ul {
         overflow: hidden;
+        display: flex;
+        justify-content: space-evenly;
+        width: 100%;
+        margin: 0%;
+        padding: 0%;
     }
     .laptopNav li {
         display: inline-block;
