@@ -1,4 +1,4 @@
-/* Language and search-function at top ov page */
+/* Language and search-function at top of page */
 
 .topWrapper {
     width: 100%;
@@ -56,6 +56,7 @@
 
 .searchContainer {
     display: none;
+    margin: 1%;
 }
 
 .searchForm {
@@ -83,6 +84,7 @@
 }
 
 /* Why won't the text color change?? */
+
 .nav-link {
     color: black;
     font-weight: bold;
@@ -123,6 +125,10 @@ hr {
     justify-self: center;
 }
 
+.laptopNav {
+    display: none;
+}
+
 /* Media queries */
 
 /* vid 990px blir hamburgermenyn galen. byta till laptopview här?  */
@@ -136,6 +142,26 @@ hr {
 
     .topWrapper {
         background-color: white;
+    }
+
+    .mobileNav {
+        display: none;
+    }
+
+    /* laptop header */
+
+    .laptopNav {
+        width: 100%;
+        height: 100%;
+        display: flex;
+        flex-direction: row;
+    }
+
+    .laptopNav ul {
+        overflow: hidden;
+    }
+    .laptopNav li {
+        display: inline-block;
     }
 }
 
