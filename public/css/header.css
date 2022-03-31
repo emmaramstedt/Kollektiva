@@ -46,9 +46,10 @@
     all: unset;
 }
 .formSearchButton {
-    all: unset;
+    /* all: unset; */
+    border-left: none;
     padding: 1%;
-    background-color: white;
+    background-color: #ef9001;
 }
 
 /* Search form */
@@ -65,6 +66,7 @@
 
 .searchForm input {
     width: 100%;
+    border-right: none;
 }
 
 /* Navbar/Menu section */

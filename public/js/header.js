@@ -3,6 +3,7 @@ var __webpack_exports__ = {};
 /*!********************************!*\
   !*** ./resources/js/header.js ***!
   \********************************/
+// Display and hide search "form"
 var searchButton = document.querySelector(".searchButton");
 searchButton.addEventListener("click", function (e) {
   var x = document.querySelector(".searchContainer");

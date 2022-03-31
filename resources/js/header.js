@@ -1,3 +1,5 @@
+// Display and hide search "form"
+
 const searchButton = document.querySelector(".searchButton");
 
 searchButton.addEventListener("click", (e) => {
