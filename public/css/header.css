@@ -75,6 +75,10 @@
     border-right: none;
 }
 
+.laptopSearchForm {
+    display: none;
+}
+
 /* Navbar/Menu section */
 
 .nav-wrapper {
@@ -141,10 +145,15 @@ hr {
 @media only screen and (min-width: 834px) {
     /* make so that buttons lie next to each other */
 
+    /* displays and not displays */
+
     .mobile {
         display: none;
     }
 
+    .mobileNav {
+        display: none;
+    }
     .laptop {
         display: block;
     }
@@ -153,12 +162,42 @@ hr {
         flex-direction: row;
     }
 
-    .topWrapper {
-        background-color: white;
+    .searchBox {
+        display: none;
     }
 
-    .mobileNav {
-        display: none;
+    /* search and language */
+
+    .laptopSearchContainer {
+        display: flex;
+        margin: 1%;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .laptopSearchForm {
+        display: flex;
+        flex-direction: row;
+        height: 45%;
+    }
+    .laptopSearchForm button {
+        color: white;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+    }
+    .laptopSearchForm button p {
+        margin: 5%;
+    }
+
+    .searchForm input {
+        width: 30%;
+        border-right: none;
+    }
+
+    .topWrapper {
+        background-color: white;
     }
 
     /* laptop header */

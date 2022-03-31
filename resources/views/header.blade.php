@@ -33,6 +33,17 @@
                 <p>Sök</p>
             </div>
         </div>
+        <div class="laptopSearchContainer">
+            <form class="laptopSearchForm" action="">
+                <input type="text" placeholder="Sök.." name="search">
+                <button class="formSearchButton" type="submit">
+                    <p>Sök</p><svg width="21" height="21" viewBox="0 0 21 21" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M9.05295 17.605C10.9506 17.6046 12.7936 16.9693 14.2884 15.8004L18.9883 20.5L20.5 18.9883L15.8002 14.2888C16.9698 12.7938 17.6054 10.9505 17.6059 9.05249C17.6059 4.33686 13.7688 0.5 9.05295 0.5C4.33707 0.5 0.5 4.33686 0.5 9.05249C0.5 13.7681 4.33707 17.605 9.05295 17.605ZM9.05295 2.63812C12.5907 2.63812 15.4677 5.51497 15.4677 9.05249C15.4677 12.59 12.5907 15.4669 9.05295 15.4669C5.51523 15.4669 2.63824 12.59 2.63824 9.05249C2.63824 5.51497 5.51523 2.63812 9.05295 2.63812Z" fill="white" />
+                    </svg>
+                </button>
+            </form>
+        </div>
+
     </div>
     <div class="searchContainer">
         <form class="searchForm" action="">
