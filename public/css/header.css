@@ -212,10 +212,13 @@ hr {
         flex-direction: row;
     }
 
+    .laptopNav .underline {
+        text-decoration: underline;
+    }
+
     .laptopNav a {
         text-decoration: none;
         color: black;
-        font-weight: bold;
     }
 
     .laptopNav ul {
@@ -228,6 +231,11 @@ hr {
     }
     .laptopNav li {
         display: inline-block;
+    }
+
+    .nav-link {
+        font-weight: 100;
+        padding: 0%;
     }
 }
 
