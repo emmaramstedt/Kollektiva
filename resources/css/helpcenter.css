@@ -1,0 +1,68 @@
+.helpcenterWrapper{
+    background-color: #F0FBEA;
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 30px;
+}
+.helpcenter{
+    margin-left: 0.6em;
+    margin-right: 0.6em;
+    margin-top: 34px;
+}
+
+.helpcenter h3 {
+    margin-bottom: 1.3em;
+}
+
+.helpcenter p{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 0px;
+    margin-top: 1em;
+}
+.helpcenter span{
+    margin-bottom: 1.5em;
+}
+.helpcenter button{
+    align-self: center;
+}
+
+.helpcenterImage{
+display: none;
+}
+
+@media only screen and (min-width: 834px) {
+    .helpcenterWrapper{
+        flex-direction: row-reverse;
+        align-items: flex-end;
+        align-content: space-around;
+        justify-content: center;
+        padding-left: 32px;
+    }
+    .helpcenterImage{
+        display: contents;
+    }
+
+    .helpcenter{
+        margin-left: 32px;
+    }
+
+    .helpcenter button{
+        align-self: normal;
+    }
+}
+
+@media only screen and (min-width: 1440px){
+    .helpcenterWrapper{
+        flex-direction: row;
+        align-items: center;
+        align-content: space-between;
+        justify-content: space-between;
+    }
+
+    .helpcenter{
+        max-width: 600px;
+    }
+
+}
+

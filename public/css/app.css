@@ -1,24 +1,67 @@
-@import url(https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap);
-/* roboto as placeholder font*/
+@font-face {
+    font-family: 'Merriweather';
+    src: url(/fonts/Merriweather-Regular.woff2?282c0e7aaa85f52506a6d02eeb43d4b2) format('woff2'),
+         url(/fonts/Merriweather-Regular.woff?606101c5b0773eaa0a2f88480e2a6679) format('woff');
+}
+@font-face {
+    font-family: 'OpenSansBold';
+    src: url(/fonts/OpenSans-Bold.woff2?f3e79b3d83d8a599df08ae847aae47f3) format('woff2'),
+         url(/fonts/OpenSans-Bold.woff?eb8f357f58267539eb7bf4033bb94c4c) format('woff');
+}
+
+@font-face {
+    font-family: 'OpenSansSemiBold';
+    src: url(/fonts/OpenSans-Medium.woff?bf421ba0e8cd4d717f13024d50f8466a) format('woff2'),
+         url(/fonts/OpenSans-Medium.woff2?787643710fd10258c51d6641282fd64d) format('woff');
+         font-weight: 600;
+}
+
 body {
     background-color: #f5faf4;
-    font-family: "Roboto", sans-serif;
+    font-family: 'Merriweather';
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 22px;
     margin: 0px;
 }
 
+/* margin för fonter default mobile:
+margin-left: 0.6em;
+margin-right: 0.6em;
+sätt på varje objekt och inte i main!*/
 main{
-    margin-left: 0.6em;
-    margin-right: 0.6em;
+line-height: 28px;
+}
+
+h1{
+    font-family: 'OpenSansBold';
+    font-size: 40px;
+    line-height: 40px;
+    font-weight: 700;
+}
+
+h2{
+    font-family: 'OpenSansBold';
+    font-size: 32px;
+    line-height: 36px;
+    font-weight: 700;
 }
 
 h3 {
+    font-family: 'OpenSansBold';
     font-weight: 500;
     font-size: 24px;
+    line-height: 28px;
+    font-weight: 700;
 }
 
-@media only screen and (min-width: 834px) {
-    main{
-        margin-left: 32px;
-    }
+.orangeButton {
+    font-family: 'OpenSansSemiBold';
+    background-color: #FCA82B;
+    color: #212121;
+    width: 324px;
+    height: 48px;
+    border: none;
 }
+
 

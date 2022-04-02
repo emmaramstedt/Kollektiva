@@ -9,6 +9,7 @@
     <link rel="stylesheet" href="../css/app.css">
     <link rel="stylesheet" href="../css/header.css">
     <link rel="stylesheet" href="../css/footer.css">
+    <link rel="stylesheet" href="../css/helpcenter.css">
     <title>Kollektiva</title>
     <div class="topWrapper">
         <h1 class="logo">Kollektiva</h1>

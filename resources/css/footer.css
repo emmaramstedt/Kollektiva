@@ -1,9 +1,13 @@
+.footerWrapper{
+    background-color: #033F33;
+    color: #FBFFF9;
+}
 footer {
-font-size: 18px;
-display: flex;
-flex-direction: column;
-margin-left: 0.6em;
-margin-right: 0.6em;
+    display: flex;
+    flex-direction: column;
+    margin-left: 0.6em;
+    margin-right: 0.6em;
+
 }
 
 footer hr{
@@ -33,10 +37,6 @@ footer svg {
     margin-right: 0.2em;
 }
 
-.footerWrapper{
-
-}
-
 .footerDescription{
 
 }
@@ -49,14 +49,17 @@ footer svg {
     vertical-align: middle;
 }
 
-.footerSocial{
-
+.footerSocial svg{
+width: 42px;
 }
 
 .footerOrg{
 margin-top: 1.2em;
 }
 @media only screen and (min-width: 481px) {
+    footer {
+        margin-left: 32px;
+    }
     footer p{
         max-width: 300px;
     }
@@ -68,11 +71,11 @@ margin-top: 1.2em;
     }
 
 footer{
-flex-direction: row;
-flex-wrap: wrap;
-justify-content: space-between;
-max-width: 1116px;
-margin-left: 32px;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    max-width: 1116px;
+    margin-left: 32px;
     }
     footer p{
         max-width: 390px;
