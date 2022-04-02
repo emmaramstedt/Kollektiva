@@ -1,6 +1,23 @@
 @include('header')
+<!-- Testimonies -->
+<div class="testimoniesWrapper">
+    <div class="testimonyCard">
+        <div class="testimonyImage"> <img src="{{url('images/testimonies/testimonyone.png')}}" alt="A photo of Agda" /></div>
+        <div class="testimony"></div>
+        <h4>Agda Nilsson, 69 år</h4>
+        <p>”Jag ångrar inte ett sekund på att jag tog steget och hyrde ut mitt hus. Nu bor jag i en enkel 2:a anpassat för just mig. Och en trevlig familj på 4 får bo i mitt stora hus.”</p>
+    </div>
 
 
+    <div class="testimonyCard">
+        <div class="testimonyImage"> <img src="{{url('images/testimonies/testimonytwo.png')}}" alt="A photo of Agda" /></div>
+        <div class="testimony"></div>
+        <h4>Lotta och Nils, 71 och 75 år</h4>
+        <p>”Aldrig har vi varit så lyckliga som när vi bestämde oss för att hyra ut vårt stora hus. Det gav oss vår frihet tillbaka.”</p>
+    </div>
+</div>
+
+<!-- End of Testimonies -->
 <!-- Hjälpcenter -->
 <div class="helpcenterWrapper">
     <div class="helpcenter">
@@ -20,4 +37,5 @@
         </picture>
     </div>
 </div>
+<!--End of Hjälpcenter -->
 @include('footer')

@@ -16,4 +16,5 @@ mix.js("resources/js/app.js", "public/js")
     .css("resources/css/footer.css", "public/css")
     .css("resources/css/app.css", "public/css")
     .css("resources/css/header.css", "public/css")
-    .css("resources/css/helpcenter.css", "public/css");
+    .css("resources/css/helpcenter.css", "public/css")
+    .css("resources/css/testimonies.css", "public/css");

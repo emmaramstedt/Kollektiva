@@ -10,6 +10,7 @@
     <link rel="stylesheet" href="../css/header.css">
     <link rel="stylesheet" href="../css/footer.css">
     <link rel="stylesheet" href="../css/helpcenter.css">
+    <link rel="stylesheet" href="../css/testimonies.css">
     <title>Kollektiva</title>
     <div class="topWrapper">
         <h1 class="logo">Kollektiva</h1>
