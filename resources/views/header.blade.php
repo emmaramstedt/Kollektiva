@@ -11,6 +11,7 @@
     <link rel="stylesheet" href="../css/footer.css">
     <link rel="stylesheet" href="../css/helpcenter.css">
     <link rel="stylesheet" href="../css/testimonies.css">
+    <link rel="stylesheet" href="../css/stepByStep.css">
     <title>Kollektiva</title>
     <div class="topWrapper">
         <h1 class="logo">Kollektiva</h1>

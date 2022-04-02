@@ -19409,6 +19409,19 @@ var __WEBPACK_AMD_DEFINE_RESULT__;/**
 
 /***/ }),
 
+/***/ "./resources/css/stepbystep.css":
+/*!**************************************!*\
+  !*** ./resources/css/stepbystep.css ***!
+  \**************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+// extracted by mini-css-extract-plugin
+
+
+/***/ }),
+
 /***/ "./resources/css/footer.css":
 /*!**********************************!*\
   !*** ./resources/css/footer.css ***!
@@ -19783,7 +19796,8 @@ process.umask = function() { return 0; };
 /******/ 			"css/helpcenter": 0,
 /******/ 			"css/header": 0,
 /******/ 			"css/app": 0,
-/******/ 			"css/footer": 0
+/******/ 			"css/footer": 0,
+/******/ 			"css/stepbystep": 0
 /******/ 		};
 /******/ 		
 /******/ 		// no chunk on demand loading
@@ -19833,12 +19847,13 @@ process.umask = function() { return 0; };
 /******/ 	// startup
 /******/ 	// Load entry module and return exports
 /******/ 	// This entry module depends on other loaded chunks and execution need to be delayed
-/******/ 	__webpack_require__.O(undefined, ["css/testimonies","css/helpcenter","css/header","css/app","css/footer"], () => (__webpack_require__("./resources/js/app.js")))
-/******/ 	__webpack_require__.O(undefined, ["css/testimonies","css/helpcenter","css/header","css/app","css/footer"], () => (__webpack_require__("./resources/css/footer.css")))
-/******/ 	__webpack_require__.O(undefined, ["css/testimonies","css/helpcenter","css/header","css/app","css/footer"], () => (__webpack_require__("./resources/css/app.css")))
-/******/ 	__webpack_require__.O(undefined, ["css/testimonies","css/helpcenter","css/header","css/app","css/footer"], () => (__webpack_require__("./resources/css/header.css")))
-/******/ 	__webpack_require__.O(undefined, ["css/testimonies","css/helpcenter","css/header","css/app","css/footer"], () => (__webpack_require__("./resources/css/helpcenter.css")))
-/******/ 	var __webpack_exports__ = __webpack_require__.O(undefined, ["css/testimonies","css/helpcenter","css/header","css/app","css/footer"], () => (__webpack_require__("./resources/css/testimonies.css")))
+/******/ 	__webpack_require__.O(undefined, ["css/testimonies","css/helpcenter","css/header","css/app","css/footer","css/stepbystep"], () => (__webpack_require__("./resources/js/app.js")))
+/******/ 	__webpack_require__.O(undefined, ["css/testimonies","css/helpcenter","css/header","css/app","css/footer","css/stepbystep"], () => (__webpack_require__("./resources/css/footer.css")))
+/******/ 	__webpack_require__.O(undefined, ["css/testimonies","css/helpcenter","css/header","css/app","css/footer","css/stepbystep"], () => (__webpack_require__("./resources/css/app.css")))
+/******/ 	__webpack_require__.O(undefined, ["css/testimonies","css/helpcenter","css/header","css/app","css/footer","css/stepbystep"], () => (__webpack_require__("./resources/css/header.css")))
+/******/ 	__webpack_require__.O(undefined, ["css/testimonies","css/helpcenter","css/header","css/app","css/footer","css/stepbystep"], () => (__webpack_require__("./resources/css/helpcenter.css")))
+/******/ 	__webpack_require__.O(undefined, ["css/testimonies","css/helpcenter","css/header","css/app","css/footer","css/stepbystep"], () => (__webpack_require__("./resources/css/testimonies.css")))
+/******/ 	var __webpack_exports__ = __webpack_require__.O(undefined, ["css/testimonies","css/helpcenter","css/header","css/app","css/footer","css/stepbystep"], () => (__webpack_require__("./resources/css/stepbystep.css")))
 /******/ 	__webpack_exports__ = __webpack_require__.O(__webpack_exports__);
 /******/ 	
 /******/ })()

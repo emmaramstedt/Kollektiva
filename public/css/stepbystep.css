@@ -1,0 +1,56 @@
+.stepByStepWrapper{
+    display: flex;
+    flex-direction: column;
+    padding-left: 0.6em;
+    padding-right: 0.6em;
+    background-color: #EEFCE8;
+}
+
+.stepByStepCard{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.stepByStepCard > *{
+    padding-top: 20px;
+}
+
+.stepByStepCard h4{
+    margin-bottom: 1em;
+}
+
+
+@media only screen and (min-width: 834px) {
+    .stepByStepWrapper{
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+   }
+   .stepByStepCard{
+    max-width: 40%;
+}
+    .stepByStepCard h4{
+
+    }
+    .stepByStep{
+        text-align: center;
+    }
+}
+
+@media only screen and (min-width: 1440px) {
+    .stepByStepWrapper{
+        padding-top: 2em;
+        padding-bottom: 2em;
+   }
+   .stepByStepCard{
+    max-width: 33%;
+}
+    .stepByStepCard h4{
+
+    }
+    .stepByStep{
+max-width: 50%;
+    }
+}
+

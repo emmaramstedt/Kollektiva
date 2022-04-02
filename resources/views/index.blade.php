@@ -1,4 +1,31 @@
 @include('header')
+<!-- Step by step -->
+<div class="stepByStepWrapper">
+    <div class="stepByStepCard">
+        <div class="stepByStepIcon"><img src="{{url('icons/care.svg')}}"></div>
+        <div class="stepByStep">
+            <h4>Enkelt och beskymmersfritt</h4>
+            <p>Enkelt, tryggt och digitalt. Vi hjälper dig hitta din nya hyresgäst eller hyresvärd som stämmer överens med dina önskemål. </p>
+        </div>
+    </div>
+
+    <div class="stepByStepCard">
+        <div class="stepByStepIcon"><img src="{{url('icons/people.svg')}}"></div>
+        <div class="stepByStep">
+            <h4>Personlig matchning</h4>
+            <p>För att båda parter ska känna sig trygga, erbjuder vi personlig matchning. Det ska vara trivsamt att dela. </p>
+        </div>
+    </div>
+
+    <div class="stepByStepCard">
+        <div class="stepByStepIcon"><img src="{{url('icons/sun.svg')}}"></div>
+        <div class="stepByStep">
+            <h4>Vi finns alltid tillgängliga för dig</h4>
+            <p>Vi skapar de bästa förutsättningarna för att ni ska trivas och känna er trygga. Skulle något uppstå når ni oss på telefon 031-094021</p>
+        </div>
+    </div>
+</div>
+<!-- Step by step end -->
 <!-- Testimonies -->
 <div class="testimoniesWrapper">
     <div class="testimonyCard">
