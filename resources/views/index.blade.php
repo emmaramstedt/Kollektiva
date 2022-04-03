@@ -1,23 +1,25 @@
 @include('header')
 <!-- Hero -->
-<div class="heroWrapper">
-    <div class="heroImage">
-        <picture>
-            <source media="(min-width: 1440px)" srcset="{{asset('images/hero/herodesktop.png')}}">
-            <source media="(min-width: 834px)" srcset="{{asset('images/hero/herotablet.png')}}">
-            <source media="(min-width: 320px)" srcset="{{asset('images/hero/hero.png')}}">
-            <img src="{{asset('images/hero/herotablet.png')}}" alt="" />
-        </picture>
-    </div>
-    <div class="heroText">
-        <h1 class="greenText">Kollektiva -<br>
-            tillsammans för ditt hem
-        </h1>
-        <p>Vi hjälper dig att hitta din nya hyresgäst eller hyresvärd.</p>
-    </div>
-    <div class="heroButtons">
-        <div class="heroButton"><button class="orangeButton rent">Hyr ut bostad</button></div>
-        <div class="heroButton"><button class="orangeButton search">Sök bostad</button></div>
+<div class="heroContainer">
+    <div class="heroWrapper">
+        <div class="heroImage">
+            <picture>
+                <source media="(min-width: 1440px)" srcset="{{asset('images/hero/herodesktop.png')}}">
+                <source media="(min-width: 834px)" srcset="{{asset('images/hero/herotablet.png')}}">
+                <source media="(min-width: 320px)" srcset="{{asset('images/hero/hero.png')}}">
+                <img src="{{asset('images/hero/herotablet.png')}}" alt="" />
+            </picture>
+        </div>
+        <div class="heroText">
+            <h1 class="greenText">Kollektiva -<br>
+                tillsammans för ditt hem
+            </h1>
+            <p>Vi hjälper dig att hitta din nya hyresgäst eller hyresvärd.</p>
+        </div>
+        <div class="heroButtons">
+            <div class="heroButton"><button class="orangeButton rent">Hyr ut bostad</button></div>
+            <div class="heroButton"><button class="orangeButton search">Sök bostad</button></div>
+        </div>
     </div>
 </div>
 <!-- End Hero -->
