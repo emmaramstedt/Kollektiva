@@ -35,16 +35,16 @@ display: none;
     .helpcenterWrapper{
         flex-direction: row-reverse;
         align-items: flex-end;
-        align-content: space-around;
-        justify-content: center;
+        align-content: space-between;
+        justify-content: space-between;
         padding-left: 32px;
+        padding-right: 32px;
     }
     .helpcenterImage{
         display: contents;
     }
-
     .helpcenter{
-        margin-left: 32px;
+        max-width: 50%;
     }
 
     .helpcenter button{
@@ -58,8 +58,9 @@ display: none;
         align-items: center;
         align-content: space-between;
         justify-content: space-between;
+        padding-left: 32px;
+        padding-right: 32px;
     }
-
     .helpcenter{
         max-width: 600px;
     }

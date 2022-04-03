@@ -7,7 +7,6 @@ footer {
     flex-direction: column;
     margin-left: 0.6em;
     margin-right: 0.6em;
-
 }
 
 footer hr{
@@ -70,20 +69,23 @@ margin-top: 1.2em;
         display: none;
     }
 
-footer{
+    footer{
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: space-between;
     max-width: 1116px;
     margin-left: 32px;
     }
+
     footer p{
         max-width: 390px;
     }
+
     .footerDescription{
     width: 100vw;
     margin-bottom: 80px;
     }
+
     .footerContact{
     }
 
