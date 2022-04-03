@@ -85,10 +85,10 @@ h3 {
     position: fixed;
     right: 1px;
     bottom: 20px;
-    width: 118px;
+    width: 80px;
   }
   #imageicon {
-width: 108px;
+    width: 280px;
   }
 
   @media only screen and (min-width: 1440px) {
@@ -103,5 +103,14 @@ width: 108px;
     .orangeButton {
         height: 68px;
     }
+    #custom_fc_button {
+        position: fixed;
+        right: 1px;
+        bottom: 20px;
+        width: 118px;
+      }
+      #imageicon {
+        width: 330px;
+      }
   }
 
