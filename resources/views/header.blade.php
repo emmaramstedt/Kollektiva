@@ -6,14 +6,14 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-    <link rel="stylesheet" href="../css/app.css">
-    <link rel="stylesheet" href="../css/header.css">
-    <link rel="stylesheet" href="../css/footer.css">
-    <link rel="stylesheet" href="../css/helpcenter.css">
-    <link rel="stylesheet" href="../css/testimonies.css">
-    <link rel="stylesheet" href="../css/stepByStep.css">
-    <link rel="stylesheet" href="../css/quote.css">
-    <link rel="stylesheet" href="../css/ctaCards.css">
+    <link rel="stylesheet" href="{{asset('css/app.css')}}">
+    <link rel="stylesheet" href="{{asset('css/header.css')}}">
+    <link rel="stylesheet" href="{{asset('css/footer.css')}}">
+    <link rel="stylesheet" href="{{asset('css/helpcenter.css')}}">
+    <link rel="stylesheet" href="{{asset('css/testimonies.css')}}">
+    <link rel="stylesheet" href="{{asset('css/stepByStep.css')}}">
+    <link rel="stylesheet" href="{{asset('css/quote.css')}}">
+    <link rel="stylesheet" href="{{asset('css/ctaCards.css')}}">
     <title>Kollektiva</title>
     <div class="topWrapper">
         <h1 class="logo">Kollektiva</h1>

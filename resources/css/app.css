@@ -84,3 +84,12 @@ h3 {
     border: none;
 }
 
+#custom_fc_button {
+    position: fixed;
+    right: 1px;
+    bottom: 20px;
+    width: 118px;
+  }
+  #imageicon {
+width: 108px;
+  }

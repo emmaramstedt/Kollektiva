@@ -4,10 +4,10 @@
 
     <div class="ctaCard">
         <div class="ctaCardImage">
-            <picture style="width: auto;">
-                <source media="(min-width: 1440px)" srcset="{{url('images/ctaCards/ctacardone.png')}}">
-                <source media="(min-width: 834px)" srcset="{{url('images/ctaCards/ctacardone.png')}}">
-                <img src="{{url('images/ctaCards/ctacardone.png')}}" alt="" />
+            <picture>
+                <source media="(min-width: 1440px)" srcset="{{asset('images/ctaCards/ctacardone.png')}}">
+                <source media="(min-width: 834px)" srcset="{{asset('images/ctaCards/ctacardone.png')}}">
+                <img src="{{asset('images/ctaCards/ctacardone.png')}}" alt="" />
             </picture>
         </div>
         <div class="ctaCardText">
@@ -21,10 +21,10 @@
 
     <div class="ctaCard">
         <div class="ctaCardImage">
-            <picture style="width: auto;">
-                <source media="(min-width: 1440px)" srcset="{{url('images/ctaCards/ctacardtwo.png')}}">
-                <source media="(min-width: 834px)" srcset="{{url('images/ctaCards/ctacardtwo.png')}}">
-                <img src="{{url('images/ctaCards/ctacardtwo.png')}}" alt="" />
+            <picture>
+                <source media="(min-width: 1440px)" srcset="{{asset('images/ctaCards/ctacardtwo.png')}}">
+                <source media="(min-width: 834px)" srcset="{{asset('images/ctaCards/ctacardtwo.png')}}">
+                <img src="{{asset('images/ctaCards/ctacardtwo.png')}}" alt="" />
             </picture>
         </div>
         <div class="ctaCardText">
@@ -49,7 +49,7 @@
 <div class="stepByStepWrapper">
 
     <div class="stepByStepCard">
-        <div class="stepByStepIcon"><img src="{{url('icons/care.svg')}}"></div>
+        <div class="stepByStepIcon"><img src="{{asset('icons/care.svg')}}"></div>
         <div class="stepByStep">
             <h4>Enkelt och beskymmersfritt</h4>
             <p>Enkelt, tryggt och digitalt. Vi hjälper dig hitta din nya hyresgäst eller hyresvärd som stämmer överens med dina önskemål. </p>
@@ -57,7 +57,7 @@
     </div>
 
     <div class="stepByStepCard">
-        <div class="stepByStepIcon"><img src="{{url('icons/people.svg')}}"></div>
+        <div class="stepByStepIcon"><img src="{{asset('icons/people.svg')}}"></div>
         <div class="stepByStep">
             <h4>Personlig matchning</h4>
             <p>För att båda parter ska känna sig trygga, erbjuder vi personlig matchning. Det ska vara trivsamt att dela. </p>
@@ -65,7 +65,7 @@
     </div>
 
     <div class="stepByStepCard">
-        <div class="stepByStepIcon"><img src="{{url('icons/sun.svg')}}"></div>
+        <div class="stepByStepIcon"><img src="{{asset('icons/sun.svg')}}"></div>
         <div class="stepByStep">
             <h4>Vi finns alltid tillgängliga för dig</h4>
             <p>Vi skapar de bästa förutsättningarna för att ni ska trivas och känna er trygga. Skulle något uppstå når ni oss på telefon 031-094021</p>
@@ -80,9 +80,9 @@
     <div class="testimonyCard">
         <div class="testimonyImage">
             <picture>
-                <source media="(min-width: 1440px)" srcset="{{url('images/testimonies/testimonyonedesktop.png')}}">
-                <source media="(min-width: 834px)" srcset="{{url('images/testimonies/testimonyone.png')}}">
-                <img src="{{url('images/testimonies/testimonyone.png')}}" alt="" />
+                <source media="(min-width: 1440px)" srcset="{{asset('images/testimonies/testimonyonedesktop.png')}}">
+                <source media="(min-width: 834px)" srcset="{{asset('images/testimonies/testimonyone.png')}}">
+                <img src="{{asset('images/testimonies/testimonyone.png')}}" alt="" />
             </picture>
         </div>
         <div class="testimony"></div>
@@ -93,9 +93,9 @@
     <div class="testimonyCard">
         <div class="testimonyImage">
             <picture>
-                <source media="(min-width: 1440px)" srcset="{{url('images/testimonies/testimonytwodesktop.png')}}">
-                <source media="(min-width: 834px)" srcset="{{url('images/testimonies/testimonytwo.png')}}">
-                <img src="{{url('images/testimonies/testimonytwo.png')}}" alt="" />
+                <source media="(min-width: 1440px)" srcset="{{asset('images/testimonies/testimonytwodesktop.png')}}">
+                <source media="(min-width: 834px)" srcset="{{asset('images/testimonies/testimonytwo.png')}}">
+                <img src="{{asset('images/testimonies/testimonytwo.png')}}" alt="" />
             </picture>
         </div>
         <div class="testimony"></div>
@@ -106,7 +106,7 @@
     <div class="testimonyCard testimonyDesktop">
         <div class="testimonyImage">
             <picture>
-                <img src="{{url('images/testimonies/testimonythreedesktop.png')}}" srcset="{{url('images/testimonies/testimonythreedesktop.png')}} '1440w')}}">
+                <img src="{{asset('images/testimonies/testimonythreedesktop.png')}}" srcset="{{asset('images/testimonies/testimonythreedesktop.png')}} '1440w')}}">
             </picture>
         </div>
         <div class="testimony"></div>
@@ -130,9 +130,9 @@
     </div>
     <div class="helpcenterImage">
         <picture>
-            <source media="(min-width: 1440px)" srcset="{{url('images/helpcenter/helpcenterdesktop.png')}}">
-            <source media="(min-width: 834px)" srcset="{{url('images/helpcenter/helpcentertablet.png')}}">
-            <img src="{{url('images/helpcenter/helpcentertablet.png')}}" alt="A photo of a hand from the right holding a plack paper heart. A hand from the left stretching to recieve the heart from the other hand." />
+            <source media="(min-width: 1440px)" srcset="{{asset('images/helpcenter/helpcenterdesktop.png')}}">
+            <source media="(min-width: 834px)" srcset="{{asset('images/helpcenter/helpcentertablet.png')}}">
+            <img src="{{asset('images/helpcenter/helpcentertablet.png')}}" alt="A photo of a hand from the right holding a plack paper heart. A hand from the left stretching to recieve the heart from the other hand." />
         </picture>
     </div>
 
