@@ -16,8 +16,15 @@
          font-weight: 600;
 }
 
+@font-face {
+    font-family: 'OpenSansSemiBoldItalic';
+    src: url(/fonts/OpenSans-MediumItalic.woff2?06f6f1e8b843d9dffa96bd97acb9b895) format('woff2'),
+         url(/fonts/OpenSans-SemiBoldItalic.woff?5786d8d850b32344f0e4bd99f85954d3) format('woff');
+         font-weight: 600;
+}
+
 body {
-    background-color: #f5faf4;
+    background-color: #FBFFF9;
     font-family: 'Merriweather';
     font-size: 18px;
     font-weight: 400;
@@ -28,10 +35,11 @@ body {
 /* margin för fonter default mobile:
 margin-left: 0.6em;
 margin-right: 0.6em;
-sätt på varje objekt och inte i main!*/
+margin default tablet/desktop: 32px
+sätt på varje objekt och inte i main pga att det förstör bakgrundsfärger annars*/
 main{
-line-height: 28px;
-}
+    line-height: 28px;
+    }
 
 h1{
     font-family: 'OpenSansBold';
@@ -53,6 +61,18 @@ h3 {
     font-size: 24px;
     line-height: 28px;
     font-weight: 700;
+}
+
+.greenText{
+    color: #033F33;
+}
+
+.whiteText{
+    color: #FBFFF9;
+}
+
+.blackText{
+    color: #212121;
 }
 
 .orangeButton {

@@ -1,6 +1,5 @@
 .footerWrapper{
     background-color: #033F33;
-    color: #FBFFF9;
 }
 footer {
     display: flex;
@@ -12,7 +11,7 @@ footer {
 footer hr{
     height: 1px;
     border: none;
-    background-color: #888888;
+    background-color: #FBFFF9;
 }
 
 footer > * {

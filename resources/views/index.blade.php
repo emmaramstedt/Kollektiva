@@ -1,4 +1,50 @@
 @include('header')
+<!-- ctaCards -->
+<div class="ctaCardsWrapper">
+
+    <div class="ctaCard">
+        <div class="ctaCardImage">
+            <picture style="width: auto;">
+                <source media="(min-width: 1440px)" srcset="{{url('images/ctaCards/ctacardone.png')}}">
+                <source media="(min-width: 834px)" srcset="{{url('images/ctaCards/ctacardone.png')}}">
+                <img src="{{url('images/ctaCards/ctacardone.png')}}" alt="" />
+            </picture>
+        </div>
+        <div class="ctaCardText">
+            <h4>Vi hjälper dig hela vägen - från A till Ö</h4>
+            <p>
+                Allt ingår när du hyr ut via oss. Utöver ett säkert hyresavtal får du alltid skydd mot hyresförlust, skräddarsydd försäkring, punktliga hyresbetalningar och personlig service under hela uthyrningen.
+            </p>
+            <button class="orangeButton">Läs mer om Kollektiva</button>
+        </div>
+    </div>
+
+    <div class="ctaCard">
+        <div class="ctaCardImage">
+            <picture style="width: auto;">
+                <source media="(min-width: 1440px)" srcset="{{url('images/ctaCards/ctacardtwo.png')}}">
+                <source media="(min-width: 834px)" srcset="{{url('images/ctaCards/ctacardtwo.png')}}">
+                <img src="{{url('images/ctaCards/ctacardtwo.png')}}" alt="" />
+            </picture>
+        </div>
+        <div class="ctaCardText">
+            <h4>Vi matchar ihop er - tryggt och enkelt </h4>
+            <p>
+                Nu har det blivit tryggt att hyra i andra hand! Vi har utvecklat en tjänst som skapar trygghet för dig som hyr - hela vägen från avtal till utflytt.
+            </p>
+            <button class="orangeButton">Sök bostad</button>
+        </div>
+    </div>
+
+</div>
+<!-- End ctaCards -->
+<!-- Quote -->
+<div class="quoteWrapper">
+    <div class="quote">
+        <p class="greenText">”Kollektiva hjälper dig att upprätthålla ditt hus värde. Står huset tomt eller delvis tomt, kan det leda till sämre skick.”</p>
+    </div>
+</div>
+<!-- End Quote -->
 <!-- Step by step -->
 <div class="stepByStepWrapper">
 

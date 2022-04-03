@@ -3,10 +3,11 @@
     display: flex;
     flex-direction: column;
     padding-bottom: 30px;
+    padding-left: 0.6em;
+    padding-right: 0.6em;
 }
+
 .helpcenter{
-    margin-left: 0.6em;
-    margin-right: 0.6em;
     margin-top: 34px;
 }
 
@@ -20,9 +21,11 @@
     margin-bottom: 0px;
     margin-top: 1em;
 }
+
 .helpcenter span{
     margin-bottom: 1.5em;
 }
+
 .helpcenter button{
     align-self: center;
 }
@@ -46,7 +49,6 @@ display: none;
     .helpcenter{
         max-width: 50%;
     }
-
     .helpcenter button{
         align-self: normal;
     }

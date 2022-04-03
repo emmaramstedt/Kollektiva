@@ -1,0 +1,74 @@
+.ctaCardsWrapper{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    padding-left: 0.6em;
+    padding-right: 0.6em;
+    margin-bottom: 4em;
+}
+.ctaCardsWrapper > * {
+    margin-top: 4em;
+}
+
+.ctaCard{
+    display: flex;
+    flex-direction: column;
+    align-self: center;
+    align-items: center;
+}
+
+.ctaCard > * {
+    margin-top: 1em;
+}
+
+.ctaCardText button{
+align-self: center;
+width: 100%;
+}
+
+.ctaCardImage img{
+    width: 95vw;
+}
+
+.ctaCardText{
+    display: flex;
+    flex-direction: column;
+    align-self: center;
+    align-items: center;
+}
+
+@media only screen and (min-width: 846px) {
+    .ctaCardsWrapper{
+        flex-direction: row;
+        padding-left: 32px;
+        padding-right: 32px;
+    }
+
+    .ctaCard:first-of-type + .ctaCard{
+        flex-direction: row-reverse;
+    }
+
+    .ctaCard{
+        display: flex;
+        flex-direction: row;
+        align-self: center;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    .ctaCardImage img{
+        width: 43vw;
+        max-width: 513px;
+    }
+
+    .ctaCardText button{
+        align-self: center;
+        width: 85%;
+        max-width: 342px;
+        }
+
+        .ctaCardText{
+        max-width: 50%;
+        }
+
+}

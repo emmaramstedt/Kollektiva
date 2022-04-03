@@ -1,5 +1,5 @@
 </main>
-<div class="footerWrapper">
+<div class="footerWrapper whiteText">
     <footer>
         <div class="footerDescription">
             <img src=""></img>LOGGA
@@ -92,35 +92,24 @@
 <script src="https://cdn.jsdelivr.net/npm/popper.js@1.14.7/dist/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
 <!-- chat API -->
-<script src="https://wchat.freshchat.com/js/widget.js"></script>
 <script>
-    window.fcWidget.init({
-        token: "a49d0cf4-2447-45d9-af63-e62cf3ea6b6d",
-        host: "https://wchat.eu.freshchat.com",
-        locale: "sv",
-        config: {
-            content: {
-                headers: {
-                    chat: 'BEHÖVER DU HJÄLP?',
-                    //             chat_help: 'Du kan skriva till oss eller nå oss på telefon',
-                },
-                //         placeholders: {
-                //             search_field: 'Search',
-                //             reply_field: 'Reply',
-                //             csat_reply: 'Add your comments here'
-                // }
-            }
-        }
+    function initFreshChat() {
+        window.fcWidget.init({
+            token: "a49d0cf4-2447-45d9-af63-e62cf3ea6b6d",
+            host: "https://wchat.eu.freshchat.com",
+            locale: "sv"
+        });
+    }
 
-    });
-</script>
-<script>
-    //Consider a dropdown with id #lang-btn to select the language
-    $('#lang-btn').on('change', function() {
-        var selectedLanguage = jQuery(this).val();
-        //Setting the Widget Locale
-        window.fcWidget.user.setLocale(sv);
-    });
+    function initialize(i, t) {
+        var e;
+        i.getElementById(t) ? initFreshChat() : ((e = i.createElement("script")).id = t, e.async = !0, e.src = "https://wchat.eu.freshchat.com/js/widget.js", e.onload = initFreshChat, i.head.appendChild(e))
+    }
+
+    function initiateCall() {
+        initialize(document, "Freshdesk Messaging-js-sdk")
+    }
+    window.addEventListener ? window.addEventListener("load", initiateCall, !1) : window.attachEvent("load", initiateCall, !1);
 </script>
 </body>
 
