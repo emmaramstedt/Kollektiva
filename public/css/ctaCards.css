@@ -73,3 +73,17 @@ width: 100%;
 
 }
 
+@media only screen and (min-width: 1578px) {
+    .ctaCardsWrapper{
+    align-items: center;
+    justify-content: center;
+    }
+    .ctaCard{
+        justify-content: space-evenly;
+    }
+
+    .ctaCardText{
+        max-width: 40%;
+        }
+}
+

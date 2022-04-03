@@ -36,3 +36,12 @@ font-weight: 600;
     line-height: 59px;
     }
 }
+
+@media only screen and (min-width: 1578px) {
+    .quote{
+    max-width: 80%;
+    justify-content: center;
+    align-items: center;
+    }
+
+}

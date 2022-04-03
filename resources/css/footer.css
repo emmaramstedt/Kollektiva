@@ -72,7 +72,7 @@ margin-top: 1.2em;
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: space-between;
-    max-width: 1116px;
+    width: 90vw;
     margin-left: 32px;
     }
 
@@ -81,7 +81,7 @@ margin-top: 1.2em;
     }
 
     .footerDescription{
-    width: 100vw;
+    width: 90vw;
     margin-bottom: 80px;
     }
 
@@ -101,3 +101,10 @@ margin-top: 1.2em;
     margin-top: 80px;
     }
   }
+
+  @media only screen and (min-width: 1578px) {
+    footer{
+        align-content: space-evenly;
+        justify-content: space-evenly;
+    }
+}

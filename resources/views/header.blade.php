@@ -11,7 +11,7 @@
     <link rel="stylesheet" href="{{asset('css/footer.css')}}">
     <link rel="stylesheet" href="{{asset('css/helpcenter.css')}}">
     <link rel="stylesheet" href="{{asset('css/testimonies.css')}}">
-    <link rel="stylesheet" href="{{asset('css/stepByStep.css')}}">
+    <link rel="stylesheet" href="{{asset('css/stepbystep.css')}}">
     <link rel="stylesheet" href="{{asset('css/quote.css')}}">
     <link rel="stylesheet" href="{{asset('css/ctaCards.css')}}">
     <title>Kollektiva</title>
