@@ -1,0 +1,134 @@
+.heroWrapper{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding-left: 0.6em;
+    padding-right: 0.6em;
+    height: 100%;
+}
+
+.heroWrapper > * {
+    margin-top: 1em;
+}
+
+.hero{
+
+}
+
+.heroImage{
+
+}
+
+.heroImage img{
+    width: 95vw;
+}
+
+.heroText{
+align-self: flex-start;
+}
+
+.heroButton button{
+width: 90vw;
+margin-bottom: 1em;
+}
+
+@media only screen and (min-width: 600px) {
+    .heroImage img{
+        width: 80vw;
+    }
+}
+
+@media only screen and (min-width: 834px) {
+    .heroWrapper {
+        margin-top: 4em;
+        padding-left: 32px;
+        padding-right: 32px;
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: 2.8fr;
+        grid-auto-columns: 1fr;
+        grid-auto-rows: 1fr;
+        gap: 0px 20px;
+        grid-auto-flow: row;
+        justify-content: start;
+        align-content: space-around;
+        justify-items: start;
+        align-items: end;
+      }
+
+      .heroImage {
+        grid-area: 1 / 2 / 2 / 2;
+      }
+
+      .heroText {
+        grid-area: 1 / 1 / 2 / 2;
+      }
+
+      .heroButtons {
+          grid-area: 1 / 1 / 2 / 2;
+      }
+
+      .heroImage img{
+        max-width: 384px;
+    }
+
+    .heroButton button{
+        width: 342px;
+    }
+}
+
+@media only screen and (min-width: 1400px) {
+    .heroWrapper {
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: 2.8fr;
+        grid-auto-columns: 1fr;
+        grid-auto-rows: 1fr;
+        gap: 0px 140px;
+        grid-auto-flow: row;
+        justify-content: start;
+        align-content: space-around;
+        justify-items: start;
+        align-items: end;
+      }
+
+      .heroImage {
+        grid-area: 1 / 2 / 2 / 2;
+      }
+
+      .heroText {
+        grid-area: 1 / 1 / 2 / 2;
+      }
+
+      .heroButtons {
+          grid-area: 1 / 1 / 2 / 2;
+      }
+
+      .heroImage img{
+        max-width: 646px;
+    }
+
+    .heroButtons{
+        display: flex;
+        align-items: flex-end;
+        justify-content: space-between;
+        width: 100%
+    }
+    .heroButtons .rent{
+        width: 296px;
+        height: 68px;
+    }
+    .heroButtons .search{
+        width: 235px;
+        height: 68px;
+    }
+
+    .heroText h1{
+        font-size:64px;
+        line-height: 70px;
+        margin-bottom: 1em;
+    }
+}
+
+

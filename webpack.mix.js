@@ -20,4 +20,5 @@ mix.js("resources/js/app.js", "public/js")
     .css("resources/css/testimonies.css", "public/css")
     .css("resources/css/stepbystep.css", "public/css")
     .css("resources/css/quote.css", "public/css")
-    .css("resources/css/ctaCards.css", "public/css");
+    .css("resources/css/ctaCards.css", "public/css")
+    .css("resources/css/hero.css", "public/css");
