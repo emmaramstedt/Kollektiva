@@ -52,7 +52,7 @@
             </div>
 
         </div>
-        <hr class="headerHr">
+        <!-- <hr class="headerHr"> -->
         <div class="searchContainer">
             <form class="searchForm" action="">
                 <input type="text" placeholder="Sök.." name="search">

@@ -3,6 +3,8 @@
 header {
     color: white;
     background-color: #033f33;
+    /* padding-left: 16px;
+    padding-right: 16px; */
 }
 
 header ul {
@@ -31,6 +33,7 @@ header ul {
     padding-right: 3%; */
     display: flex;
     justify-content: space-between;
+    border-bottom: 1px solid white;
 }
 
 .languageAndSearchWrapper {
@@ -251,6 +254,11 @@ hr {
 
     .searchForm input {
         border-right: none;
+    }
+
+    .languageBox {
+        height: 100%;
+        display: inline;
     }
 
     /* laptop header */
