@@ -7,10 +7,15 @@ header {
 
 header ul {
     background-color: white;
+    margin: 5%;
 }
 
 .navbar-light .navbar-brand {
     color: white;
+}
+
+.navbar-collapse {
+    background-color: white;
 }
 
 .topWrapper {
@@ -136,6 +141,7 @@ hr {
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    background-color: white;
 }
 
 .menuButton {
@@ -143,7 +149,7 @@ hr {
     display: block;
     /* color: white; */
     border: none;
-    width: 100%;
+    width: 60%;
     margin: 3%;
     padding: 2%;
     justify-self: center;
