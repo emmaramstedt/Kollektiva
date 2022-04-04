@@ -1,3 +1,4 @@
+/* Mobile-first */
 /* Language and search-function at top of page */
 
 header {
@@ -263,7 +264,18 @@ hr {
 
     .languageBox {
         height: 100%;
-        display: inline;
+        flex-direction: row;
+    }
+
+    .languageButton {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-right: 5px;
+    }
+
+    .languageBox p {
+        margin-bottom: 0%;
     }
 
     /* laptop header */
