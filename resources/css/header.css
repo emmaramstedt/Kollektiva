@@ -14,6 +14,7 @@ header ul {
     height: 1px;
     border: none;
     background-color: white;
+    margin: 0%;
 }
 
 .menuHr {
@@ -115,6 +116,7 @@ header ul {
 }
 
 .nav-wrapper {
+    height: 100%;
     display: flex;
     padding: 1%;
     justify-content: flex-end;
