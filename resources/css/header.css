@@ -10,13 +10,26 @@ header ul {
     margin: 5%;
 }
 
+.headerHr {
+    height: 1px;
+    border: none;
+    background-color: white;
+}
+
+.menuHr {
+    height: 100px;
+    width: 1px;
+    border: none;
+    background-color: white;
+}
+
 .topWrapper {
     width: 100%;
     height: 100%;
-    /* background-color: #033f33; */
+    padding-left: 3%;
+    padding-right: 3%;
     display: flex;
     justify-content: space-between;
-    /* color: white; */
 }
 
 .languageAndSearchWrapper {
@@ -96,10 +109,16 @@ header ul {
     background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='orange' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
 }
 
-.nav-wrapper {
-    width: 100%;
+.navbar {
     display: flex;
     justify-content: flex-end;
+}
+
+.nav-wrapper {
+    display: flex;
+    padding: 1%;
+    justify-content: flex-end;
+    border-left: 1px solid white;
 }
 
 .navbar {
