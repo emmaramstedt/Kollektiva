@@ -1,9 +1,13 @@
+.stepByStepBackground{
+    background-color: #EEFCE8;
+}
+
 .stepByStepWrapper{
     display: flex;
     flex-direction: column;
+    justify-content: flex-start;
     padding-left: 0.6em;
     padding-right: 0.6em;
-    background-color: #EEFCE8;
 }
 
 .stepByStepCard{
@@ -50,6 +54,6 @@
 
     }
     .stepByStep{
-max-width: 50%;
+    max-width: 90%;
     }
 }

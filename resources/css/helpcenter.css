@@ -1,10 +1,12 @@
+.helpcenterBackground{
+    background-color: #F0FBEA;
+}
+
 .helpcenterWrapper{
     background-color: #F0FBEA;
     display: flex;
     flex-direction: column;
     padding-bottom: 30px;
-    padding-left: 0.6em;
-    padding-right: 0.6em;
 }
 
 .helpcenter{
@@ -40,8 +42,6 @@ display: none;
         align-items: flex-end;
         align-content: space-between;
         justify-content: space-between;
-        padding-left: 32px;
-        padding-right: 32px;
     }
     .helpcenterImage{
         display: contents;
@@ -60,8 +60,6 @@ display: none;
         align-items: center;
         align-content: space-between;
         justify-content: space-between;
-        padding-left: 32px;
-        padding-right: 32px;
     }
     .helpcenter{
         max-width: 600px;
