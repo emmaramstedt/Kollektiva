@@ -25,6 +25,13 @@ header ul {
     background-color: white;
 }
 
+/* behöver menytexten vara en a-tag? egentligen inte va. men nu får den kanske va det lite */
+
+.navbar-brand:hover {
+    color: white !important;
+    cursor: default;
+}
+
 .topWrapper {
     width: 100%;
     height: 100%;
@@ -293,6 +300,8 @@ hr {
 
     .laptopNav a {
         color: white;
+        font-family: "open sans";
+        font-size: 20px;
     }
 
     .laptopNav ul {
