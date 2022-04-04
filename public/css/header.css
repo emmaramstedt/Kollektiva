@@ -151,9 +151,8 @@ hr {
 .menuButton {
     background-color: #fca82b;
     display: block;
-    /* color: white; */
     border: none;
-    width: 60%;
+    width: 90%;
     margin: 3%;
     padding: 2%;
     justify-self: center;
@@ -164,6 +163,18 @@ hr {
 }
 
 /* Media queries */
+
+@media only screen and (min-width: 600px) {
+    .openMenuButtonWrapper {
+        flex-direction: row;
+    }
+
+    .menuButton {
+        display: inline-block;
+        width: 60%;
+        justify-self: left;
+    }
+}
 
 /* vid 990px blir hamburgermenyn galen. byta till laptopview här?  */
 
@@ -181,10 +192,6 @@ hr {
     }
     .laptop {
         display: block;
-    }
-    .openMenuButtonWrapper {
-        display: flex;
-        flex-direction: row;
     }
 
     .searchBox {
