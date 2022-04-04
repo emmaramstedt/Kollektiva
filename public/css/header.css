@@ -25,8 +25,6 @@ header ul {
     background-color: white;
 }
 
-/* behöver menytexten vara en a-tag? egentligen inte va. men nu får den kanske va det lite */
-
 .navbar-brand:hover {
     color: white !important;
     cursor: default;

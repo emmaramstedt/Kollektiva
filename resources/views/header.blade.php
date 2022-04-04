@@ -64,7 +64,7 @@
         <div class="mobileNav">
             <nav class="navbar navbar-expand-lg navbar-light bg-#F5FAF4">
                 <div class="nav-wrapper">
-                    <a class="navbar-brand" href="#">Meny</a>
+                    <span class="navbar-brand">Meny</span>
                     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
                         <span class="navbar-toggler-icon"></span>
                     </button>
