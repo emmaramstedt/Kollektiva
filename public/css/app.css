@@ -32,15 +32,19 @@ body {
     margin: 0px;
     color: #212121;
 }
-
-/* margin för fonter default mobile:
-margin-left: 0.6em;
-margin-right: 0.6em;
-margin default tablet/desktop: 32px
-sätt på varje objekt och inte i main pga att det förstör bakgrundsfärger annars*/
 main{
     line-height: 28px;
     }
+
+/* margin left och right:
+mobile: 16px
+tablet: 38px
+desktop: 64px
+sätt på varje objekt och inte i main pga att det förstör bakgrundsfärger annars*/
+.margins{
+    padding-left: 16px;
+    padding-right: 16px;
+}
 
 h1{
     font-family: 'OpenSansBold';
@@ -92,9 +96,22 @@ h3 {
   }
 
   @media only screen and (min-width: 1440px) {
+    .margins{
+        padding-left: 38px;
+        padding-right: 38px;
+    }
+  }
+
+  @media only screen and (min-width: 1440px) {
     body {
         font-size: 20px;
         line-height: 32px;
+    }
+    .margins{
+        max-width: 1440px;
+        padding-left: 64px;
+        padding-right: 64px;
+        margin: auto;
     }
     h1{
         font-size:64px;

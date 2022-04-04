@@ -1,8 +1,6 @@
 .testimoniesWrapper{
     display: flex;
     flex-direction: column;
-    margin-left: 0.6em;
-    margin-right: 0.6em;
     margin-top: 2em;
     margin-bottom: 2em;
     align-items: flex-start;
@@ -36,8 +34,6 @@
     .testimoniesWrapper{
         display: flex;
         flex-direction: row;
-        margin-left: 32px;
-        margin-right: 32px;
         margin-bottom: 2em;
         justify-content: space-around;
     }
@@ -62,6 +58,12 @@
 }
 
 @media only screen and (min-width: 1235px) {
+    .testimoniesWrapper{
+        display: flex;
+        flex-direction: row;
+        margin-bottom: 2em;
+        justify-content: space-between;
+    }
 
     .testimonyDesktop{
         display: flex;
