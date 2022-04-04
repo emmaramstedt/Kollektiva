@@ -35,7 +35,7 @@
             </picture>
         </div>
         <div class="ctaCardText">
-            <h4>Vi hjälper dig hela vägen - från A till Ö</h4>
+            <h2>Vi hjälper dig hela vägen - från A till Ö</h2>
             <p>
                 Allt ingår när du hyr ut via oss. Utöver ett säkert hyresavtal får du alltid skydd mot hyresförlust, skräddarsydd försäkring, punktliga hyresbetalningar och personlig service under hela uthyrningen.
             </p>
@@ -52,7 +52,7 @@
             </picture>
         </div>
         <div class="ctaCardText">
-            <h4>Vi matchar ihop er - tryggt och enkelt </h4>
+            <h2>Vi matchar ihop er - tryggt och enkelt </h2>
             <p>
                 Nu har det blivit tryggt att hyra i andra hand! Vi har utvecklat en tjänst som skapar trygghet för dig som hyr - hela vägen från avtal till utflytt.
             </p>
@@ -76,7 +76,7 @@
             <div class="stepByStepCard">
                 <div class="stepByStepIcon"><img src="{{asset('icons/care.svg')}}"></div>
                 <div class="stepByStep">
-                    <h4>Enkelt och beskymmersfritt</h4>
+                    <h3>Enkelt och beskymmersfritt</h3>
                     <p>Enkelt, tryggt och digitalt. Vi hjälper dig hitta din nya hyresgäst eller hyresvärd som stämmer överens med dina önskemål. </p>
                 </div>
             </div>
@@ -84,7 +84,7 @@
             <div class="stepByStepCard">
                 <div class="stepByStepIcon"><img src="{{asset('icons/people.svg')}}"></div>
                 <div class="stepByStep">
-                    <h4>Personlig matchning</h4>
+                    <h3>Personlig matchning</h3>
                     <p>För att båda parter ska känna sig trygga, erbjuder vi personlig matchning. Det ska vara trivsamt att dela. </p>
                 </div>
             </div>
@@ -92,7 +92,7 @@
             <div class="stepByStepCard">
                 <div class="stepByStepIcon"><img src="{{asset('icons/sun.svg')}}"></div>
                 <div class="stepByStep">
-                    <h4>Vi finns alltid tillgängliga för dig</h4>
+                    <h3>Vi finns alltid här för dig</h3>
                     <p>Vi skapar de bästa förutsättningarna för att ni ska trivas och känna er trygga. Skulle något uppstå når ni oss på telefon 031-094021</p>
                 </div>
             </div>
@@ -113,7 +113,7 @@
                 </picture>
             </div>
             <div class="testimony"></div>
-            <h4>Agda Nilsson, 69 år</h4>
+            <h3>Agda Nilsson, 69 år</h3>
             <p>”Jag ångrar inte ett sekund på att jag tog steget och hyrde ut mitt hus. Nu bor jag i en enkel 2:a anpassat för just mig. Och en trevlig familj på 4 får bo i mitt stora hus.”</p>
         </div>
 
@@ -126,7 +126,7 @@
                 </picture>
             </div>
             <div class="testimony"></div>
-            <h4>Lotta och Nils, 71 och 75 år</h4>
+            <h3>Lotta och Nils, 71 och 75 år</h3>
             <p>”Aldrig har vi varit så lyckliga som när vi bestämde oss för att hyra ut vårt stora hus. Det gav oss vår frihet tillbaka.”</p>
         </div>
 
@@ -137,7 +137,7 @@
                 </picture>
             </div>
             <div class="testimony"></div>
-            <h4>Calle, 62 år</h4>
+            <h3>Calle, 62 år</h3>
             <p>”Jag kan fokusera mer på mitt yrke - konstnärdrömmen, nu när jag har en inneboende. Matchningen är suverän!”</p>
         </div>
     </div>

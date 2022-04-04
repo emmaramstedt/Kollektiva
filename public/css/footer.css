@@ -1,11 +1,12 @@
 .footerWrapper{
     background-color: #033F33;
+    padding-bottom: 40px;
 }
 footer {
     display: flex;
     flex-direction: column;
-    margin-left: 0.6em;
-    margin-right: 0.6em;
+    padding-left: 16px;
+    padding-right: 16px;
 }
 
 footer hr{
@@ -85,20 +86,16 @@ margin-top: 1.2em;
     margin-bottom: 80px;
     }
 
-    .footerContact{
-    }
-
-    .footerAbout{
-
-    }
-
-    .footerSocial{
-
-    }
-
     .footerOrg{
     width: 100vw;
     margin-top: 80px;
+    }
+  }
+
+  @media only screen and (min-width: 1578px) {
+    footer{
+    padding-left: 64px;
+    padding-right: 64px;
     }
   }
 

@@ -14,6 +14,7 @@
     display: flex;
     flex-direction: column;
     align-items: center;
+    text-align: center;
 }
 
 .stepByStepCard > *{
@@ -33,6 +34,7 @@
    }
    .stepByStepCard{
     max-width: 40%;
+    justify-content:baseline;
 }
     .stepByStepCard h4{
 
@@ -44,8 +46,13 @@
 
 @media only screen and (min-width: 1440px) {
     .stepByStepWrapper{
-        padding-top: 2em;
-        padding-bottom: 2em;
+        height: 485px;
+        align-content: center;
+        align-items: flex-end;
+        justify-content: space-between;
+   }
+   .stepByStepIcon{
+       margin-bottom: 24px;
    }
    .stepByStepCard{
     max-width: 33%;
