@@ -176,8 +176,6 @@ hr {
     }
 }
 
-/* vid 990px blir hamburgermenyn galen. byta till laptopview här?  */
-
 @media only screen and (min-width: 834px) {
     /* make so that buttons lie next to each other */
 
@@ -263,5 +261,9 @@ hr {
     .nav-link {
         font-weight: 100;
         padding: 0%;
+    }
+
+    .menuGap {
+        margin-left: 3%;
     }
 }
