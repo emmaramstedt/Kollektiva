@@ -1,9 +1,5 @@
 /* Language and search-function at top of page */
 
-.navbar-light .navbar-toggler-icon {
-    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='orange' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
-}
-
 header {
     color: white;
     background-color: #033f33;
@@ -99,18 +95,19 @@ header ul {
 
 /* Navbar/Menu section */
 
+.navbar-light .navbar-toggler-icon {
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='orange' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+}
+
 .nav-wrapper {
     width: 100%;
     display: flex;
     justify-content: flex-end;
-    /* background-color: #033f33; */
 }
 
 .navbar {
     padding: 0%;
 }
-
-/* Why won't the text color change?? */
 
 .nav-link {
     color: white;
@@ -203,7 +200,6 @@ hr {
         height: 45%;
     }
     .laptopSearchForm button {
-        /* color: white; */
         display: flex;
         flex-direction: row;
         justify-content: center;
