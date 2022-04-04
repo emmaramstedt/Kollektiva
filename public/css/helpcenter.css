@@ -3,7 +3,6 @@
 }
 
 .helpcenterWrapper{
-    background-color: #F0FBEA;
     display: flex;
     flex-direction: column;
     padding-bottom: 30px;
@@ -40,8 +39,8 @@ display: none;
     .helpcenterWrapper{
         flex-direction: row-reverse;
         align-items: flex-end;
-        align-content: space-between;
-        justify-content: space-between;
+        align-content: space-evenly;
+        justify-content: space-evenly;
     }
     .helpcenterImage{
         display: contents;
@@ -63,13 +62,6 @@ display: none;
     }
     .helpcenter{
         max-width: 600px;
-    }
-}
-
-@media only screen and (min-width: 1578px) {
-    .helpcenterWrapper{
-        align-content: space-evenly;
-        justify-content: space-evenly;
     }
 }
 

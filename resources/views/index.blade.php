@@ -52,9 +52,10 @@
             </picture>
         </div>
         <div class="ctaCardText">
-            <h2>Vi matchar ihop er - tryggt och enkelt </h2>
+            <h2>Hyr ett hus eller rum - vi matchar er</h2>
             <p>
-                Nu har det blivit tryggt att hyra i andra hand! Vi har utvecklat en tjänst som skapar trygghet för dig som hyr - hela vägen från avtal till utflytt.
+                Låt oss hjälpa dig att hitta huset eller rummet efter dina önskemål, antigen om du är en barnfamilj eller en gäng studenter som önskar bo i kollektiv. Läs mer om hur vi går tillväga under <a href="">Hur fungerar Kollektiva?</a>
+            <p>Vid hjälp av personlig matchning hjälper vi er att hitta varandra!</p>
             </p>
             <button class="orangeButton">Sök bostad</button>
         </div>
@@ -64,8 +65,8 @@
 <!-- End ctaCards -->
 <!-- Quote -->
 <div class="quoteWrapper">
-    <div class="quote margins">
-        <p class="greenText">”Kollektiva hjälper dig att upprätthålla ditt hus värde. Står huset tomt eller delvis tomt, kan det leda till sämre skick.”</p>
+    <div class="quote">
+        <p class="greenText margins">”Kollektiva hjälper dig att upprätthålla ditt hus värde. Står huset tomt eller delvis tomt, kan det leda till sämre skick.”</p>
     </div>
 </div>
 <!-- End Quote -->

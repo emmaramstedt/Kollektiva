@@ -4,6 +4,11 @@
          url(/fonts/Merriweather-Regular.woff?606101c5b0773eaa0a2f88480e2a6679) format('woff');
 }
 @font-face {
+    font-family: 'MerriweatherBold';
+    src: url(/fonts/Merriweather-Bold.woff2?926b2ccb3309387a9c03fc91b713bfe0) format('woff2'),
+         url(/fonts/Merriweather-Bold.woff2?926b2ccb3309387a9c03fc91b713bfe0) format('woff2');
+}
+@font-face {
     font-family: 'OpenSansBold';
     src: url(/fonts/OpenSans-Bold.woff2?f3e79b3d83d8a599df08ae847aae47f3) format('woff2'),
          url(/fonts/OpenSans-Bold.woff?eb8f357f58267539eb7bf4033bb94c4c) format('woff');
@@ -51,6 +56,7 @@ h1{
     font-size: 40px;
     line-height: 40px;
     font-weight: 700;
+    color: #033F33;
 }
 
 h2{
@@ -58,13 +64,20 @@ h2{
     font-size: 20px;
     line-height: 28px;
     font-weight: 700;
+    color: #033F33;
 }
 
-h3 {
+h3{
     font-family: 'OpenSansBold';
     font-weight: 500;
     font-size: 24px;
     line-height: 28px;
+}
+
+main a{
+    font-family: 'MerriweatherBold';
+    text-decoration: underline;
+    color:#033F33;
 }
 
 .greenText{
@@ -107,7 +120,7 @@ h3 {
         line-height: 32px;
     }
     .margins{
-        max-width: 1440px;
+        max-width: 1500px;
         padding-left: 64px;
         padding-right: 64px;
         margin: auto;
