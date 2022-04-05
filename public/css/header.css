@@ -39,6 +39,13 @@ header ul {
     border-bottom: 1px solid white;
 }
 
+.topWrapper button {
+    border: none;
+}
+.topWrapper input {
+    border: none;
+}
+
 .languageAndSearchWrapper {
     width: 100%;
     display: flex;
