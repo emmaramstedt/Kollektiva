@@ -39,10 +39,10 @@ header ul {
     border-bottom: 1px solid white;
 }
 
-.topWrapper button {
+header button {
     border: none;
 }
-.topWrapper input {
+header input {
     border: none;
 }
 
