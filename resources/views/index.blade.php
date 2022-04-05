@@ -4,7 +4,7 @@
     <div class="heroWrapper margins">
         <div class="heroImage">
             <picture>
-                <source media="(min-width: 1440px)" srcset="{{asset('images/hero/herodesktop.png')}}">
+                <source media="(min-width: 1120px)" srcset="{{asset('images/hero/herodesktop.png')}}">
                 <source media="(min-width: 834px)" srcset="{{asset('images/hero/herotablet.png')}}">
                 <source media="(min-width: 320px)" srcset="{{asset('images/hero/hero.png')}}">
                 <img src="{{asset('images/hero/herotablet.png')}}" alt="" />

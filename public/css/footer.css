@@ -24,7 +24,7 @@ footer ul{
 }
 footer li {
    list-style: none;
-   line-height: 2.5em;
+   line-height: 3em;
 }
 
 footer li img {
@@ -36,12 +36,8 @@ footer svg {
     margin-right: 0.2em;
 }
 
-.footerDescription{
-
-}
-
-.footerContact{
-
+footer h4{
+    margin-bottom: 40px;
 }
 
 .footerAbout{
@@ -56,9 +52,6 @@ width: 42px;
 margin-top: 1.2em;
 }
 @media only screen and (min-width: 481px) {
-    footer {
-        margin-left: 32px;
-    }
     footer p{
         max-width: 300px;
     }
@@ -96,13 +89,8 @@ margin-top: 1.2em;
     footer{
     padding-left: 64px;
     padding-right: 64px;
+    align-content: space-evenly;
+    justify-content: space-evenly;
     }
   }
-
-  @media only screen and (min-width: 1578px) {
-    footer{
-        align-content: space-evenly;
-        justify-content: space-evenly;
-    }
-}
 

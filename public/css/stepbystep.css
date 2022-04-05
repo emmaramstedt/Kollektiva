@@ -49,9 +49,10 @@
         height: 485px;
         align-content: center;
         align-items: flex-end;
-        justify-content: space-between;
+        justify-content: space-evenly;
    }
    .stepByStepIcon{
+       height: 100px;
        margin-bottom: 24px;
    }
    .stepByStepCard{
@@ -62,6 +63,7 @@
     }
     .stepByStep{
     max-width: 90%;
+    height: 200px;
     }
 }
 

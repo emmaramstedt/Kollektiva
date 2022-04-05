@@ -3,8 +3,6 @@
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    padding-left: 0.6em;
-    padding-right: 0.6em;
     height: 100%;
 }
 
@@ -38,10 +36,7 @@ margin-bottom: 1em;
         justify-content: center;
     }
     .heroWrapper {
-        max-width: 1440px;
         margin-top: 4em;
-        padding-left: 32px;
-        padding-right: 32px;
         display: grid;
         grid-template-columns: 1fr;
         grid-template-rows: 2.8fr;
@@ -68,7 +63,7 @@ margin-bottom: 1em;
       }
 
       .heroImage img{
-        max-width: 384px;
+        max-width: 480px;
     }
 
     .heroButton button{
@@ -76,7 +71,7 @@ margin-bottom: 1em;
     }
 }
 
-@media only screen and (min-width: 1400px) {
+@media only screen and (min-width: 1440px) {
     .heroWrapper {
         gap: 0px 140px;
       }
@@ -100,12 +95,13 @@ margin-bottom: 1em;
     .heroButtons{
         display: flex;
         align-items: flex-end;
-        justify-content: space-between;
+        justify-content: space-around;
         width: 100%
     }
     .heroButtons .rent{
         width: 296px;
         height: 68px;
+        margin-right: 34px;
     }
     .heroButtons .search{
         width: 235px;
