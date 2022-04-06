@@ -1,22 +1,37 @@
 /* Form buttons */
 
 .nextButton {
+    width: 164px;
+    height: 48px;
     border: 2px solid orange;
     background-color: orange;
 }
 .backButton {
+    width: 164px;
+    height: 48px;
 }
 
 .closeForm {
+    justify-self: flex-end;
     border: none;
     background-color: transparent;
     display: flex;
     justify-content: center;
     align-items: center;
+    font-size: 20px;
+    font-family: "open sans";
+    font-weight: bold;
 }
 
 .closeForm p {
     margin-bottom: 0%;
+}
+
+.imageButton {
+    width: 228px;
+    height: 41px;
+    border: 2px solid orange;
+    background-color: orange;
 }
 
 /* Form Wrapper and general form styling */
@@ -32,51 +47,81 @@
 /* Individual  form styling */
 
 .formStart {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
     border: 1px solid black;
     margin: 5px;
     padding: 5px;
 }
 .stepOne {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
     border: 1px solid black;
     margin: 5px;
     padding: 5px;
 }
 .stepTwo {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
     border: 1px solid black;
     margin: 5px;
     padding: 5px;
 }
 .stepThree {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
     border: 1px solid black;
     margin: 5px;
     padding: 5px;
 }
 .stepFour {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
     border: 1px solid black;
     margin: 5px;
     padding: 5px;
 }
 .stepFive {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
     border: 1px solid black;
     margin: 5px;
     padding: 5px;
 }
 .stepSix {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
     border: 1px solid black;
     margin: 5px;
     padding: 5px;
 }
 .stepSeven {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
     border: 1px solid black;
     margin: 5px;
     padding: 5px;
 }
 .stepEight {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
     border: 1px solid black;
     margin: 5px;
     padding: 5px;
 }
 .stepNine {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
     border: 1px solid black;
     margin: 5px;
     padding: 5px;
@@ -84,6 +129,9 @@
 
 .stepNine .uploadImages {
     border: 1px dashed black;
+    background-color: #eefce8;
+    display: flex;
+    flex-direction: column;
     margin: 5px;
     padding: 5px;
 }
