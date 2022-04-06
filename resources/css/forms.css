@@ -46,11 +46,15 @@
     margin-bottom: 0%;
 }
 
+/* upload images, step 9 of 9 */
+
 .imageButton {
     width: 228px;
     height: 41px;
     border: 2px solid orange;
     background-color: orange;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 /* Form Wrapper and general form styling */
@@ -166,4 +170,9 @@ form {
     flex-direction: column;
     margin: 5px;
     padding: 5px;
+}
+
+.stepNine svg {
+    margin-left: auto;
+    margin-right: auto;
 }

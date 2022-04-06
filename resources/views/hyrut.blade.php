@@ -27,7 +27,7 @@
                     </svg> Svenska</button>
                 <button class="nextButton">Nästa</button>
             </div>
-        </form>
+
     </div>
 
     <div class="stepOne">
@@ -41,22 +41,21 @@
         </div>
         <p>steg 1 av 9</p>
         <h3>Vad vill du hyra ut?</h3>
-        <form action="">
-            <p>Hel bostad eller rum?</p>
-            <input type="radio" id="room" name="room" value="room">
-            <label for="room">Ett rum</label><br>
-            <input type="radio" id="house" name="house" value="house">
-            <label for="house">Hela bostaden</label><br>
-            <p>Hyr du ut möblerat?</p>
-            <input type="radio" id="furniture" name="furniture" value="furniture">
-            <label for="furniture">Möblerat</label><br>
-            <input type="radio" id="noFurniture" name="noFurniture" value="noFurniture">
-            <label for="noFurniture">Omöblerat</label><br>
-            <div class="buttonWrapper">
-                <button class="backButton">
-                    < Tillbaka</button>
-                        <button class="nextButton">Nästa</button>
-            </div>
+        <p>Hel bostad eller rum?</p>
+        <input type="radio" id="room" name="room" value="room">
+        <label for="room">Ett rum</label><br>
+        <input type="radio" id="house" name="house" value="house">
+        <label for="house">Hela bostaden</label><br>
+        <p>Hyr du ut möblerat?</p>
+        <input type="radio" id="furniture" name="furniture" value="furniture">
+        <label for="furniture">Möblerat</label><br>
+        <input type="radio" id="noFurniture" name="noFurniture" value="noFurniture">
+        <label for="noFurniture">Omöblerat</label><br>
+        <div class="buttonWrapper">
+            <button class="backButton">
+                < Tillbaka</button>
+                    <button class="nextButton">Nästa</button>
+        </div>
         </form>
     </div>
 
@@ -74,42 +73,41 @@
         <p>Storlek</p>
         <label for="size"></label>
         <input placeholder="Ange" type="number" name="size" id="size" min="5" max="1000">
-        <form action="">
-            <p>Antal rum</p>
-            <label for="roomNumber"></label>
-            <select id="roomNumber" name="roomNumber">
-                <option value="">-</option>
-                <option value="1">1</option>
-                <option value="2">2</option>
-                <option value="3">3</option>
-                <option value="4">4</option>
-                <option value="5">5</option>
-                <option value="6">6</option>
-                <option value="7">7</option>
-                <option value="8">8</option>
-                <option value="9">9</option>
-                <option value="10">10</option>
-            </select>
-            <p>hur många bor här?</p>
-            <label for="peopleNumber"></label>
-            <select id="peopleNumber" name="peopleNumber">
-                <option value="">-</option>
-                <option value="1">1</option>
-                <option value="2">2</option>
-                <option value="3">3</option>
-                <option value="4">4</option>
-                <option value="5">5</option>
-                <option value="6">6</option>
-                <option value="7">7</option>
-                <option value="8">8</option>
-                <option value="9">9</option>
-                <option value="10">10</option>
-            </select><br>
-            <div class="buttonWrapper">
-                <button class="backButton">
-                    < Tillbaka</button>
-                        <button class="nextButton">Nästa</button>
-            </div>
+        <p>Antal rum</p>
+        <label for="roomNumber"></label>
+        <select id="roomNumber" name="roomNumber">
+            <option value="">-</option>
+            <option value="1">1</option>
+            <option value="2">2</option>
+            <option value="3">3</option>
+            <option value="4">4</option>
+            <option value="5">5</option>
+            <option value="6">6</option>
+            <option value="7">7</option>
+            <option value="8">8</option>
+            <option value="9">9</option>
+            <option value="10">10</option>
+        </select>
+        <p>hur många bor här?</p>
+        <label for="peopleNumber"></label>
+        <select id="peopleNumber" name="peopleNumber">
+            <option value="">-</option>
+            <option value="1">1</option>
+            <option value="2">2</option>
+            <option value="3">3</option>
+            <option value="4">4</option>
+            <option value="5">5</option>
+            <option value="6">6</option>
+            <option value="7">7</option>
+            <option value="8">8</option>
+            <option value="9">9</option>
+            <option value="10">10</option>
+        </select><br>
+        <div class="buttonWrapper">
+            <button class="backButton">
+                < Tillbaka</button>
+                    <button class="nextButton">Nästa</button>
+        </div>
         </form>
     </div>
 
@@ -125,24 +123,23 @@
         <p>steg 3 av 9</p>
         <h3>vilken adress har bostaden?</h3>
         <p>Vi behöver din fullständiga adress för att kunna visa ditt hem på en karta. Endast gatunamnet syns i annonsen.</p>
-        <form action="">
-            <label for="adress">Gatuadress</label>
-            <br>
-            <input name="adress" id="adress" type="text" placeholder="Ange">
-            <br>
-            <label for="number">Gatunummer</label>
-            <br>
-            <input name="number" id="number" type="number" placeholder="Ange">
-            <br>
-            <label for="postNumber">Postnummer</label>
-            <br>
-            <input name="postNumber" id="postNumber" type="number" placeholder="Ange">
-            <br>
-            <div class="buttonWrapper">
-                <button class="backButton">
-                    < Tillbaka</button>
-                        <button class="nextButton">Nästa</button>
-            </div>
+        <label for="adress">Gatuadress</label>
+        <br>
+        <input name="adress" id="adress" type="text" placeholder="Ange">
+        <br>
+        <label for="number">Gatunummer</label>
+        <br>
+        <input name="number" id="number" type="number" placeholder="Ange">
+        <br>
+        <label for="postNumber">Postnummer</label>
+        <br>
+        <input name="postNumber" id="postNumber" type="number" placeholder="Ange">
+        <br>
+        <div class="buttonWrapper">
+            <button class="backButton">
+                < Tillbaka</button>
+                    <button class="nextButton">Nästa</button>
+        </div>
         </form>
     </div>
 
@@ -157,66 +154,65 @@
         </div>
         <p>steg 4 av 9</p>
         <h3>Vilka bekvämligheter finns i bostaden?</h3>
-        <form action="">
-            <p>Kök</p>
-            <input type="checkbox" name="kylskåp" id="kylskåp">
-            <label for="kylskåp">Kylskåp</label>
-            <br>
-            <input type="checkbox" name="fridge" id="fridge">
-            <label for="fridge">Frys</label>
-            <br>
-            <input type="checkbox" name="oven" id="oven">
-            <label for="oven">Ugn</label>
-            <br>
-            <input type="checkbox" name="Spis" id="Spis">
-            <label for="Spis">Spis</label>
-            <br>
-            <input type="checkbox" name="dishwasher" id="dishwasher">
-            <label for="dishwasher">Diskmaskin</label>
-            <br>
-            <input type="checkbox" name="microwave" id="microwave">
-            <label for="microwave">Microvågsugn</label>
-            <p>Badrum</p>
-            <input type="checkbox" name="shower" id="shower">
-            <label for="shower">Egen dusch</label>
-            <br>
-            <input type="checkbox" name="toilet" id="toilet">
-            <label for="toilet">Egen toalett</label>
-            <br>
-            <input type="checkbox" name="bathtub" id="bathtub">
-            <label for="bathtub">Eget badkar</label>
-            <br>
-            <p>Tvätt</p>
-            <input type="checkbox" name="washmachin" id="washmachin">
-            <label for="washmachin">Tvättmaskin</label>
-            <br>
-            <input type="checkbox" name="dryer" id="dryer">
-            <label for="dryer">Torktumlare</label>
-            <br>
-            <input type="checkbox" name="laundry" id="laundry">
-            <label for="laundry">Gemensam tvättstuga</label>
-            <br>
-            <p>Populär</p>
-            <input type="checkbox" name="balcony" id="balcony">
-            <label for="balcony">Balkong/uteplats</label>
-            <br>
-            <input type="checkbox" name="sauna" id="sauna">
-            <label for="sauna">Bastu</label>
-            <br>
-            <input type="checkbox" name="bubblePool" id="bubblePool">
-            <label for="bubblePool">Bubbelpool</label>
-            <br>
-            <input type="checkbox" name="fireplace" id="fireplace">
-            <label for="fireplace">Kamin</label>
-            <br>
-            <input type="checkbox" name="pool" id="pool">
-            <label for="pool">Pool</label>
-            <br>
-            <div class="buttonWrapper">
-                <button class="backButton">
-                    < Tillbaka</button>
-                        <button class="nextButton">Nästa</button>
-            </div>
+        <p>Kök</p>
+        <input type="checkbox" name="kylskåp" id="kylskåp">
+        <label for="kylskåp">Kylskåp</label>
+        <br>
+        <input type="checkbox" name="fridge" id="fridge">
+        <label for="fridge">Frys</label>
+        <br>
+        <input type="checkbox" name="oven" id="oven">
+        <label for="oven">Ugn</label>
+        <br>
+        <input type="checkbox" name="Spis" id="Spis">
+        <label for="Spis">Spis</label>
+        <br>
+        <input type="checkbox" name="dishwasher" id="dishwasher">
+        <label for="dishwasher">Diskmaskin</label>
+        <br>
+        <input type="checkbox" name="microwave" id="microwave">
+        <label for="microwave">Microvågsugn</label>
+        <p>Badrum</p>
+        <input type="checkbox" name="shower" id="shower">
+        <label for="shower">Egen dusch</label>
+        <br>
+        <input type="checkbox" name="toilet" id="toilet">
+        <label for="toilet">Egen toalett</label>
+        <br>
+        <input type="checkbox" name="bathtub" id="bathtub">
+        <label for="bathtub">Eget badkar</label>
+        <br>
+        <p>Tvätt</p>
+        <input type="checkbox" name="washmachin" id="washmachin">
+        <label for="washmachin">Tvättmaskin</label>
+        <br>
+        <input type="checkbox" name="dryer" id="dryer">
+        <label for="dryer">Torktumlare</label>
+        <br>
+        <input type="checkbox" name="laundry" id="laundry">
+        <label for="laundry">Gemensam tvättstuga</label>
+        <br>
+        <p>Populär</p>
+        <input type="checkbox" name="balcony" id="balcony">
+        <label for="balcony">Balkong/uteplats</label>
+        <br>
+        <input type="checkbox" name="sauna" id="sauna">
+        <label for="sauna">Bastu</label>
+        <br>
+        <input type="checkbox" name="bubblePool" id="bubblePool">
+        <label for="bubblePool">Bubbelpool</label>
+        <br>
+        <input type="checkbox" name="fireplace" id="fireplace">
+        <label for="fireplace">Kamin</label>
+        <br>
+        <input type="checkbox" name="pool" id="pool">
+        <label for="pool">Pool</label>
+        <br>
+        <div class="buttonWrapper">
+            <button class="backButton">
+                < Tillbaka</button>
+                    <button class="nextButton">Nästa</button>
+        </div>
         </form>
     </div>
 
@@ -232,40 +228,39 @@
         <p>steg 5 av 9</p>
         <h3>Mer om bostaden och dess skick</h3>
         <p>sökande är ofta intresserade av renoveringar och när huset byggdes.</p>
-        <form action="">
-            <label for="year">Bostadens byggnadsår</label>
-            <br>
-            <input placeholder="Ange" name="year" id="year" type="number">
-            <br>
-            <input name="year" id="year" type="radio">
-            <label for="year">Vet ej</label>
-            <br>
-            <label for="bathroom">Badrum - år sedan renovering</label>
-            <br>
-            <input placeholder="Ange" name="bathroom" id="bathroom" type="number">
-            <br>
-            <input name="bathroom" id="bathroom" type="radio">
-            <label for="bathroom">Vet ej</label>
-            <br>
-            <label for="kitchen">Kök - år sedan renovering</label>
-            <br>
-            <input placeholder="Ange" name="kitchen" id="kitchen" type="number">
-            <br>
-            <input name="kitchen" id="kitchen" type="radio">
-            <label for="kitchen">Vet ej</label>
-            <br>
-            <label for="energy">Energiklass (A++, A+, A, B, C, D, E)</label>
-            <br>
-            <input placeholder="Ange" name="energy" id="energy" type="text">
-            <br>
-            <input name="energy" id="energy" type="radio">
-            <label for="energy">Vet ej</label>
-            <br>
-            <div class="buttonWrapper">
-                <button class="backButton">
-                    < Tillbaka</button>
-                        <button class="nextButton">Nästa</button>
-            </div>
+        <label for="year">Bostadens byggnadsår</label>
+        <br>
+        <input placeholder="Ange" name="year" id="year" type="number">
+        <br>
+        <input name="year" id="year" type="radio">
+        <label for="year">Vet ej</label>
+        <br>
+        <label for="bathroom">Badrum - år sedan renovering</label>
+        <br>
+        <input placeholder="Ange" name="bathroom" id="bathroom" type="number">
+        <br>
+        <input name="bathroom" id="bathroom" type="radio">
+        <label for="bathroom">Vet ej</label>
+        <br>
+        <label for="kitchen">Kök - år sedan renovering</label>
+        <br>
+        <input placeholder="Ange" name="kitchen" id="kitchen" type="number">
+        <br>
+        <input name="kitchen" id="kitchen" type="radio">
+        <label for="kitchen">Vet ej</label>
+        <br>
+        <label for="energy">Energiklass (A++, A+, A, B, C, D, E)</label>
+        <br>
+        <input placeholder="Ange" name="energy" id="energy" type="text">
+        <br>
+        <input name="energy" id="energy" type="radio">
+        <label for="energy">Vet ej</label>
+        <br>
+        <div class="buttonWrapper">
+            <button class="backButton">
+                < Tillbaka</button>
+                    <button class="nextButton">Nästa</button>
+        </div>
         </form>
     </div>
 
@@ -280,26 +275,25 @@
         </div>
         <p>Steg 6 av 9</p>
         <h3>När vill du hyra ut bostaden?</h3>
-        <form action="">
-            <label for="moveIn">Inflyttningsdatum</label>
-            <br>
-            <input type="date" id="moveIn" name="moveIn">
-            <br>
-            <input id="moveInTwo" name="moveInTwo" type="radio">
-            <label for="moveInTwo">Snarast</label>
-            <br>
-            <label for="moveOut">Utflyttningsdatum</label>
-            <br>
-            <input type="date" id="moveOut" name="moveOut">
-            <br>
-            <input id="moveOutTwo" name="moveOutTwo" type="radio">
-            <label for="moveOutTwo">Snarast</label>
-            <br>
-            <div class="buttonWrapper">
-                <button class="backButton">
-                    < Tillbaka</button>
-                        <button class="nextButton">Nästa</button>
-            </div>
+        <label for="moveIn">Inflyttningsdatum</label>
+        <br>
+        <input type="date" id="moveIn" name="moveIn">
+        <br>
+        <input id="moveInTwo" name="moveInTwo" type="radio">
+        <label for="moveInTwo">Snarast</label>
+        <br>
+        <label for="moveOut">Utflyttningsdatum</label>
+        <br>
+        <input type="date" id="moveOut" name="moveOut">
+        <br>
+        <input id="moveOutTwo" name="moveOutTwo" type="radio">
+        <label for="moveOutTwo">Snarast</label>
+        <br>
+        <div class="buttonWrapper">
+            <button class="backButton">
+                < Tillbaka</button>
+                    <button class="nextButton">Nästa</button>
+        </div>
         </form>
     </div>
 
@@ -315,23 +309,22 @@
         <p>Steg 7 av 9</p>
         <h3>Beskriv din bostad</h3>
         <p>Sökande är ofta intresserade av renoveringar och när huset byggdes.</p>
-        <form action="">
-            <label for="description"></label>
-            <input name="description" id="description" type="textarea" placeholder="Beskrivning">
-            <br>
-            <p>De flesta annonser har en beskrivning mellan 300 och 400 tecken.</p>
-            <p>Saker hyresgäster ofta undrar över:</p>
-            <ul>
-                <li>Planlösning</li>
-                <li>Vad som ingår i hyran</li>
-                <li>Kommunikation</li>
-                <li>Varför du hyr ut din bostad</li>
-            </ul>
-            <div class="buttonWrapper">
-                <button class="backButton">
-                    < Tillbaka</button>
-                        <button class="nextButton">Nästa</button>
-            </div>
+        <label for="description"></label>
+        <input name="description" id="description" type="textarea" placeholder="Beskrivning">
+        <br>
+        <p>De flesta annonser har en beskrivning mellan 300 och 400 tecken.</p>
+        <p>Saker hyresgäster ofta undrar över:</p>
+        <ul>
+            <li>Planlösning</li>
+            <li>Vad som ingår i hyran</li>
+            <li>Kommunikation</li>
+            <li>Varför du hyr ut din bostad</li>
+        </ul>
+        <div class="buttonWrapper">
+            <button class="backButton">
+                < Tillbaka</button>
+                    <button class="nextButton">Nästa</button>
+        </div>
         </form>
     </div>
 
@@ -346,18 +339,17 @@
         </div>
         <p>Steg 8 av 9</p>
         <h3>Vilken hyra hade du tänkt dig?</h3>
-        <form action="">
-            <p>Enligt vår statistik på tusentals uthyrda bostäder skulle du kunna sätta hyran till: 8220 kr*.</p>
-            <label for="rent">Hyra</label>
-            <input placeholder="Ange" name="rent" id="rent" type="number">
-            <div class="infoText">
-                <p>Hyresgästens månadskostnad är hyran + 10 % serviceavgift. Den hyran du anger är vad du får utbetalt varje månad. En serviceavgift på 5 % tillkommer till dig som hyresvärd.</p>
-            </div>
-            <div class="buttonWrapper">
-                <button class="backButton">
-                    < Tillbaka</button>
-                        <button class="nextButton">Nästa</button>
-            </div>
+        <p>Enligt vår statistik på tusentals uthyrda bostäder skulle du kunna sätta hyran till: 8220 kr*.</p>
+        <label for="rent">Hyra</label>
+        <input placeholder="Ange" name="rent" id="rent" type="number">
+        <div class="infoText">
+            <p>Hyresgästens månadskostnad är hyran + 10 % serviceavgift. Den hyran du anger är vad du får utbetalt varje månad. En serviceavgift på 5 % tillkommer till dig som hyresvärd.</p>
+        </div>
+        <div class="buttonWrapper">
+            <button class="backButton">
+                < Tillbaka</button>
+                    <button class="nextButton">Nästa</button>
+        </div>
         </form>
     </div>
 
@@ -373,21 +365,20 @@
         <p>Steg 9 av 9</p>
         <h3>Lägg till bilder</h3>
         <p>Ta några bilder med din kamera eller din telefon. Bra bilder gör skillnad! Du kan alltid ta bort eller lägga till.</p>
-        <form action="">
-            <div class="uploadImages">
-                <svg width="126" height="126" viewBox="0 0 126 126" fill="none" xmlns="http://www.w3.org/2000/svg">
-                    <path d="M63.7748 56.4783C63.6828 56.3606 63.5651 56.2655 63.4308 56.2C63.2965 56.1346 63.149 56.1006 62.9996 56.1006C62.8502 56.1006 62.7028 56.1346 62.5685 56.2C62.4342 56.2655 62.3165 56.3606 62.2245 56.4783L48.4432 73.914C48.3296 74.0591 48.2591 74.2332 48.2398 74.4165C48.2205 74.5997 48.2531 74.7847 48.334 74.9503C48.4148 75.1159 48.5407 75.2554 48.6971 75.3528C48.8535 75.4503 49.0341 75.5017 49.2184 75.5013H58.3116V105.328C58.3116 105.869 58.7545 106.312 59.2959 106.312H66.6788C67.2202 106.312 67.6631 105.869 67.6631 105.328V75.5136H76.7809C77.6053 75.5136 78.0606 74.5662 77.5561 73.9263L63.7748 56.4783Z" fill="#033F33" />
-                    <path d="M99.8402 45.1213C94.2047 30.2572 79.8451 19.6875 63.0246 19.6875C46.2041 19.6875 31.8445 30.2449 26.209 45.109C15.6639 47.8775 7.875 57.4875 7.875 68.9062C7.875 82.5029 18.8877 93.5156 32.4721 93.5156H37.4062C37.9477 93.5156 38.3906 93.0727 38.3906 92.5312V85.1484C38.3906 84.607 37.9477 84.1641 37.4062 84.1641H32.4721C28.3254 84.1641 24.4248 82.5152 21.5209 79.5252C18.6293 76.5475 17.0912 72.5361 17.2266 68.3771C17.3373 65.1287 18.4447 62.0771 20.4504 59.5055C22.5053 56.8846 25.3846 54.9773 28.5838 54.1283L33.2473 52.9102L34.9576 48.4066C36.0158 45.6012 37.4924 42.9803 39.3504 40.6055C41.1847 38.2517 43.3575 36.1825 45.798 34.4654C50.8553 30.9094 56.8107 29.0268 63.0246 29.0268C69.2385 29.0268 75.1939 30.9094 80.2512 34.4654C82.6998 36.1881 84.8654 38.2553 86.6988 40.6055C88.5568 42.9803 90.0334 45.6135 91.0916 48.4066L92.7896 52.8979L97.4408 54.1283C104.11 55.9248 108.773 61.991 108.773 68.9062C108.773 72.9791 107.186 76.8182 104.307 79.6975C102.895 81.1178 101.215 82.2439 99.3648 83.0106C97.5146 83.7772 95.5307 84.1693 93.5279 84.1641H88.5938C88.0523 84.1641 87.6094 84.607 87.6094 85.1484V92.5312C87.6094 93.0727 88.0523 93.5156 88.5938 93.5156H93.5279C107.112 93.5156 118.125 82.5029 118.125 68.9062C118.125 57.4998 110.361 47.9021 99.8402 45.1213Z" fill="#033F33" />
-                </svg>
-                <!-- Dunno if this solution works? either way: forbidden javascript, I know. -->
-                <button class="imageButton" onclick="document.getElementById('getFile').click()">Ladda upp bilder</button>
-                <input type='file' id="getFile" style="display:none">
-            </div>
-            <div class="buttonWrapper">
-                <button class="backButton">
-                    < Tillbaka</button>
-                        <button class="nextButton">Skicka in?</button>
-            </div>
+        <div class="uploadImages">
+            <svg width="126" height="126" viewBox="0 0 126 126" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M63.7748 56.4783C63.6828 56.3606 63.5651 56.2655 63.4308 56.2C63.2965 56.1346 63.149 56.1006 62.9996 56.1006C62.8502 56.1006 62.7028 56.1346 62.5685 56.2C62.4342 56.2655 62.3165 56.3606 62.2245 56.4783L48.4432 73.914C48.3296 74.0591 48.2591 74.2332 48.2398 74.4165C48.2205 74.5997 48.2531 74.7847 48.334 74.9503C48.4148 75.1159 48.5407 75.2554 48.6971 75.3528C48.8535 75.4503 49.0341 75.5017 49.2184 75.5013H58.3116V105.328C58.3116 105.869 58.7545 106.312 59.2959 106.312H66.6788C67.2202 106.312 67.6631 105.869 67.6631 105.328V75.5136H76.7809C77.6053 75.5136 78.0606 74.5662 77.5561 73.9263L63.7748 56.4783Z" fill="#033F33" />
+                <path d="M99.8402 45.1213C94.2047 30.2572 79.8451 19.6875 63.0246 19.6875C46.2041 19.6875 31.8445 30.2449 26.209 45.109C15.6639 47.8775 7.875 57.4875 7.875 68.9062C7.875 82.5029 18.8877 93.5156 32.4721 93.5156H37.4062C37.9477 93.5156 38.3906 93.0727 38.3906 92.5312V85.1484C38.3906 84.607 37.9477 84.1641 37.4062 84.1641H32.4721C28.3254 84.1641 24.4248 82.5152 21.5209 79.5252C18.6293 76.5475 17.0912 72.5361 17.2266 68.3771C17.3373 65.1287 18.4447 62.0771 20.4504 59.5055C22.5053 56.8846 25.3846 54.9773 28.5838 54.1283L33.2473 52.9102L34.9576 48.4066C36.0158 45.6012 37.4924 42.9803 39.3504 40.6055C41.1847 38.2517 43.3575 36.1825 45.798 34.4654C50.8553 30.9094 56.8107 29.0268 63.0246 29.0268C69.2385 29.0268 75.1939 30.9094 80.2512 34.4654C82.6998 36.1881 84.8654 38.2553 86.6988 40.6055C88.5568 42.9803 90.0334 45.6135 91.0916 48.4066L92.7896 52.8979L97.4408 54.1283C104.11 55.9248 108.773 61.991 108.773 68.9062C108.773 72.9791 107.186 76.8182 104.307 79.6975C102.895 81.1178 101.215 82.2439 99.3648 83.0106C97.5146 83.7772 95.5307 84.1693 93.5279 84.1641H88.5938C88.0523 84.1641 87.6094 84.607 87.6094 85.1484V92.5312C87.6094 93.0727 88.0523 93.5156 88.5938 93.5156H93.5279C107.112 93.5156 118.125 82.5029 118.125 68.9062C118.125 57.4998 110.361 47.9021 99.8402 45.1213Z" fill="#033F33" />
+            </svg>
+            <!-- Dunno if this solution works? either way: forbidden javascript, I know. -->
+            <button class="imageButton" onclick="document.getElementById('getFile').click()">Ladda upp bilder</button>
+            <input type='file' id="getFile" style="display:none">
+        </div>
+        <div class="buttonWrapper">
+            <button class="backButton">
+                < Tillbaka</button>
+                    <button class="nextButton">Skicka in?</button>
+        </div>
         </form>
     </div>
 </div>
