@@ -15,6 +15,7 @@
     <link rel="stylesheet" href="{{asset('css/quote.css')}}">
     <link rel="stylesheet" href="{{asset('css/ctaCards.css')}}">
     <link rel="stylesheet" href="{{asset('css/hero.css')}}">
+    <link rel="stylesheet" href="{{asset('css/forms.css')}}">
     <title>Kollektiva</title>
     <header>
         <div class="topWrapper">

@@ -1,0 +1,43 @@
+/* Form buttons */
+
+.nextButton {
+    border: none;
+    background-color: orange;
+}
+.backButton {
+}
+
+/* Form Wrapper and general form styling */
+
+.formWrapper {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+/* Individual  form styling */
+
+.formStart {
+}
+.stepOne {
+}
+.stepTwo {
+}
+.stepThree {
+}
+.stepFour {
+}
+.stepFive {
+}
+.stepSix {
+}
+.stepSeven {
+}
+.stepEight {
+}
+.stepNine {
+}
+.stepTen {
+}
