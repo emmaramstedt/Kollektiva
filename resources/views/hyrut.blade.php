@@ -86,6 +86,18 @@
         <h3>vilken adress har bostaden?</h3>
         <p>Vi behöver din fullständiga adress för att kunna visa ditt hem på en karta. Endast gatunamnet syns i annonsen.</p>
         <form action="">
+            <label for="adress">Gatuadress</label>
+            <br>
+            <input name="adress" id="adress" type="text" placeholder="Ange">
+            <br>
+            <label for="number">Gatunummer</label>
+            <br>
+            <input name="number" id="number" type="number" placeholder="Ange">
+            <br>
+            <label for="postNumber">Postnummer</label>
+            <br>
+            <input name="postNumber" id="postNumber" type="number" placeholder="Ange">
+            <br>
             <button class="backButton">
                 < Tillbaka</button>
                     <button class="nextButton">Nästa</button>

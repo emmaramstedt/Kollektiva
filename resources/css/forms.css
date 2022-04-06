@@ -1,7 +1,7 @@
 /* Form buttons */
 
 .nextButton {
-    border: none;
+    border: 2px solid orange;
     background-color: orange;
 }
 .backButton {
@@ -20,24 +20,52 @@
 /* Individual  form styling */
 
 .formStart {
+    border: 1px solid black;
+    margin: 5px;
+    padding: 5px;
 }
 .stepOne {
+    border: 1px solid black;
+    margin: 5px;
+    padding: 5px;
 }
 .stepTwo {
+    border: 1px solid black;
+    margin: 5px;
+    padding: 5px;
 }
 .stepThree {
+    border: 1px solid black;
+    margin: 5px;
+    padding: 5px;
 }
 .stepFour {
+    border: 1px solid black;
+    margin: 5px;
+    padding: 5px;
 }
 .stepFive {
+    border: 1px solid black;
+    margin: 5px;
+    padding: 5px;
 }
 .stepSix {
+    border: 1px solid black;
+    margin: 5px;
+    padding: 5px;
 }
 .stepSeven {
+    border: 1px solid black;
+    margin: 5px;
+    padding: 5px;
 }
 .stepEight {
+    border: 1px solid black;
+    margin: 5px;
+    padding: 5px;
 }
 .stepNine {
-}
-.stepTen {
+    border: 1px solid black;
+    margin: 5px;
+    padding: 5px;
 }
