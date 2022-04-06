@@ -108,6 +108,60 @@
         <p>steg 4 av 9</p>
         <h3>Vilka bekvämligheter finns i bostaden?</h3>
         <form action="">
+            <p>Kök</p>
+            <input type="checkbox" name="kylskåp" id="kylskåp">
+            <label for="kylskåp">Kylskåp</label>
+            <br>
+            <input type="checkbox" name="fridge" id="fridge">
+            <label for="fridge">Frys</label>
+            <br>
+            <input type="checkbox" name="oven" id="oven">
+            <label for="oven">Ugn</label>
+            <br>
+            <input type="checkbox" name="Spis" id="Spis">
+            <label for="Spis">Spis</label>
+            <br>
+            <input type="checkbox" name="dishwasher" id="dishwasher">
+            <label for="dishwasher">Diskmaskin</label>
+            <br>
+            <input type="checkbox" name="microwave" id="microwave">
+            <label for="microwave">Microvågsugn</label>
+            <p>Badrum</p>
+            <input type="checkbox" name="shower" id="shower">
+            <label for="shower">Egen dusch</label>
+            <br>
+            <input type="checkbox" name="toilet" id="toilet">
+            <label for="toilet">Egen toalett</label>
+            <br>
+            <input type="checkbox" name="bathtub" id="bathtub">
+            <label for="bathtub">Eget badkar</label>
+            <br>
+            <p>Tvätt</p>
+            <input type="checkbox" name="washmachin" id="washmachin">
+            <label for="washmachin">Tvättmaskin</label>
+            <br>
+            <input type="checkbox" name="dryer" id="dryer">
+            <label for="dryer">Torktumlare</label>
+            <br>
+            <input type="checkbox" name="laundry" id="laundry">
+            <label for="laundry">Gemensam tvättstuga</label>
+            <br>
+            <p>Populär</p>
+            <input type="checkbox" name="balcony" id="balcony">
+            <label for="balcony">Balkong/uteplats</label>
+            <br>
+            <input type="checkbox" name="sauna" id="sauna">
+            <label for="sauna">Bastu</label>
+            <br>
+            <input type="checkbox" name="bubblePool" id="bubblePool">
+            <label for="bubblePool">Bubbelpool</label>
+            <br>
+            <input type="checkbox" name="fireplace" id="fireplace">
+            <label for="fireplace">Kamin</label>
+            <br>
+            <input type="checkbox" name="pool" id="pool">
+            <label for="pool">Pool</label>
+            <br>
             <button class="backButton">
                 < Tillbaka</button>
                     <button class="nextButton">Nästa</button>
