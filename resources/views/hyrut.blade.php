@@ -41,7 +41,40 @@
     <div class="stepTwo">
         <p>steg 2 av 9</p>
         <h3>Hur stor är bostaden?</h3>
+        <p>Storlek</p>
+        <label for="size"></label>
+        <input placeholder="Ange" type="number" name="size" id="size" min="5" max="1000">
         <form action="">
+            <p>Antal rum</p>
+            <label for="roomNumber"></label>
+            <select id="roomNumber" name="roomNumber">
+                <option value="">-</option>
+                <option value="1">1</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+                <option value="4">4</option>
+                <option value="5">5</option>
+                <option value="6">6</option>
+                <option value="7">7</option>
+                <option value="8">8</option>
+                <option value="9">9</option>
+                <option value="10">10</option>
+            </select>
+            <p>hur många bor här?</p>
+            <label for="peopleNumber"></label>
+            <select id="peopleNumber" name="peopleNumber">
+                <option value="">-</option>
+                <option value="1">1</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+                <option value="4">4</option>
+                <option value="5">5</option>
+                <option value="6">6</option>
+                <option value="7">7</option>
+                <option value="8">8</option>
+                <option value="9">9</option>
+                <option value="10">10</option>
+            </select><br>
             <button class="backButton">
                 < Tillbaka</button>
                     <button class="nextButton">Nästa</button>
