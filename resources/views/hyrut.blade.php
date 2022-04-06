@@ -3,6 +3,12 @@
 <div class="formWrapper">
 
     <div class="formStart">
+        <button class="closeForm">
+            <p>Stäng formulär</p>
+            <svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M20 1.75L18.25 0L10 8.25L1.75 0L0 1.75L8.25 10L0 18.25L1.75 20L10 11.75L18.25 20L20 18.25L11.75 10L20 1.75Z" fill="#FCA82B" />
+            </svg>
+        </button>
         <h3>Skapa annons</h3>
         <form action="">
             <ul>
@@ -21,6 +27,12 @@
     </div>
 
     <div class="stepOne">
+        <button class="closeForm">
+            <p>Stäng formulär</p>
+            <svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M20 1.75L18.25 0L10 8.25L1.75 0L0 1.75L8.25 10L0 18.25L1.75 20L10 11.75L18.25 20L20 18.25L11.75 10L20 1.75Z" fill="#FCA82B" />
+            </svg>
+        </button>
         <p>steg 1 av 9</p>
         <h3>Vad vill du hyra ut?</h3>
         <form action="">
@@ -41,6 +53,12 @@
     </div>
 
     <div class="stepTwo">
+        <button class="closeForm">
+            <p>Stäng formulär</p>
+            <svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M20 1.75L18.25 0L10 8.25L1.75 0L0 1.75L8.25 10L0 18.25L1.75 20L10 11.75L18.25 20L20 18.25L11.75 10L20 1.75Z" fill="#FCA82B" />
+            </svg>
+        </button>
         <p>steg 2 av 9</p>
         <h3>Hur stor är bostaden?</h3>
         <p>Storlek</p>
@@ -84,6 +102,12 @@
     </div>
 
     <div class="stepThree">
+        <button class="closeForm">
+            <p>Stäng formulär</p>
+            <svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M20 1.75L18.25 0L10 8.25L1.75 0L0 1.75L8.25 10L0 18.25L1.75 20L10 11.75L18.25 20L20 18.25L11.75 10L20 1.75Z" fill="#FCA82B" />
+            </svg>
+        </button>
         <p>steg 3 av 9</p>
         <h3>vilken adress har bostaden?</h3>
         <p>Vi behöver din fullständiga adress för att kunna visa ditt hem på en karta. Endast gatunamnet syns i annonsen.</p>
@@ -107,6 +131,12 @@
     </div>
 
     <div class="stepFour">
+        <button class="closeForm">
+            <p>Stäng formulär</p>
+            <svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M20 1.75L18.25 0L10 8.25L1.75 0L0 1.75L8.25 10L0 18.25L1.75 20L10 11.75L18.25 20L20 18.25L11.75 10L20 1.75Z" fill="#FCA82B" />
+            </svg>
+        </button>
         <p>steg 4 av 9</p>
         <h3>Vilka bekvämligheter finns i bostaden?</h3>
         <form action="">
@@ -171,6 +201,12 @@
     </div>
 
     <div class="stepFive">
+        <button class="closeForm">
+            <p>Stäng formulär</p>
+            <svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M20 1.75L18.25 0L10 8.25L1.75 0L0 1.75L8.25 10L0 18.25L1.75 20L10 11.75L18.25 20L20 18.25L11.75 10L20 1.75Z" fill="#FCA82B" />
+            </svg>
+        </button>
         <p>steg 5 av 9</p>
         <h3>Mer om bostaden och dess skick</h3>
         <p>sökande är ofta intresserade av renoveringar och när huset byggdes.</p>
@@ -210,9 +246,29 @@
     </div>
 
     <div class="stepSix">
+        <button class="closeForm">
+            <p>Stäng formulär</p>
+            <svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M20 1.75L18.25 0L10 8.25L1.75 0L0 1.75L8.25 10L0 18.25L1.75 20L10 11.75L18.25 20L20 18.25L11.75 10L20 1.75Z" fill="#FCA82B" />
+            </svg>
+        </button>
         <p>Steg 6 av 9</p>
         <h3>När vill du hyra ut bostaden?</h3>
         <form action="">
+            <label for="moveIn">Inflyttningsdatum</label>
+            <br>
+            <input type="date" id="moveIn" name="moveIn">
+            <br>
+            <input id="moveInTwo" name="moveInTwo" type="radio">
+            <label for="moveInTwo">Snarast</label>
+            <br>
+            <label for="moveOut">Utflyttningsdatum</label>
+            <br>
+            <input type="date" id="moveOut" name="moveOut">
+            <br>
+            <input id="moveOutTwo" name="moveOutTwo" type="radio">
+            <label for="moveOutTwo">Snarast</label>
+            <br>
             <button class="backButton">
                 < Tillbaka</button>
                     <button class="nextButton">Nästa</button>
@@ -220,6 +276,12 @@
     </div>
 
     <div class="stepSeven">
+        <button class="closeForm">
+            <p>Stäng formulär</p>
+            <svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M20 1.75L18.25 0L10 8.25L1.75 0L0 1.75L8.25 10L0 18.25L1.75 20L10 11.75L18.25 20L20 18.25L11.75 10L20 1.75Z" fill="#FCA82B" />
+            </svg>
+        </button>
         <p>Steg 7 av 9</p>
         <h3>Beskriv din bostad</h3>
         <p>Sökande är ofta intresserade av renoveringar och när huset byggdes.</p>
@@ -242,6 +304,12 @@
     </div>
 
     <div class="stepEight">
+        <button class="closeForm">
+            <p>Stäng formulär</p>
+            <svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M20 1.75L18.25 0L10 8.25L1.75 0L0 1.75L8.25 10L0 18.25L1.75 20L10 11.75L18.25 20L20 18.25L11.75 10L20 1.75Z" fill="#FCA82B" />
+            </svg>
+        </button>
         <p>Steg 8 av 9</p>
         <h3>Vilken hyra hade du tänkt dig?</h3>
         <p>Enligt vår statistik på tusentals uthyrda bostäder skulle du kunna sätta hyran till: 8220 kr*.</p>
@@ -256,6 +324,12 @@
     </div>
 
     <div class="stepNine">
+        <button class="closeForm">
+            <p>Stäng formulär</p>
+            <svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M20 1.75L18.25 0L10 8.25L1.75 0L0 1.75L8.25 10L0 18.25L1.75 20L10 11.75L18.25 20L20 18.25L11.75 10L20 1.75Z" fill="#FCA82B" />
+            </svg>
+        </button>
         <p>Steg 9 av 9</p>
         <h3>Lägg till bilder</h3>
         <p>Ta några bilder med din kamera eller din telefon. Bra bilder gör skillnad! Du kan alltid ta bort eller lägga till.</p>

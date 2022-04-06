@@ -7,6 +7,18 @@
 .backButton {
 }
 
+.closeForm {
+    border: none;
+    background-color: transparent;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.closeForm p {
+    margin-bottom: 0%;
+}
+
 /* Form Wrapper and general form styling */
 
 .formWrapper {
