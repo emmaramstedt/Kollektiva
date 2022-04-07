@@ -45,9 +45,9 @@ return new class extends Migration
             $table->boolean('has_fireplace');
             $table->integer('year_of_construction');
             $table->integer('years_since_bathroom_renovation');
-            $table->integer('years_since_bathroom_renovation');
-            $table->date('move-in_date');
-            $table->date('move-out_date');
+            $table->integer('years_since_kitchen_renovation');
+            $table->date('move_in_date');
+            $table->date('move_out_date');
             $table->text('description');
             $table->integer('rent');
             $table->foreignId('photo_id');
