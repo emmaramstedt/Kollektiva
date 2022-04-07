@@ -136,24 +136,6 @@ select {
     /* height: 220px; */
 }
 
-#description::-moz-placeholder {
-    position: absolute;
-    left: 5px;
-    top: 5px;
-}
-
-#description:-ms-input-placeholder {
-    position: absolute;
-    left: 5px;
-    top: 5px;
-}
-
-#description::placeholder {
-    position: absolute;
-    left: 5px;
-    top: 5px;
-}
-
 /* Individual  form styling */
 
 .formStart {
