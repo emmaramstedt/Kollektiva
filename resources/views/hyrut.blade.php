@@ -82,11 +82,9 @@
         </div>
         <p>steg 2 av 9</p>
         <h3>Hur stor är bostaden?</h3>
-        <p>Storlek</p>
-        <label for="size"></label>
+        <label for="size">Storlek</label>
         <input placeholder="Ange" type="number" name="size" id="size" min="5" max="1000">
-        <p>Antal rum</p>
-        <label for="roomNumber"></label>
+        <label for="roomNumber">Antal rum</label>
         <select id="roomNumber" name="roomNumber">
             <option value="">-</option>
             <option value="1">1</option>
@@ -100,8 +98,7 @@
             <option value="9">9</option>
             <option value="10">10</option>
         </select>
-        <p>hur många bor här?</p>
-        <label for="peopleNumber"></label>
+        <label for="peopleNumber">hur många bor här?</label>
         <select id="peopleNumber" name="peopleNumber">
             <option value="">-</option>
             <option value="1">1</option>
@@ -136,15 +133,12 @@
         <h3>vilken adress har bostaden?</h3>
         <p>Vi behöver din fullständiga adress för att kunna visa ditt hem på en karta. Endast gatunamnet syns i annonsen.</p>
         <label for="adress">Gatuadress</label>
-        <br>
         <input name="adress" id="adress" type="text" placeholder="Ange">
         <br>
         <label for="number">Gatunummer</label>
-        <br>
         <input name="number" id="number" type="number" placeholder="Ange">
         <br>
         <label for="postNumber">Postnummer</label>
-        <br>
         <input name="postNumber" id="postNumber" type="number" placeholder="Ange">
         <br>
         <div class="buttonWrapper">
@@ -275,7 +269,6 @@
         <h3>Mer om bostaden och dess skick</h3>
         <p>sökande är ofta intresserade av renoveringar och när huset byggdes.</p>
         <label for="year">Bostadens byggnadsår</label>
-        <br>
         <input placeholder="Ange" name="year" id="year" type="number">
         <br>
         <div class="radioWrapper">
@@ -284,7 +277,6 @@
         </div>
         <br>
         <label for="bathroom">Badrum - år sedan renovering</label>
-        <br>
         <input placeholder="Ange" name="bathroom" id="bathroom" type="number">
         <br>
         <div class="radioWrapper">
@@ -293,7 +285,6 @@
         </div>
         <br>
         <label for="kitchen">Kök - år sedan renovering</label>
-        <br>
         <input placeholder="Ange" name="kitchen" id="kitchen" type="number">
         <br>
         <div class="radioWrapper">
@@ -302,7 +293,6 @@
         </div>
         <br>
         <label for="energy">Energiklass (A++, A+, A, B, C, D, E)</label>
-        <br>
         <input placeholder="Ange" name="energy" id="energy" type="text">
         <br>
         <div class="radioWrapper">
@@ -330,7 +320,6 @@
         <p>Steg 6 av 9</p>
         <h3>När vill du hyra ut bostaden?</h3>
         <label for="moveIn">Inflyttningsdatum</label>
-        <br>
         <input type="date" id="moveIn" name="moveIn">
         <br>
         <div class="radioWrapper">
@@ -339,7 +328,6 @@
         </div>
         <br>
         <label for="moveOut">Utflyttningsdatum</label>
-        <br>
         <input type="date" id="moveOut" name="moveOut">
         <br>
         <div class="radioWrapper">
