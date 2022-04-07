@@ -125,6 +125,23 @@ select {
     padding: 1%;
 }
 
+/* description input field, step 7 of 9 */
+
+#description {
+    padding: 12px;
+    border: 1px solid black;
+    background-color: transparent;
+    font-size: 18px;
+    resize: none;
+    height: 220px;
+}
+
+#description::placeholder {
+    position: absolute;
+    left: 5px;
+    top: 5px;
+}
+
 /* Individual  form styling */
 
 .formStart {
