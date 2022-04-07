@@ -43,23 +43,23 @@
         <h3>Vad vill du hyra ut?</h3>
         <p>Hel bostad eller rum?</p>
         <div class="radioWrapper">
-            <input type="radio" id="room" name="living" value="room">
+            <input class="checky" type="radio" id="room" name="living" value="room">
             <label for="room">Ett rum</label>
         </div>
         <br>
         <div class="radioWrapper">
-            <input type="radio" id="house" name="living" value="house">
+            <input class="checky" type="radio" id="house" name="living" value="house">
             <label for="house">Hela bostaden</label>
         </div>
         <br>
         <p>Hyr du ut möblerat?</p>
         <div class="radioWrapper">
-            <input type="radio" id="furniture" name="furnished" value="furniture">
+            <input class="checky" type="radio" id="furniture" name="furnished" value="furniture">
             <label for="furniture">Möblerat</label>
         </div>
         <br>
         <div class="radioWrapper">
-            <input type="radio" id="noFurniture" name="furnished" value="noFurniture">
+            <input class="checky" type="radio" id="noFurniture" name="furnished" value="noFurniture">
             <label for="noFurniture">Omöblerat</label>
         </div>
         <br>
@@ -279,7 +279,7 @@
         <input placeholder="Ange" name="year" id="year" type="number">
         <br>
         <div class="radioWrapper">
-            <input name="year" id="year" type="radio">
+            <input class="checky" name="year" id="year" type="radio">
             <label for="year">Vet ej</label>
         </div>
         <br>
@@ -288,7 +288,7 @@
         <input placeholder="Ange" name="bathroom" id="bathroom" type="number">
         <br>
         <div class="radioWrapper">
-            <input name="bathroom" id="bathroom" type="radio">
+            <input class="checky" name="bathroom" id="bathroom" type="radio">
             <label for="bathroom">Vet ej</label>
         </div>
         <br>
@@ -297,7 +297,7 @@
         <input placeholder="Ange" name="kitchen" id="kitchen" type="number">
         <br>
         <div class="radioWrapper">
-            <input name="kitchen" id="kitchen" type="radio">
+            <input class="checky" name="kitchen" id="kitchen" type="radio">
             <label for="kitchen">Vet ej</label>
         </div>
         <br>
@@ -306,7 +306,7 @@
         <input placeholder="Ange" name="energy" id="energy" type="text">
         <br>
         <div class="radioWrapper">
-            <input name="energy" id="energy" type="radio">
+            <input class="checky" name="energy" id="energy" type="radio">
             <label for="energy">Vet ej</label>
         </div>
         <br>
@@ -334,7 +334,7 @@
         <input type="date" id="moveIn" name="moveIn">
         <br>
         <div class="radioWrapper">
-            <input id="moveInTwo" name="moveInTwo" type="radio">
+            <input class="checky" id="moveInTwo" name="moveInTwo" type="radio">
             <label for="moveInTwo">Snarast</label>
         </div>
         <br>
@@ -343,7 +343,7 @@
         <input type="date" id="moveOut" name="moveOut">
         <br>
         <div class="radioWrapper">
-            <input id="moveOutTwo" name="moveOutTwo" type="radio">
+            <input class="checky" id="moveOutTwo" name="moveOutTwo" type="radio">
             <label for="moveOutTwo">Snarast</label>
         </div>
         <br>
