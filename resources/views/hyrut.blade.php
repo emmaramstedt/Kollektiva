@@ -168,89 +168,89 @@
         <h3>Vilka bekvämligheter finns i bostaden?</h3>
         <p>Kök</p>
         <div class="radioWrapper">
-            <input type="checkbox" name="kylskåp" id="kylskåp">
+            <input class="checky" type="checkbox" name="kylskåp" id="kylskåp">
             <label for="kylskåp">Kylskåp</label>
         </div>
         <br>
         <div class="radioWrapper">
-            <input type="checkbox" name="fridge" id="fridge">
+            <input class="checky" type="checkbox" name="fridge" id="fridge">
             <label for="fridge">Frys</label>
         </div>
         <br>
         <div class="radioWrapper">
-            <input type="checkbox" name="oven" id="oven">
+            <input class="checky" type="checkbox" name="oven" id="oven">
             <label for="oven">Ugn</label>
         </div>
         <br>
         <div class="radioWrapper">
-            <input type="checkbox" name="Spis" id="Spis">
+            <input class="checky" type="checkbox" name="Spis" id="Spis">
             <label for="Spis">Spis</label>
         </div>
         <br>
         <div class="radioWrapper">
-            <input type="checkbox" name="dishwasher" id="dishwasher">
+            <input class="checky" type="checkbox" name="dishwasher" id="dishwasher">
             <label for="dishwasher">Diskmaskin</label>
         </div>
         <br>
         <div class="radioWrapper">
-            <input type="checkbox" name="microwave" id="microwave">
+            <input class="checky" type="checkbox" name="microwave" id="microwave">
             <label for="microwave">Microvågsugn</label>
         </div>
         <p>Badrum</p>
         <div class="radioWrapper">
-            <input type="checkbox" name="shower" id="shower">
+            <input class="checky" type="checkbox" name="shower" id="shower">
             <label for="shower">Egen dusch</label>
         </div>
         <br>
         <div class="radioWrapper">
-            <input type="checkbox" name="toilet" id="toilet">
+            <input class="checky" type="checkbox" name="toilet" id="toilet">
             <label for="toilet">Egen toalett</label>
         </div>
         <br>
         <div class="radioWrapper">
-            <input type="checkbox" name="bathtub" id="bathtub">
+            <input class="checky" type="checkbox" name="bathtub" id="bathtub">
             <label for="bathtub">Eget badkar</label>
         </div>
         <br>
         <p>Tvätt</p>
         <div class="radioWrapper">
-            <input type="checkbox" name="washmachin" id="washmachin">
+            <input class="checky" type="checkbox" name="washmachin" id="washmachin">
             <label for="washmachin">Tvättmaskin</label>
         </div>
         <br>
         <div class="radioWrapper">
-            <input type="checkbox" name="dryer" id="dryer">
+            <input class="checky" type="checkbox" name="dryer" id="dryer">
             <label for="dryer">Torktumlare</label>
         </div>
         <br>
         <div class="radioWrapper">
-            <input type="checkbox" name="laundry" id="laundry">
+            <input class="checky" class="checky" type="checkbox" name="laundry" id="laundry">
             <label for="laundry">Gemensam tvättstuga</label>
         </div>
         <br>
         <p>Populär</p>
         <div class="radioWrapper">
-            <input type="checkbox" name="balcony" id="balcony">
+            <input class="checky" type="checkbox" name="balcony" id="balcony">
             <label for="balcony">Balkong/uteplats</label>
         </div>
         <br>
         <div class="radioWrapper">
-            <input type="checkbox" name="sauna" id="sauna">
+            <input class="checky" type="checkbox" name="sauna" id="sauna">
             <label for="sauna">Bastu</label>
         </div>
         <br>
         <div class="radioWrapper">
-            <input type="checkbox" name="bubblePool" id="bubblePool">
+            <input class="checky" type="checkbox" name="bubblePool" id="bubblePool">
             <label for="bubblePool">Bubbelpool</label>
         </div>
         <br>
         <div class="radioWrapper">
-            <input type="checkbox" name="fireplace" id="fireplace">
+            <input class="checky" type="checkbox" name="fireplace" id="fireplace">
             <label for="fireplace">Kamin</label>
         </div>
         <br>
         <div class="radioWrapper">
-            <input type="checkbox" name="pool" id="pool">
+            <input class="checky" type="checkbox" name="pool" id="pool">
             <label for="pool">Pool</label>
         </div>
         <br>

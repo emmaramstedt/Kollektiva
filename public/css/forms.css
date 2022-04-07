@@ -101,6 +101,11 @@ form {
     margin-left: 2%;
 }
 
+.checky {
+    accent-color: #212121;
+    width: 20px;
+    height: 20px;
+}
 /* Individual  form styling */
 
 .formStart {
