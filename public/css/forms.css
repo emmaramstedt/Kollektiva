@@ -101,10 +101,28 @@ form {
     margin-left: 2%;
 }
 
+/* Change color of checked radio and checkbox */
+
 .checky {
     accent-color: #212121;
     width: 20px;
     height: 20px;
+}
+
+/* style inputfield */
+
+input {
+    background-color: transparent;
+    border: 1px solid black;
+    margin: 1%;
+    padding: 1%;
+}
+
+select {
+    background-color: transparent;
+    border: 1px solid black;
+    margin: 1%;
+    padding: 1%;
 }
 
 /* Individual  form styling */
