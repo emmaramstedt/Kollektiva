@@ -356,7 +356,7 @@
         <h3>Beskriv din bostad</h3>
         <p>Sökande är ofta intresserade av renoveringar och när huset byggdes.</p>
         <label for="description"></label>
-        <input name="description" id="description" type="textarea" placeholder="Beskrivning">
+        <textarea name="description" id="description" type="textarea" placeholder="Beskrivning" rows="8" cols="35"></textarea>
         <br>
         <p>De flesta annonser har en beskrivning mellan 300 och 400 tecken.</p>
         <p>Saker hyresgäster ofta undrar över:</p>

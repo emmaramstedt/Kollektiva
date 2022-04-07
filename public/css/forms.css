@@ -133,7 +133,7 @@ select {
     background-color: transparent;
     font-size: 18px;
     resize: none;
-    height: 220px;
+    /* height: 220px; */
 }
 
 #description::-moz-placeholder {
