@@ -86,6 +86,21 @@ form {
     margin-right: auto; */
 }
 
+/* Radiobutton wrapper */
+
+.radioWrapper {
+    border: 1px solid black;
+    margin: 1%;
+    padding: 1%;
+    display: flex;
+    align-items: center;
+}
+
+.radioWrapper label {
+    margin: 0px;
+    margin-left: 2%;
+}
+
 /* Individual  form styling */
 
 .formStart {

@@ -42,15 +42,27 @@
         <p>steg 1 av 9</p>
         <h3>Vad vill du hyra ut?</h3>
         <p>Hel bostad eller rum?</p>
-        <input type="radio" id="room" name="room" value="room">
-        <label for="room">Ett rum</label><br>
-        <input type="radio" id="house" name="house" value="house">
-        <label for="house">Hela bostaden</label><br>
+        <div class="radioWrapper">
+            <input type="radio" id="room" name="living" value="room">
+            <label for="room">Ett rum</label>
+        </div>
+        <br>
+        <div class="radioWrapper">
+            <input type="radio" id="house" name="living" value="house">
+            <label for="house">Hela bostaden</label>
+        </div>
+        <br>
         <p>Hyr du ut möblerat?</p>
-        <input type="radio" id="furniture" name="furniture" value="furniture">
-        <label for="furniture">Möblerat</label><br>
-        <input type="radio" id="noFurniture" name="noFurniture" value="noFurniture">
-        <label for="noFurniture">Omöblerat</label><br>
+        <div class="radioWrapper">
+            <input type="radio" id="furniture" name="furnished" value="furniture">
+            <label for="furniture">Möblerat</label>
+        </div>
+        <br>
+        <div class="radioWrapper">
+            <input type="radio" id="noFurniture" name="furnished" value="noFurniture">
+            <label for="noFurniture">Omöblerat</label>
+        </div>
+        <br>
         <div class="buttonWrapper">
             <button class="backButton">
                 < Tillbaka</button>
@@ -155,58 +167,92 @@
         <p>steg 4 av 9</p>
         <h3>Vilka bekvämligheter finns i bostaden?</h3>
         <p>Kök</p>
-        <input type="checkbox" name="kylskåp" id="kylskåp">
-        <label for="kylskåp">Kylskåp</label>
+        <div class="radioWrapper">
+            <input type="checkbox" name="kylskåp" id="kylskåp">
+            <label for="kylskåp">Kylskåp</label>
+        </div>
         <br>
-        <input type="checkbox" name="fridge" id="fridge">
-        <label for="fridge">Frys</label>
+        <div class="radioWrapper">
+            <input type="checkbox" name="fridge" id="fridge">
+            <label for="fridge">Frys</label>
+        </div>
         <br>
-        <input type="checkbox" name="oven" id="oven">
-        <label for="oven">Ugn</label>
+        <div class="radioWrapper">
+            <input type="checkbox" name="oven" id="oven">
+            <label for="oven">Ugn</label>
+        </div>
         <br>
-        <input type="checkbox" name="Spis" id="Spis">
-        <label for="Spis">Spis</label>
+        <div class="radioWrapper">
+            <input type="checkbox" name="Spis" id="Spis">
+            <label for="Spis">Spis</label>
+        </div>
         <br>
-        <input type="checkbox" name="dishwasher" id="dishwasher">
-        <label for="dishwasher">Diskmaskin</label>
+        <div class="radioWrapper">
+            <input type="checkbox" name="dishwasher" id="dishwasher">
+            <label for="dishwasher">Diskmaskin</label>
+        </div>
         <br>
-        <input type="checkbox" name="microwave" id="microwave">
-        <label for="microwave">Microvågsugn</label>
+        <div class="radioWrapper">
+            <input type="checkbox" name="microwave" id="microwave">
+            <label for="microwave">Microvågsugn</label>
+        </div>
         <p>Badrum</p>
-        <input type="checkbox" name="shower" id="shower">
-        <label for="shower">Egen dusch</label>
+        <div class="radioWrapper">
+            <input type="checkbox" name="shower" id="shower">
+            <label for="shower">Egen dusch</label>
+        </div>
         <br>
-        <input type="checkbox" name="toilet" id="toilet">
-        <label for="toilet">Egen toalett</label>
+        <div class="radioWrapper">
+            <input type="checkbox" name="toilet" id="toilet">
+            <label for="toilet">Egen toalett</label>
+        </div>
         <br>
-        <input type="checkbox" name="bathtub" id="bathtub">
-        <label for="bathtub">Eget badkar</label>
+        <div class="radioWrapper">
+            <input type="checkbox" name="bathtub" id="bathtub">
+            <label for="bathtub">Eget badkar</label>
+        </div>
         <br>
         <p>Tvätt</p>
-        <input type="checkbox" name="washmachin" id="washmachin">
-        <label for="washmachin">Tvättmaskin</label>
+        <div class="radioWrapper">
+            <input type="checkbox" name="washmachin" id="washmachin">
+            <label for="washmachin">Tvättmaskin</label>
+        </div>
         <br>
-        <input type="checkbox" name="dryer" id="dryer">
-        <label for="dryer">Torktumlare</label>
+        <div class="radioWrapper">
+            <input type="checkbox" name="dryer" id="dryer">
+            <label for="dryer">Torktumlare</label>
+        </div>
         <br>
-        <input type="checkbox" name="laundry" id="laundry">
-        <label for="laundry">Gemensam tvättstuga</label>
+        <div class="radioWrapper">
+            <input type="checkbox" name="laundry" id="laundry">
+            <label for="laundry">Gemensam tvättstuga</label>
+        </div>
         <br>
         <p>Populär</p>
-        <input type="checkbox" name="balcony" id="balcony">
-        <label for="balcony">Balkong/uteplats</label>
+        <div class="radioWrapper">
+            <input type="checkbox" name="balcony" id="balcony">
+            <label for="balcony">Balkong/uteplats</label>
+        </div>
         <br>
-        <input type="checkbox" name="sauna" id="sauna">
-        <label for="sauna">Bastu</label>
+        <div class="radioWrapper">
+            <input type="checkbox" name="sauna" id="sauna">
+            <label for="sauna">Bastu</label>
+        </div>
         <br>
-        <input type="checkbox" name="bubblePool" id="bubblePool">
-        <label for="bubblePool">Bubbelpool</label>
+        <div class="radioWrapper">
+            <input type="checkbox" name="bubblePool" id="bubblePool">
+            <label for="bubblePool">Bubbelpool</label>
+        </div>
         <br>
-        <input type="checkbox" name="fireplace" id="fireplace">
-        <label for="fireplace">Kamin</label>
+        <div class="radioWrapper">
+            <input type="checkbox" name="fireplace" id="fireplace">
+            <label for="fireplace">Kamin</label>
+        </div>
         <br>
-        <input type="checkbox" name="pool" id="pool">
-        <label for="pool">Pool</label>
+        <div class="radioWrapper">
+            <input type="checkbox" name="pool" id="pool">
+            <label for="pool">Pool</label>
+        </div>
         <br>
         <div class="buttonWrapper">
             <button class="backButton">
@@ -232,29 +278,37 @@
         <br>
         <input placeholder="Ange" name="year" id="year" type="number">
         <br>
-        <input name="year" id="year" type="radio">
-        <label for="year">Vet ej</label>
+        <div class="radioWrapper">
+            <input name="year" id="year" type="radio">
+            <label for="year">Vet ej</label>
+        </div>
         <br>
         <label for="bathroom">Badrum - år sedan renovering</label>
         <br>
         <input placeholder="Ange" name="bathroom" id="bathroom" type="number">
         <br>
-        <input name="bathroom" id="bathroom" type="radio">
-        <label for="bathroom">Vet ej</label>
+        <div class="radioWrapper">
+            <input name="bathroom" id="bathroom" type="radio">
+            <label for="bathroom">Vet ej</label>
+        </div>
         <br>
         <label for="kitchen">Kök - år sedan renovering</label>
         <br>
         <input placeholder="Ange" name="kitchen" id="kitchen" type="number">
         <br>
-        <input name="kitchen" id="kitchen" type="radio">
-        <label for="kitchen">Vet ej</label>
+        <div class="radioWrapper">
+            <input name="kitchen" id="kitchen" type="radio">
+            <label for="kitchen">Vet ej</label>
+        </div>
         <br>
         <label for="energy">Energiklass (A++, A+, A, B, C, D, E)</label>
         <br>
         <input placeholder="Ange" name="energy" id="energy" type="text">
         <br>
-        <input name="energy" id="energy" type="radio">
-        <label for="energy">Vet ej</label>
+        <div class="radioWrapper">
+            <input name="energy" id="energy" type="radio">
+            <label for="energy">Vet ej</label>
+        </div>
         <br>
         <div class="buttonWrapper">
             <button class="backButton">
@@ -279,15 +333,19 @@
         <br>
         <input type="date" id="moveIn" name="moveIn">
         <br>
-        <input id="moveInTwo" name="moveInTwo" type="radio">
-        <label for="moveInTwo">Snarast</label>
+        <div class="radioWrapper">
+            <input id="moveInTwo" name="moveInTwo" type="radio">
+            <label for="moveInTwo">Snarast</label>
+        </div>
         <br>
         <label for="moveOut">Utflyttningsdatum</label>
         <br>
         <input type="date" id="moveOut" name="moveOut">
         <br>
-        <input id="moveOutTwo" name="moveOutTwo" type="radio">
-        <label for="moveOutTwo">Snarast</label>
+        <div class="radioWrapper">
+            <input id="moveOutTwo" name="moveOutTwo" type="radio">
+            <label for="moveOutTwo">Snarast</label>
+        </div>
         <br>
         <div class="buttonWrapper">
             <button class="backButton">
