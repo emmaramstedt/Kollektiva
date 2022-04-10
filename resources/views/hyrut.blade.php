@@ -1,9 +1,26 @@
 hyrut
 @include('header')
+@if ($errors->any())
+<div class="alert alert-danger">
+    <ul>
+        @foreach ($errors->all() as $error)
+        <li>{{ $error }}</li>
+        @endforeach
+    </ul>
+</div>
+@endif
+
+@if(session()->get('success'))
+<div class="alert alert-success">
+    {{ session()->get('success') }}
+</div>
+@endif
 <h2>Hyr ut din bostad!</h2>
 
-<form action="/laddauppbostad" method="post">
+<form action="/laddauppbostad" method="POST" enctype="multipart/form-data">
     @csrf
+
+
     <label for="square_metres">square_metres</label>
     <input name="square_metres" id="square_metres" type="square_metres" placeholder="square_metres">
 
@@ -33,23 +50,65 @@ hyrut
 
     <label for="rent">rent</label>
     <input name="rent" id="rent" type="rent" placeholder="rent">
-    <button action="submit">submit</button>
+
+    <br><br>
+    <!-- image one -->
+    <label for="imageOne">
+        <div class="preview">
+            <div class="imageSrc"><img style="width: 100px;" src="https://icons.iconarchive.com/icons/dtafalonso/android-lollipop/128/Downloads-icon.png" /></div>
+            <br>
+            <input id="imageOne" type="file" name="imageOne" style="display: none;">
+    </label>
+    <div class="description" style="display: none"> <label for="descriptionOne">Beskrivning:</label><br>
+        <textarea class="form-control" name="descriptionOne"></textarea><br>
+    </div>
+    </div>
+    <br>
+    <!-- end image one -->
+    <!-- image two -->
+    <label for="imageTwo">
+        <div class="preview">
+            <div class="imageSrc"><img style="width: 100px;" src="https://icons.iconarchive.com/icons/dtafalonso/android-lollipop/128/Downloads-icon.png" /></div>
+            <br>
+            <input id="imageTwo" type="file" name="imageTwo" style="display: none;">
+    </label>
+    <div class="description" style="display: none"> <label for="descriptionTwo">Beskrivning:</label><br>
+        <textarea class="form-control" name="descriptionTwo"></textarea><br>
+    </div>
+    </div>
+    <br>
+    <!-- end image two -->
+    <!-- image three -->
+    <label for="imageThree">
+        <div class="preview">
+            <div class="imageSrc"><img style="width: 100px;" src="https://icons.iconarchive.com/icons/dtafalonso/android-lollipop/128/Downloads-icon.png" /></div>
+            <br>
+            <input id="imageThree" type="file" name="imageThree" style="display: none;">
+    </label>
+    <div class="description" style="display: none"> <label for="descriptionThree">Beskrivning:</label><br>
+        <textarea class="form-control" name="descriptionThree"></textarea><br>
+    </div>
+    </div>
+    <br>
+    <!-- end image three -->
+
+    <div><button type="submit">Submit</button></div><br>
+
+    <br><br>
+
 </form>
 
-@if ($errors->any())
-<div class="alert alert-danger">
-    <ul>
-        @foreach ($errors->all() as $error)
-        <li>{{ $error }}</li>
-        @endforeach
-    </ul>
-</div>
-@endif
+<script>
+    const previews = document.querySelectorAll('.preview');
 
-@if(session()->get('success'))
-<div class="alert alert-success">
-    {{ session()->get('success') }}
-</div>
-@endif
+    previews.forEach((preview) => {
+        preview.onchange = function(e) {
+            preview.src = URL.createObjectURL(event.target.files[0]);
+            //put the width and height style in CSS file-------------------------------------------------------------vvvv
+            preview.closest('div').querySelector('.imageSrc').innerHTML = `<img src="${preview.src}" style="width: 100px; max-height: 100px;">`;
+            preview.closest('div').querySelector('.description').style.display = 'block';
+        };
+    });
+</script>
 
 @include('footer')

@@ -13,6 +13,7 @@ class LaddaUppBostadController extends Controller
 {
     public function __invoke(Request $request)
     {
+
         $this->validate($request, [
             'square_metres' => 'required|integer',
             'number_inhabitants' => 'integer',
@@ -65,11 +66,31 @@ class LaddaUppBostadController extends Controller
         $property->photo_id = 1;
         $property->save();
 
+        $imageOneURL = 'imageOne' . time() . '.' . $request->imageOne->extension();
+        $request->imageOne->move(public_path('uploads'), $imageOneURL);
         $photo = new Photo();
-        $photo->url = "test";
+        $photo->url = $imageOneURL;
+        $photo->description = $request->input('descriptionOne');
         $photo->property_id = $property->id;
         $photo->user_id = 12;
-        $photo->description = "hej";
+        $photo->save();
+
+        $imageTwoURL = 'imageTwo' . time() . '.' . $request->imageTwo->extension();
+        $request->imageTwo->move(public_path('uploads'), $imageTwoURL);
+        $photo = new Photo();
+        $photo->url = $imageTwoURL;
+        $photo->description = $request->input('descriptionTwo');
+        $photo->property_id = $property->id;
+        $photo->user_id = 12;
+        $photo->save();
+
+        $imageThreeURL = 'imageThree' . time() . '.' . $request->imageThree->extension();
+        $request->imageThree->move(public_path('uploads'), $imageThreeURL);
+        $photo = new Photo();
+        $photo->url = $imageThreeURL;
+        $photo->description = $request->input('descriptionThree');
+        $photo->property_id = $property->id;
+        $photo->user_id = 12;
         $photo->save();
 
         return redirect()->to('hyrut')->with('success', 'Bostad har laddats upp.');
