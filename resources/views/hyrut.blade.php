@@ -1,18 +1,18 @@
 @include('header')
-<h2>Hyr ut din bostad!</h2>
+<h2 class="margins">Hyr ut din bostad!</h2>
 <div class="formWrapper">
 
     <div class="formStart">
         <div class="closeFormWrapper">
-            <button class="closeForm">
-                <p>Stäng formulär</p>
+            <button class="closeForm margins">
+                <p class="margins">Stäng formulär</p>
                 <svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
                     <path d="M20 1.75L18.25 0L10 8.25L1.75 0L0 1.75L8.25 10L0 18.25L1.75 20L10 11.75L18.25 20L20 18.25L11.75 10L20 1.75Z" fill="#FCA82B" />
                 </svg>
             </button>
         </div>
         <form action="">
-            <h3>Skapa annons</h3>
+            <h3 class="margins">Skapa annons</h3>
             <ul>
                 <li>Punktliga hyresbetalningar </li>
                 <li> Skydd mot förlorad hyra</li>
@@ -20,7 +20,7 @@
                 <li>100 % digitalt hyresavtal med bankID</li>
                 <li>Dedikerat supportteam under hela uthyrningen</li>
             </ul>
-            <button class="backButton">
+            <button class="margins backButton">
                 <svg width="20" height="19" viewBox="0 0 20 19" fill="none" xmlns="http://www.w3.org/2000/svg">
                     <path d="M9.99051 0.333008C4.93051 0.333008 0.833008 4.43967 0.833008 9.49967C0.833008 14.5597 4.93051 18.6663 9.99051 18.6663C15.0597 18.6663 19.1663 14.5597 19.1663 9.49967C19.1663 4.43967 15.0597 0.333008 9.99051 0.333008ZM16.343 5.83301H13.6388C13.3519 4.69768 12.9271 3.60175 12.3738 2.56967C14.0459 3.14534 15.4549 4.30375 16.343 5.83301ZM9.99967 2.20301C10.7605 3.30301 11.3563 4.52217 11.7505 5.83301H8.24884C8.64301 4.52217 9.23884 3.30301 9.99967 2.20301ZM2.90467 11.333C2.75801 10.7463 2.66634 10.1322 2.66634 9.49967C2.66634 8.86717 2.75801 8.25301 2.90467 7.66634H6.00301C5.92967 8.27134 5.87467 8.87634 5.87467 9.49967C5.87467 10.123 5.92967 10.728 6.00301 11.333H2.90467ZM3.65634 13.1663H6.36051C6.65384 14.3122 7.07551 15.4122 7.62551 16.4297C5.95164 15.8572 4.54169 14.6979 3.65634 13.1663ZM6.36051 5.83301H3.65634C4.54169 4.30142 5.95164 3.1422 7.62551 2.56967C7.07223 3.60175 6.6474 4.69768 6.36051 5.83301ZM9.99967 16.7963C9.23884 15.6963 8.64301 14.4772 8.24884 13.1663H11.7505C11.3563 14.4772 10.7605 15.6963 9.99967 16.7963ZM12.1447 11.333H7.85467C7.77217 10.728 7.70801 10.123 7.70801 9.49967C7.70801 8.87634 7.77217 8.26217 7.85467 7.66634H12.1447C12.2272 8.26217 12.2913 8.87634 12.2913 9.49967C12.2913 10.123 12.2272 10.728 12.1447 11.333ZM12.3738 16.4297C12.9238 15.4122 13.3455 14.3122 13.6388 13.1663H16.343C15.4549 14.6956 14.0459 15.854 12.3738 16.4297ZM13.9963 11.333C14.0697 10.728 14.1247 10.123 14.1247 9.49967C14.1247 8.87634 14.0697 8.27134 13.9963 7.66634H17.0947C17.2413 8.25301 17.333 8.86717 17.333 9.49967C17.333 10.1322 17.2413 10.7463 17.0947 11.333H13.9963Z" fill="#FCA82B" />
                 </svg> Svenska</button>
@@ -32,16 +32,16 @@
 
     <div class="stepOne">
         <div class="closeFormWrapper">
-            <button class="closeForm">
-                <p>Stäng formulär</p>
+            <button class="closeForm margins">
+                <p class="margins">Stäng formulär</p>
                 <svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
                     <path d="M20 1.75L18.25 0L10 8.25L1.75 0L0 1.75L8.25 10L0 18.25L1.75 20L10 11.75L18.25 20L20 18.25L11.75 10L20 1.75Z" fill="#FCA82B" />
                 </svg>
             </button>
         </div>
-        <p>steg 1 av 9</p>
-        <h3>Vad vill du hyra ut?</h3>
-        <p>Hel bostad eller rum?</p>
+        <p class="margins">steg 1 av 9</p>
+        <h3 class="margins">Vad vill du hyra ut?</h3>
+        <p class="margins">Hel bostad eller rum?</p>
         <div class="radioWrapper">
             <input class="checky" type="radio" id="room" name="living" value="room">
             <label for="room">Ett rum</label>
@@ -52,7 +52,7 @@
             <label for="house">Hela bostaden</label>
         </div>
         <br>
-        <p>Hyr du ut möblerat?</p>
+        <p class="margins">Hyr du ut möblerat?</p>
         <div class="radioWrapper">
             <input class="checky" type="radio" id="furniture" name="furnished" value="furniture">
             <label for="furniture">Möblerat</label>
@@ -73,18 +73,18 @@
 
     <div class="stepTwo">
         <div class="closeFormWrapper">
-            <button class="closeForm">
-                <p>Stäng formulär</p>
+            <button class="closeForm margins">
+                <p class="margins">Stäng formulär</p>
                 <svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
                     <path d="M20 1.75L18.25 0L10 8.25L1.75 0L0 1.75L8.25 10L0 18.25L1.75 20L10 11.75L18.25 20L20 18.25L11.75 10L20 1.75Z" fill="#FCA82B" />
                 </svg>
             </button>
         </div>
-        <p>steg 2 av 9</p>
-        <h3>Hur stor är bostaden?</h3>
-        <label for="size">Storlek</label>
+        <p class="margins">steg 2 av 9</p>
+        <h3 class="margins">Hur stor är bostaden?</h3>
+        <label class="margins" for="size">Storlek</label>
         <input placeholder="Ange" type="number" name="size" id="size" min="5" max="1000">
-        <label for="roomNumber">Antal rum</label>
+        <label class="margins" for="roomNumber">Antal rum</label>
         <select id="roomNumber" name="roomNumber">
             <option value="">-</option>
             <option value="1">1</option>
@@ -98,7 +98,7 @@
             <option value="9">9</option>
             <option value="10">10</option>
         </select>
-        <label for="peopleNumber">hur många bor här?</label>
+        <label class="margins" for="peopleNumber">hur många bor här?</label>
         <select id="peopleNumber" name="peopleNumber">
             <option value="">-</option>
             <option value="1">1</option>
@@ -122,23 +122,23 @@
 
     <div class="stepThree">
         <div class="closeFormWrapper">
-            <button class="closeForm">
-                <p>Stäng formulär</p>
+            <button class="closeForm margins">
+                <p class="margins">Stäng formulär</p>
                 <svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
                     <path d="M20 1.75L18.25 0L10 8.25L1.75 0L0 1.75L8.25 10L0 18.25L1.75 20L10 11.75L18.25 20L20 18.25L11.75 10L20 1.75Z" fill="#FCA82B" />
                 </svg>
             </button>
         </div>
-        <p>steg 3 av 9</p>
-        <h3>vilken adress har bostaden?</h3>
-        <p>Vi behöver din fullständiga adress för att kunna visa ditt hem på en karta. Endast gatunamnet syns i annonsen.</p>
-        <label for="adress">Gatuadress</label>
+        <p class="margins">steg 3 av 9</p>
+        <h3 class="margins">vilken adress har bostaden?</h3>
+        <p class="margins">Vi behöver din fullständiga adress för att kunna visa ditt hem på en karta. Endast gatunamnet syns i annonsen.</p>
+        <label class="margins" for="adress">Gatuadress</label>
         <input name="adress" id="adress" type="text" placeholder="Ange">
         <br>
-        <label for="number">Gatunummer</label>
+        <label class="margins" for="number">Gatunummer</label>
         <input name="number" id="number" type="number" placeholder="Ange">
         <br>
-        <label for="postNumber">Postnummer</label>
+        <label class="margins" for="postNumber">Postnummer</label>
         <input name="postNumber" id="postNumber" type="number" placeholder="Ange">
         <br>
         <div class="buttonWrapper">
@@ -151,16 +151,16 @@
 
     <div class="stepFour">
         <div class="closeFormWrapper">
-            <button class="closeForm">
-                <p>Stäng formulär</p>
+            <button class="closeForm margins">
+                <p class="margins">Stäng formulär</p>
                 <svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
                     <path d="M20 1.75L18.25 0L10 8.25L1.75 0L0 1.75L8.25 10L0 18.25L1.75 20L10 11.75L18.25 20L20 18.25L11.75 10L20 1.75Z" fill="#FCA82B" />
                 </svg>
             </button>
         </div>
-        <p>steg 4 av 9</p>
-        <h3>Vilka bekvämligheter finns i bostaden?</h3>
-        <p>Kök</p>
+        <p class="margins">steg 4 av 9</p>
+        <h3 class="margins">Vilka bekvämligheter finns i bostaden?</h3>
+        <p class="margins">Kök</p>
         <div class="radioWrapper">
             <input class="checky" type="checkbox" name="kylskåp" id="kylskåp">
             <label for="kylskåp">Kylskåp</label>
@@ -190,7 +190,7 @@
             <input class="checky" type="checkbox" name="microwave" id="microwave">
             <label for="microwave">Microvågsugn</label>
         </div>
-        <p>Badrum</p>
+        <p class="margins">Badrum</p>
         <div class="radioWrapper">
             <input class="checky" type="checkbox" name="shower" id="shower">
             <label for="shower">Egen dusch</label>
@@ -206,7 +206,7 @@
             <label for="bathtub">Eget badkar</label>
         </div>
         <br>
-        <p>Tvätt</p>
+        <p class="margins">Tvätt</p>
         <div class="radioWrapper">
             <input class="checky" type="checkbox" name="washmachin" id="washmachin">
             <label for="washmachin">Tvättmaskin</label>
@@ -222,7 +222,7 @@
             <label for="laundry">Gemensam tvättstuga</label>
         </div>
         <br>
-        <p>Populär</p>
+        <p class="margins">Populär</p>
         <div class="radioWrapper">
             <input class="checky" type="checkbox" name="balcony" id="balcony">
             <label for="balcony">Balkong/uteplats</label>
@@ -258,17 +258,17 @@
 
     <div class="stepFive">
         <div class="closeFormWrapper">
-            <button class="closeForm">
-                <p>Stäng formulär</p>
+            <button class="closeForm margins">
+                <p class="margins">Stäng formulär</p>
                 <svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
                     <path d="M20 1.75L18.25 0L10 8.25L1.75 0L0 1.75L8.25 10L0 18.25L1.75 20L10 11.75L18.25 20L20 18.25L11.75 10L20 1.75Z" fill="#FCA82B" />
                 </svg>
             </button>
         </div>
-        <p>steg 5 av 9</p>
-        <h3>Mer om bostaden och dess skick</h3>
-        <p>sökande är ofta intresserade av renoveringar och när huset byggdes.</p>
-        <label for="year">Bostadens byggnadsår</label>
+        <p class="margins" class="margins">steg 5 av 9</p>
+        <h3 class="margins">Mer om bostaden och dess skick</h3>
+        <p class="margins">sökande är ofta intresserade av renoveringar och när huset byggdes.</p>
+        <label class="margins" for="year">Bostadens byggnadsår</label>
         <input placeholder="Ange" name="year" id="year" type="number">
         <br>
         <div class="radioWrapper">
@@ -276,7 +276,7 @@
             <label for="year">Vet ej</label>
         </div>
         <br>
-        <label for="bathroom">Badrum - år sedan renovering</label>
+        <label class="margins" for="bathroom">Badrum - år sedan renovering</label>
         <input placeholder="Ange" name="bathroom" id="bathroom" type="number">
         <br>
         <div class="radioWrapper">
@@ -284,7 +284,7 @@
             <label for="bathroom">Vet ej</label>
         </div>
         <br>
-        <label for="kitchen">Kök - år sedan renovering</label>
+        <label class="margins" for="kitchen">Kök - år sedan renovering</label>
         <input placeholder="Ange" name="kitchen" id="kitchen" type="number">
         <br>
         <div class="radioWrapper">
@@ -292,7 +292,7 @@
             <label for="kitchen">Vet ej</label>
         </div>
         <br>
-        <label for="energy">Energiklass (A++, A+, A, B, C, D, E)</label>
+        <label class="margins" for="energy">Energiklass (A++, A+, A, B, C, D, E)</label>
         <input placeholder="Ange" name="energy" id="energy" type="text">
         <br>
         <div class="radioWrapper">
@@ -310,16 +310,16 @@
 
     <div class="stepSix">
         <div class="closeFormWrapper">
-            <button class="closeForm">
-                <p>Stäng formulär</p>
+            <button class="closeForm margins">
+                <p class="margins">Stäng formulär</p>
                 <svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
                     <path d="M20 1.75L18.25 0L10 8.25L1.75 0L0 1.75L8.25 10L0 18.25L1.75 20L10 11.75L18.25 20L20 18.25L11.75 10L20 1.75Z" fill="#FCA82B" />
                 </svg>
             </button>
         </div>
-        <p>Steg 6 av 9</p>
-        <h3>När vill du hyra ut bostaden?</h3>
-        <label for="moveIn">Inflyttningsdatum</label>
+        <p class="margins">Steg 6 av 9</p>
+        <h3 class="margins">När vill du hyra ut bostaden?</h3>
+        <label class="margins" for="moveIn">Inflyttningsdatum</label>
         <input type="date" id="moveIn" name="moveIn">
         <br>
         <div class="radioWrapper">
@@ -327,7 +327,7 @@
             <label for="moveInTwo">Snarast</label>
         </div>
         <br>
-        <label for="moveOut">Utflyttningsdatum</label>
+        <label class="margins" for="moveOut">Utflyttningsdatum</label>
         <input type="date" id="moveOut" name="moveOut">
         <br>
         <div class="radioWrapper">
@@ -345,21 +345,21 @@
 
     <div class="stepSeven">
         <div class="closeFormWrapper">
-            <button class="closeForm">
-                <p>Stäng formulär</p>
+            <button class="closeForm margins">
+                <p class="margins">Stäng formulär</p>
                 <svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
                     <path d="M20 1.75L18.25 0L10 8.25L1.75 0L0 1.75L8.25 10L0 18.25L1.75 20L10 11.75L18.25 20L20 18.25L11.75 10L20 1.75Z" fill="#FCA82B" />
                 </svg>
             </button>
         </div>
-        <p>Steg 7 av 9</p>
-        <h3>Beskriv din bostad</h3>
-        <p>Sökande är ofta intresserade av renoveringar och när huset byggdes.</p>
+        <p class="margins">Steg 7 av 9</p>
+        <h3 class="margins">Beskriv din bostad</h3>
+        <p class="margins">Sökande är ofta intresserade av renoveringar och när huset byggdes.</p>
         <label for="description"></label>
         <textarea name="description" id="description" type="textarea" placeholder="Beskrivning" rows="8" cols="35"></textarea>
         <br>
-        <p>De flesta annonser har en beskrivning mellan 300 och 400 tecken.</p>
-        <p>Saker hyresgäster ofta undrar över:</p>
+        <p class="margins">De flesta annonser har en beskrivning mellan 300 och 400 tecken.</p>
+        <p class="margins">Saker hyresgäster ofta undrar över:</p>
         <ul>
             <li>Planlösning</li>
             <li>Vad som ingår i hyran</li>
@@ -376,20 +376,20 @@
 
     <div class="stepEight">
         <div class="closeFormWrapper">
-            <button class="closeForm">
-                <p>Stäng formulär</p>
+            <button class="closeForm margins">
+                <p class="margins">Stäng formulär</p>
                 <svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
                     <path d="M20 1.75L18.25 0L10 8.25L1.75 0L0 1.75L8.25 10L0 18.25L1.75 20L10 11.75L18.25 20L20 18.25L11.75 10L20 1.75Z" fill="#FCA82B" />
                 </svg>
             </button>
         </div>
-        <p>Steg 8 av 9</p>
-        <h3>Vilken hyra hade du tänkt dig?</h3>
-        <p>Enligt vår statistik på tusentals uthyrda bostäder skulle du kunna sätta hyran till: 8220 kr*.</p>
-        <label for="rent">Hyra</label>
+        <p class="margins">Steg 8 av 9</p>
+        <h3 class="margins">Vilken hyra hade du tänkt dig?</h3>
+        <p class="margins">Enligt vår statistik på tusentals uthyrda bostäder skulle du kunna sätta hyran till: 8220 kr*.</p>
+        <label class="margins" for="rent">Hyra</label>
         <input placeholder="Ange" name="rent" id="rent" type="number">
         <div class="infoText">
-            <p>Hyresgästens månadskostnad är hyran + 10 % serviceavgift. Den hyran du anger är vad du får utbetalt varje månad. En serviceavgift på 5 % tillkommer till dig som hyresvärd.</p>
+            <p class="margins">Hyresgästens månadskostnad är hyran + 10 % serviceavgift. Den hyran du anger är vad du får utbetalt varje månad. En serviceavgift på 5 % tillkommer till dig som hyresvärd.</p>
         </div>
         <div class="buttonWrapper">
             <button class="backButton">
@@ -402,15 +402,15 @@
     <div class="stepNine">
         <div class="closeFormWrapper">
             <button class="closeForm">
-                <p>Stäng formulär</p>
+                <p class="margins">Stäng formulär</p>
                 <svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
                     <path d="M20 1.75L18.25 0L10 8.25L1.75 0L0 1.75L8.25 10L0 18.25L1.75 20L10 11.75L18.25 20L20 18.25L11.75 10L20 1.75Z" fill="#FCA82B" />
                 </svg>
             </button>
         </div>
-        <p>Steg 9 av 9</p>
-        <h3>Lägg till bilder</h3>
-        <p>Ta några bilder med din kamera eller din telefon. Bra bilder gör skillnad! Du kan alltid ta bort eller lägga till.</p>
+        <p class="margins">Steg 9 av 9</p>
+        <h3 class="margins">Lägg till bilder</h3>
+        <p class="margins">Ta några bilder med din kamera eller din telefon. Bra bilder gör skillnad! Du kan alltid ta bort eller lägga till.</p>
         <div class="uploadImages">
             <svg width="126" height="126" viewBox="0 0 126 126" fill="none" xmlns="http://www.w3.org/2000/svg">
                 <path d="M63.7748 56.4783C63.6828 56.3606 63.5651 56.2655 63.4308 56.2C63.2965 56.1346 63.149 56.1006 62.9996 56.1006C62.8502 56.1006 62.7028 56.1346 62.5685 56.2C62.4342 56.2655 62.3165 56.3606 62.2245 56.4783L48.4432 73.914C48.3296 74.0591 48.2591 74.2332 48.2398 74.4165C48.2205 74.5997 48.2531 74.7847 48.334 74.9503C48.4148 75.1159 48.5407 75.2554 48.6971 75.3528C48.8535 75.4503 49.0341 75.5017 49.2184 75.5013H58.3116V105.328C58.3116 105.869 58.7545 106.312 59.2959 106.312H66.6788C67.2202 106.312 67.6631 105.869 67.6631 105.328V75.5136H76.7809C77.6053 75.5136 78.0606 74.5662 77.5561 73.9263L63.7748 56.4783Z" fill="#033F33" />
