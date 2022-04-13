@@ -73,6 +73,10 @@
 
 /* Form Wrapper and general form styling */
 
+.tab {
+    display: none;
+}
+
 .formWrapper {
     width: 100%;
     height: 100%;
@@ -133,80 +137,71 @@ select {
     background-color: transparent;
     font-size: 18px;
     resize: none;
-    /* height: 220px; */
+    height: 220px;
 }
 
 /* Individual  form styling */
 
 .formStart {
-    display: flex;
+    /* display: flex; */
     flex-direction: column;
     justify-content: center;
-    border: 1px solid black;
     margin: 5px;
     padding: 5px;
 }
 .stepOne {
-    display: flex;
+    /* display: flex; */
     flex-direction: column;
     justify-content: center;
-    border: 1px solid black;
     margin: 5px;
     padding: 5px;
 }
 .stepTwo {
-    display: flex;
+    /* display: flex; */
     flex-direction: column;
     justify-content: center;
-    border: 1px solid black;
     margin: 5px;
     padding: 5px;
 }
 .stepThree {
-    display: flex;
+    /* display: flex; */
     flex-direction: column;
     justify-content: center;
-    border: 1px solid black;
     margin: 5px;
     padding: 5px;
 }
 .stepFour {
-    display: flex;
+    /* display: flex; */
     flex-direction: column;
     justify-content: center;
-    border: 1px solid black;
     margin: 5px;
     padding: 5px;
 }
 .stepFive {
-    display: flex;
+    /* display: flex; */
     flex-direction: column;
     justify-content: center;
-    border: 1px solid black;
     margin: 5px;
     padding: 5px;
 }
 .stepSix {
-    display: flex;
+    /* display: flex; */
     flex-direction: column;
     justify-content: center;
-    border: 1px solid black;
     margin: 5px;
     padding: 5px;
 }
 .stepSeven {
-    display: flex;
+    /* display: flex; */
     flex-direction: column;
     justify-content: center;
-    border: 1px solid black;
     margin: 5px;
     padding: 5px;
 }
 .stepEight {
-    display: flex;
+    /* display: flex; */
     flex-direction: column;
     justify-content: center;
-    border: 1px solid black;
     margin: 5px;
     padding: 5px;
 }
@@ -219,10 +214,9 @@ select {
 }
 
 .stepNine {
-    display: flex;
+    /* display: flex; */
     flex-direction: column;
     justify-content: center;
-    border: 1px solid black;
     margin: 5px;
     padding: 5px;
 }
