@@ -300,7 +300,11 @@ max-width: 100%;
 }
 
 }
+@media only screen and (min-width: 1440px) {
 
+    .tab .margins{
+        margin: 0;
+    }
 
 /* Step ten */
 
