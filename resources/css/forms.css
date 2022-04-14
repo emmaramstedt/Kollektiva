@@ -234,3 +234,55 @@ select {
     margin-left: auto;
     margin-right: auto;
 }
+
+.uploadPhotosWrapper{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    max-width: 650px;
+    align-self: center;
+}
+
+.imageSrc img{
+    width: 165px;
+    height: 115px;
+}
+
+@media only screen and (min-width: 990px) {
+main{
+    max-width: 990px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+}
+.formWrapper form{
+    border: 1px solid;
+    border-color: #6D6D6D;
+    padding: 80px;
+}
+
+.buttonWrapper button{
+    width: 343px;
+}
+.uploadPhotosWrapper{
+justify-content: space-between;
+max-width: 100%;
+}
+.imageSrc img{
+    width: 241px;
+    height: 168px;
+}
+
+}
+
+@media only screen and (min-width: 1440px) {
+
+}
+
+@media only screen and (min-width: 1578px) {
+
+
+}

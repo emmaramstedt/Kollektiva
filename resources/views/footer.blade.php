@@ -85,50 +85,19 @@
         </div>
     </footer>
 </div>
+<!-- Forms javascript -->
+<script src="../js/forms.js"></script>
 <!-- chat API -->
 <div id="custom_fc_button" style="visibility:hidden;">
     <a id="open_fc_widget" onClick="openWidget()" style="cursor:pointer;"><img id="imageicon" src="{{asset('icons/chat.svg')}}" /></a>
 </div>
-<script>
-    window.fcSettings = {
-        token: "a49d0cf4-2447-45d9-af63-e62cf3ea6b6d",
-        host: "https://wchat.eu.freshchat.com",
-        locale: "sv",
-        config: {
-            headerProperty: {
-                hideChatButton: true
-            }
-        },
-        onInit: function() {
-            window.fcWidget.on("widget:loaded", function() {
-                document.getElementById('custom_fc_button').style.visibility = 'visible';
-                window.fcWidget.on("unreadCount:notify", function(resp) {
-                    console.log(resp);
-                    test = resp;
-                });
-                window.fcWidget.on("widget:closed", function() {
-                    document.getElementById('fc_frame').style.visibility = 'hidden';
-                    document.getElementById('open_fc_widget').style.visibility = 'visible';
-                });
-                window.fcWidget.on("widget:opened", function(resp) {
-                    document.getElementById('open_fc_widget').style.visibility = 'hidden';
-                });
-            });
-        }
-    };
-
-
-    var openWidget = function() {
-        document.getElementById('fc_frame').style.visibility = 'visible';
-        window.fcWidget.open();
-    };
-</script>
+<script src="../js/app.js"></script>
 <script src="https://wchat.freshchat.com/js/widget.js" async></script>
 
 <!-- Header javascript -->
 <script src="../js/header.js"></script>
-<!-- Forms javascript -->
-<script src="../js/forms.js"></script>
+
+
 <!-- bootstrap (for header) -->
 <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
 <script src="https://cdn.jsdelivr.net/npm/popper.js@1.14.7/dist/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>

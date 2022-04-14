@@ -3,8 +3,8 @@
 
 // function showTab(n) {
 //     // This function will display the specified tab of the form ...
-//     let x = document.getElementsByClassName("tab");
-//     x[n].style.display = "block";
+//     const x = document.getElementsByClassName("tab");
+//     x[n].style.display = "flex";
 //     // ... and fix the Previous/Next buttons:
 //     if (n == 0) {
 //         document.getElementById("back").style.display = "none";
@@ -20,7 +20,7 @@
 
 // function nextStep(n) {
 //     // This function will figure out which tab to display
-//     let x = document.getElementsByClassName("tab");
+//     const x = document.getElementsByClassName("tab");
 //     // Exit the function if any field in the current tab is invalid:
 //     //   if (n == 1 && !validateForm()) return false;
 //     // Hide the current tab:
@@ -36,3 +36,15 @@
 //     // Otherwise, display the correct tab:
 //     showTab(currentTab);
 // }
+
+
+const previews = document.querySelectorAll('.preview');
+
+previews.forEach((preview) => {
+    preview.onchange = function(e) {
+        preview.src = URL.createObjectURL(window.event.target.files[0]);
+        //put the width and height style in CSS file-------------------------------------------------------------vvvv
+        preview.closest('div').querySelector('.imageSrc').innerHTML = `<img src="${preview.src}">`;
+        preview.closest('div').querySelector('.description').style.display = 'block';
+    };
+});
