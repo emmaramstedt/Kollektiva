@@ -149,6 +149,9 @@ select {
     margin: 5px;
     padding: 5px;
 }
+
+/* Step one */
+
 .stepOne {
     display: flex;
     flex-direction: column;
@@ -156,6 +159,9 @@ select {
     margin: 5px;
     padding: 5px;
 }
+
+/* Step two */
+
 .stepTwo {
     display: flex;
     flex-direction: column;
@@ -163,6 +169,9 @@ select {
     margin: 5px;
     padding: 5px;
 }
+
+/* Step three */
+
 .stepThree {
     display: flex;
     flex-direction: column;
@@ -170,6 +179,9 @@ select {
     margin: 5px;
     padding: 5px;
 }
+
+/* step four */
+
 .stepFour {
     display: flex;
     flex-direction: column;
@@ -177,6 +189,9 @@ select {
     margin: 5px;
     padding: 5px;
 }
+
+/* Step five */
+
 .stepFive {
     display: flex;
     flex-direction: column;
@@ -184,6 +199,9 @@ select {
     margin: 5px;
     padding: 5px;
 }
+
+/* Step six */
+
 .stepSix {
     display: flex;
     flex-direction: column;
@@ -191,6 +209,9 @@ select {
     margin: 5px;
     padding: 5px;
 }
+
+/* Step seven */
+
 .stepSeven {
     display: flex;
     flex-direction: column;
@@ -198,6 +219,9 @@ select {
     margin: 5px;
     padding: 5px;
 }
+
+/* step eight */
+
 .stepEight {
     display: flex;
     flex-direction: column;
@@ -212,6 +236,8 @@ select {
     margin-right: 0%;
     background-color: #eefce8;
 }
+
+/* Step nine */
 
 .stepNine {
     display: flex;
@@ -235,6 +261,8 @@ select {
     margin-right: auto;
 }
 
+/* Step ten */
+
 .stepTen {
     display: flex;
     flex-direction: column;
@@ -242,6 +270,8 @@ select {
     margin: 5px;
     padding: 5px;
 }
+
+/* Step eleven */
 
 .stepEleven {
     display: flex;
@@ -251,6 +281,8 @@ select {
     padding: 5px;
 }
 
+/* Step twelve */
+
 .stepTwelve {
     display: flex;
     flex-direction: column;
@@ -258,6 +290,8 @@ select {
     margin: 5px;
     padding: 5px;
 }
+
+/* Step thirteen */
 
 .stepThirteen {
     display: flex;
@@ -284,10 +318,14 @@ select {
     margin-top: 5%;
 }
 
-.slideshowButtons button {
+.slideButton {
     width: 80px;
     height: 50px;
+    background-color: transparent;
+    border-radius: 5px;
 }
+
+/* Form End */
 
 .formEnd .bgColor {
     padding-top: 5%;

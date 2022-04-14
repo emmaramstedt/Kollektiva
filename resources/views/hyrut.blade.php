@@ -416,10 +416,10 @@
             <div class="imageWrapperForm">
                 <img class="formImage" src="{{asset('images/formExample/example.png')}}" alt="Bildspel">
                 <div class="slideshowButtons">
-                    <button class="imageBack">
+                    <button class="slideButton">
                         "<" </button>
                             <p>Bild 1/5</p>
-                            <button class="imageforvard">></button>
+                            <button class="slideButton">></button>
                 </div>
                 <div class="summary margins">
                     <h3>Södra Kroksdal/ Skärhamn</h3>
