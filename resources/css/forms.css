@@ -291,7 +291,7 @@ select {
 
 .formEnd .bgColor {
     background-color: #eefce8;
-    display: flex;
     flex-direction: column;
+    justify-content: center;
     text-align: center;
 }
