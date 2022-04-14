@@ -74,7 +74,7 @@
 /* Form Wrapper and general form styling */
 
 .tab {
-    display: none;
+    /* display: none; */
 }
 
 .formWrapper {
@@ -143,63 +143,63 @@ select {
 /* Individual  form styling */
 
 .formStart {
-    /* display: flex; */
+    display: flex;
     flex-direction: column;
     justify-content: center;
     margin: 5px;
     padding: 5px;
 }
 .stepOne {
-    /* display: flex; */
+    display: flex;
     flex-direction: column;
     justify-content: center;
     margin: 5px;
     padding: 5px;
 }
 .stepTwo {
-    /* display: flex; */
+    display: flex;
     flex-direction: column;
     justify-content: center;
     margin: 5px;
     padding: 5px;
 }
 .stepThree {
-    /* display: flex; */
+    display: flex;
     flex-direction: column;
     justify-content: center;
     margin: 5px;
     padding: 5px;
 }
 .stepFour {
-    /* display: flex; */
+    display: flex;
     flex-direction: column;
     justify-content: center;
     margin: 5px;
     padding: 5px;
 }
 .stepFive {
-    /* display: flex; */
+    display: flex;
     flex-direction: column;
     justify-content: center;
     margin: 5px;
     padding: 5px;
 }
 .stepSix {
-    /* display: flex; */
+    display: flex;
     flex-direction: column;
     justify-content: center;
     margin: 5px;
     padding: 5px;
 }
 .stepSeven {
-    /* display: flex; */
+    display: flex;
     flex-direction: column;
     justify-content: center;
     margin: 5px;
     padding: 5px;
 }
 .stepEight {
-    /* display: flex; */
+    display: flex;
     flex-direction: column;
     justify-content: center;
     margin: 5px;
@@ -214,7 +214,7 @@ select {
 }
 
 .stepNine {
-    /* display: flex; */
+    display: flex;
     flex-direction: column;
     justify-content: center;
     margin: 5px;
@@ -233,4 +233,65 @@ select {
 .stepNine svg {
     margin-left: auto;
     margin-right: auto;
+}
+
+.stepTen {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 5px;
+    padding: 5px;
+}
+
+.stepEleven {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 5px;
+    padding: 5px;
+}
+
+.stepTwelve {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 5px;
+    padding: 5px;
+}
+
+.stepThirteen {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 5px;
+    padding: 5px;
+}
+
+.imageWrapperForm {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.stepThirteen image {
+    height: 40%;
+    width: 70%;
+}
+
+.slideshowButtons {
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 5%;
+}
+
+.slideshowButtons button {
+    width: 80px;
+    height: 50px;
+}
+
+.formEnd .bgColor {
+    background-color: #eefce8;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
 }

@@ -1,5 +1,5 @@
 @include('header')
-<h2 class="margins">Hyr ut din bostad!</h2>
+
 <div class="formWrapper">
     <div class="closeFormWrapper">
         <button class="closeForm margins">
@@ -26,7 +26,7 @@
         </div>
 
         <div class="stepOne tab">
-            <p class="margins">steg 1 av 9</p>
+            <p class="margins">steg 1 av 13</p>
             <h3 class="margins">Vad vill du hyra ut?</h3>
             <p class="margins">Hel bostad eller rum?</p>
             <div class="radioWrapper">
@@ -53,7 +53,7 @@
         </div>
 
         <div class="stepTwo tab">
-            <p class="margins">steg 2 av 9</p>
+            <p class="margins">steg 2 av 13</p>
             <h3 class="margins">Hur stor är bostaden?</h3>
             <label class="margins" for="size">Storlek</label>
             <input placeholder="Ange" type="number" name="size" id="size" min="5" max="1000">
@@ -88,7 +88,7 @@
         </div>
 
         <div class="stepThree tab">
-            <p class="margins">steg 3 av 9</p>
+            <p class="margins">steg 3 av 13</p>
             <h3 class="margins">vilken adress har bostaden?</h3>
             <p class="margins">Vi behöver din fullständiga adress för att kunna visa ditt hem på en karta. Endast gatunamnet syns i annonsen.</p>
             <label class="margins" for="adress">Gatuadress</label>
@@ -103,7 +103,7 @@
         </div>
 
         <div class="stepFour tab">
-            <p class="margins">steg 4 av 9</p>
+            <p class="margins">steg 4 av 13</p>
             <h3 class="margins">Vilka bekvämligheter finns i bostaden?</h3>
             <p class="margins">Kök</p>
             <div class="radioWrapper">
@@ -169,34 +169,24 @@
             <br>
             <p class="margins">Populär</p>
             <div class="radioWrapper">
-                <input class="checky" type="checkbox" name="balcony" id="balcony">
-                <label for="balcony">Balkong/uteplats</label>
+                <input class="checky" type="checkbox" name="all" id="all">
+                <label for="all">Alla</label>
             </div>
             <br>
             <div class="radioWrapper">
-                <input class="checky" type="checkbox" name="sauna" id="sauna">
-                <label for="sauna">Bastu</label>
+                <input class="checky" type="checkbox" name="single" id="single">
+                <label for="single">Ensamstående</label>
             </div>
             <br>
             <div class="radioWrapper">
-                <input class="checky" type="checkbox" name="bubblePool" id="bubblePool">
-                <label for="bubblePool">Bubbelpool</label>
-            </div>
-            <br>
-            <div class="radioWrapper">
-                <input class="checky" type="checkbox" name="fireplace" id="fireplace">
-                <label for="fireplace">Kamin</label>
-            </div>
-            <br>
-            <div class="radioWrapper">
-                <input class="checky" type="checkbox" name="pool" id="pool">
-                <label for="pool">Pool</label>
+                <input class="checky" type="checkbox" name="married" id="married">
+                <label for="married">Gift/Sambo</label>
             </div>
             <br>
         </div>
 
         <div class="stepFive tab">
-            <p class="margins" class="margins">steg 5 av 9</p>
+            <p class="margins" class="margins">steg 5 av 13</p>
             <h3 class="margins">Mer om bostaden och dess skick</h3>
             <p class="margins">sökande är ofta intresserade av renoveringar och när huset byggdes.</p>
             <label class="margins" for="year">Bostadens byggnadsår</label>
@@ -234,7 +224,7 @@
         </div>
 
         <div class="stepSix tab">
-            <p class="margins">Steg 6 av 9</p>
+            <p class="margins">Steg 6 av 13</p>
             <h3 class="margins">När vill du hyra ut bostaden?</h3>
             <label class="margins" for="moveIn">Inflyttningsdatum</label>
             <input type="date" id="moveIn" name="moveIn">
@@ -255,7 +245,7 @@
         </div>
 
         <div class="stepSeven tab">
-            <p class="margins">Steg 7 av 9</p>
+            <p class="margins">Steg 7 av 13</p>
             <h3 class="margins">Beskriv din bostad</h3>
             <p class="margins">Sökande är ofta intresserade av renoveringar och när huset byggdes.</p>
             <label for="description"></label>
@@ -272,7 +262,7 @@
         </div>
 
         <div class="stepEight tab">
-            <p class="margins">Steg 8 av 9</p>
+            <p class="margins">Steg 8 av 13</p>
             <h3 class="margins">Vilken hyra hade du tänkt dig?</h3>
             <p class="margins">Enligt vår statistik på tusentals uthyrda bostäder skulle du kunna sätta hyran till: 8220 kr*.</p>
             <label class="margins" for="rent">Hyra</label>
@@ -283,7 +273,7 @@
         </div>
 
         <div class="stepNine tab">
-            <p class="margins">Steg 9 av 9</p>
+            <p class="margins">Steg 9 av 13</p>
             <h3 class="margins">Lägg till bilder</h3>
             <p class="margins">Ta några bilder med din kamera eller din telefon. Bra bilder gör skillnad! Du kan alltid ta bort eller lägga till.</p>
             <div class="uploadImages">
@@ -296,6 +286,172 @@
                 <input type='file' id="getFile" style="display:none">
             </div>
         </div>
+
+        <div class="stepTen tab">
+            <p class="margins">Steg 10 av 13</p>
+            <h3 class="margins">Specificera din hyresgäst?</h3>
+            <p class="margins">Matcha med din perfekta hyresgäst. "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </p>
+            <div class="buttonWrapper">
+                <button type="button" class="nextButton">Specificera</button>
+                <button type="button" class="backButton">
+                    Hoppa över
+                </button>
+            </div>
+            <p class="margins">Om du inte har någon preferens i din hyresgäst går det lika bra att välja att hoppa över denna process.</p>
+        </div>
+
+        <div class="stepEleven tab">
+            <p class="margins">steg 11 av 13</p>
+            <h3 class="margins">Specificera din hyresgäst</h3>
+            <p class="margins">Hushåll</p>
+            <div class="radioWrapper">
+                <input class="checky" type="checkbox" name="all" id="all">
+                <label for="all">Alla</label>
+            </div>
+            <br>
+            <div class="radioWrapper">
+                <input class="checky" type="checkbox" name="alone" id="alone">
+                <label for="alone">Ensam</label>
+            </div>
+            <br>
+            <div class="radioWrapper">
+                <input class="checky" type="checkbox" name="cosearcher" id="cosearcher">
+                <label for="cosearcher">Medsökande</label>
+            </div>
+            <br>
+            <div class="radioWrapper">
+                <input class="checky" type="checkbox" name="family" id="family">
+                <label for="family">Barnfamilj</label>
+            </div>
+            <br>
+            <p class="margins">Sysselsättning</p>
+            <div class="radioWrapper">
+                <input class="checky" type="checkbox" name="all" id="all">
+                <label for="all">Alla</label>
+            </div>
+            <br>
+            <div class="radioWrapper">
+                <input class="checky" type="checkbox" name="working" id="working">
+                <label for="working">Arbete</label>
+            </div>
+            <br>
+            <div class="radioWrapper">
+                <input class="checky" type="checkbox" name="studying" id="studying">
+                <label for="studying">Studerande</label>
+            </div>
+            <br>
+            <div class="radioWrapper">
+                <input class="checky" type="checkbox" name="retired" id="retired">
+                <label for="retired">Pension</label>
+            </div>
+            <br>
+            <div class="radioWrapper">
+                <input class="checky" type="checkbox" name="other" id="other">
+                <label for="other">Annan</label>
+            </div>
+            <br>
+            <p class="margins">Ålder</p>
+            <div class="radioWrapper">
+                <input class="checky" type="checkbox" name="18-25" id="18-25">
+                <label for="18-25">18-25 år</label>
+            </div>
+            <br>
+            <div class="radioWrapper">
+                <input class="checky" type="checkbox" name="26-32" id="26-32">
+                <label for="26-32">26-32 år</label>
+            </div>
+            <br>
+            <div class="radioWrapper">
+                <input class="checky" class="checky" type="checkbox" name="33-45" id="33-45">
+                <label for="33-45">33-45 år</label>
+            </div>
+            <br>
+            <div class="radioWrapper">
+                <input class="checky" class="checky" type="checkbox" name="46-59" id="46-59">
+                <label for="46-59">46-59 år</label>
+            </div>
+            <br>
+            <div class="radioWrapper">
+                <input class="checky" class="checky" type="checkbox" name="60+" id="60+">
+                <label for="60+">60+ år</label>
+            </div>
+            <br>
+            <p class="margins">Civilstånd</p>
+            <div class="radioWrapper">
+                <input class="checky" type="checkbox" name="all" id="all">
+                <label for="all">Alla</label>
+            </div>
+            <br>
+            <div class="radioWrapper">
+                <input class="checky" type="checkbox" name="alone" id="alone">
+                <label for="alone">Ensamstående</label>
+            </div>
+            <br>
+            <div class="radioWrapper">
+                <input class="checky" type="checkbox" name="married" id="married">
+                <label for="married">Gift/Sambo</label>
+            </div>
+            <br>
+        </div>
+
+        <div class="stepTwelve tab">
+            <p class="margins">steg 12 av 13</p>
+            <h3 class="margins">Din matchning</h3>
+            <p class="margins">Här är en summering om den hyresboende du har valt som preferens.</p>
+            <div class="summary margins">
+                <h3>Hushåll</h3>
+                <p>---</p>
+                <h3>Sysselsättning</h3>
+                <p>---</p>
+                <h3>Ålder</h3>
+                <p>---</p>
+                <h3>Civilstånd</h3>
+                <p>---</p>
+            </div>
+        </div>
+
+        <div class="stepThirteen tab">
+            <p class="margins">steg 13 av 13</p>
+            <h3 class="margins">Förhandsgranskning</h3>
+            <div class="imageWrapperForm">
+                <img class="formImage" src="{{asset('images/formExample/example.png')}}" alt="Bildspel">
+                <div class="slideshowButtons">
+                    <button class="imageBack">
+                        "<" </button>
+                            <p>Bild 1/5</p>
+                            <button class="imageforvard">></button>
+                </div>
+                <div class="summary margins">
+                    <h3>Södra Kroksdal/ Skärhamn</h3>
+                    <h3>Inflyttning</h3>
+                    <p>Snarast möjligt</p>
+                    <h3>Utflyttning</h3>
+                    <p>Tillsvidare</p>
+                    <h3>Storlek</h3>
+                    <p>2 rum, 80 m2</p>
+                    <h3>Möblerat</h3>
+                    <p>Ja</p>
+                    <h3>Delat boende</h3>
+                    <p>Ja</p>
+                </div>
+                <div class="rulesAndDescription margins">
+                    <h3>Beskrivning</h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat</p>
+                    <h3>Regler</h3>
+                    <p>Husdjur tillåtet</p>
+                    <p>Rökning ej tillåtet</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="formEnd tab">
+            <div class="bgColor">
+                <h3>Din annons är publicerad!</h3>
+            </div>
+            <h3>Annonshantering</h3>
+            <p>Nu är din annons synlig för alla kollektivas användare. Våra handledare hanterar hela din process från matchning till avtal. Tjänsten är dessutom dynamisk och användarvänlig. </p>
+        </div>
+
         <div class="buttonWrapper">
             <button type="button" class="backButton" id="back" onclick="nextStep(-1)">
                 Tillbaka
@@ -319,7 +475,7 @@
             document.getElementById("back").style.display = "inline";
         }
         if (n == x.length - 1) {
-            document.getElementById("next").innerHTML = "Skicka in";
+            document.getElementById("next").innerHTML = "Publicera";
         } else {
             document.getElementById("next").innerHTML = "Nästa";
         }
