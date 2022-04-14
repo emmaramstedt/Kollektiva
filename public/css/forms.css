@@ -363,6 +363,24 @@ select {
     border-radius: 5px;
 }
 
+.stepThirteen .wrapper {
+    display: flex;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    justify-content: space-between;
+}
+
+/* .stepThirteen .summeryContentWrapper {
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+}
+
+.stepThirteen .summeryContent {
+    display: flex;
+    flex-direction: column;
+} */
+
 /* Form End */
 
 .formEnd .bgColor {
