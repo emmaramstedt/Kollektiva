@@ -352,8 +352,9 @@ select {
 
 .slideshowButtons {
     display: flex;
-    justify-content: space-evenly;
+    justify-content: space-between;
     margin-top: 5%;
+    align-items: center;
 }
 
 .slideButton {

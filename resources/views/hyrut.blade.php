@@ -432,6 +432,7 @@
             <div class="imageWrapperForm">
                 <img class="formImage" src="{{asset('images/formExample/example.png')}}" alt="Bildspel">
             </div>
+
             <div class="slideshowButtons">
                 <button class="slideButton"><svg width="8" height="14" viewBox="0 0 8 14" fill="none" xmlns="http://www.w3.org/2000/svg">
                         <path d="M7 1L1 7L7 13" stroke="#212121" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
@@ -441,6 +442,7 @@
                         <path d="M1 13L7 7L1 1" stroke="#212121" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
                     </svg></button>
             </div>
+
             <h3 class="margins">Södra Kroksdal/ Skärhamn</h3>
 
             <div class="wrapper margins">
