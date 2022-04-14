@@ -74,7 +74,7 @@
 /* Form Wrapper and general form styling */
 
 .tab {
-    display: none;
+    /* display: none; */
 }
 
 .formWrapper {
@@ -143,63 +143,87 @@ select {
 /* Individual  form styling */
 
 .formStart {
-    /* display: flex; */
+    display: flex;
     flex-direction: column;
     justify-content: center;
     margin: 5px;
     padding: 5px;
 }
+
+/* Step one */
+
 .stepOne {
-    /* display: flex; */
+    display: flex;
     flex-direction: column;
     justify-content: center;
     margin: 5px;
     padding: 5px;
 }
+
+/* Step two */
+
 .stepTwo {
-    /* display: flex; */
+    display: flex;
     flex-direction: column;
     justify-content: center;
     margin: 5px;
     padding: 5px;
 }
+
+/* Step three */
+
 .stepThree {
-    /* display: flex; */
+    display: flex;
     flex-direction: column;
     justify-content: center;
     margin: 5px;
     padding: 5px;
 }
+
+/* step four */
+
 .stepFour {
-    /* display: flex; */
+    display: flex;
     flex-direction: column;
     justify-content: center;
     margin: 5px;
     padding: 5px;
 }
+
+/* Step five */
+
 .stepFive {
-    /* display: flex; */
+    display: flex;
     flex-direction: column;
     justify-content: center;
     margin: 5px;
     padding: 5px;
 }
+
+/* Step six */
+
 .stepSix {
-    /* display: flex; */
+    display: flex;
     flex-direction: column;
     justify-content: center;
     margin: 5px;
     padding: 5px;
 }
+
+/* Step seven */
+
 .stepSeven {
-    /* display: flex; */
+    display: flex;
     flex-direction: column;
     justify-content: center;
     margin: 5px;
     padding: 5px;
 }
+
+/* step eight */
+
 .stepEight {
-    /* display: flex; */
+    display: flex;
     flex-direction: column;
     justify-content: center;
     margin: 5px;
@@ -207,14 +231,13 @@ select {
 }
 
 .infoText {
-    width: 100%;
-    margin-left: 0%;
-    margin-right: 0%;
     background-color: #eefce8;
 }
 
+/* Step nine */
+
 .stepNine {
-    /* display: flex; */
+    display: flex;
     flex-direction: column;
     justify-content: center;
     margin: 5px;
@@ -278,11 +301,149 @@ max-width: 100%;
 
 }
 
-@media only screen and (min-width: 1440px) {
 
+/* Step ten */
+
+.stepTen {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 5px;
+    padding: 5px;
 }
 
-@media only screen and (min-width: 1578px) {
+.stepTen .background {
+    background-color: #eefce8;
+}
 
+.stepTen .buttonWrapper {
+    margin-top: auto;
+    margin-bottom: auto;
 
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.stepTen .buttonWrapper button {
+    width: 95%;
+    margin: 2%;
+    border-radius: 2%;
+}
+
+.jump {
+    background-color: #ededed;
+    border: none;
+}
+
+/* Step eleven */
+
+.stepEleven {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 5px;
+    padding: 5px;
+}
+
+/* Step twelve */
+
+.stepTwelve {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 5px;
+    padding: 5px;
+}
+
+.stepTwelve .wrapper {
+    display: flex;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    justify-content: space-between;
+}
+
+.summeryContentWrapper {
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+}
+
+.summeryContent {
+    display: flex;
+    flex-direction: column;
+}
+
+/* Step thirteen */
+
+.stepThirteen {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 5px;
+    padding: 5px;
+}
+
+.imageWrapperForm {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.stepThirteen image {
+    height: 40%;
+    width: 70%;
+}
+
+.slideshowButtons {
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 5%;
+}
+
+.slideButton {
+    width: 80px;
+    height: 50px;
+    background-color: transparent;
+    border-radius: 5px;
+}
+
+.stepThirteen .wrapper {
+    display: flex;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    justify-content: space-between;
+}
+
+/* .stepThirteen .summeryContentWrapper {
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+}
+
+.stepThirteen .summeryContent {
+    display: flex;
+    flex-direction: column;
+} */
+
+/* Form End */
+
+.formEnd .bgColor {
+    padding-top: 5%;
+    padding-bottom: 10%;
+    margin-bottom: 5%;
+    background-color: #eefce8;
+    flex-direction: column;
+    justify-content: center;
+    justify-items: center;
+    text-align: center;
+}
+
+.formEnd .svgWrapper {
+    margin-top: 15%;
+    margin-bottom: 10%;
+}
+
+.svgWrapper svg {
+    height: 110px;
+    width: 110px;
 }
