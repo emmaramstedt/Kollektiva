@@ -283,6 +283,12 @@ select {
 .stepTen .buttonWrapper button {
     width: 95%;
     margin: 2%;
+    border-radius: 2%;
+}
+
+.jump {
+    background-color: #ededed;
+    border: none;
 }
 
 /* Step eleven */
@@ -303,6 +309,28 @@ select {
     justify-content: center;
     margin: 5px;
     padding: 5px;
+}
+
+.stepTwelve .wrapper {
+    display: flex;
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+
+.summeryContentWrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    text-align: left;
+}
+.summeryContentWrapper:first-child {
+    margin-left: 0%;
+    margin-right: 35%;
+}
+
+.summeryContent {
+    display: flex;
+    flex-direction: column;
 }
 
 /* Step thirteen */

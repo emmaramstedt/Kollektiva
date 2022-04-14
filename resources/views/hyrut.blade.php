@@ -293,7 +293,7 @@
             <p class="margins">Matcha med din perfekta hyresgäst. "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </p>
             <div class="buttonWrapper">
                 <button type="button" class="nextButton">Specificera</button>
-                <button type="button" class="backButton">
+                <button type="button" class="backButton jump">
                     Hoppa över
                 </button>
             </div>
@@ -400,16 +400,30 @@
             <p class="margins">steg 12 av 13</p>
             <h3 class="margins">Din preferens</h3>
             <p class="margins">Här är en summering om den hyresboende du har valt som preferens.</p>
-            <div class="summary margins">
-                <h3>Hushåll</h3>
-                <p>---</p>
-                <h3>Sysselsättning</h3>
-                <p>---</p>
-                <h3>Ålder</h3>
-                <p>---</p>
-                <h3>Civilstånd</h3>
-                <p>---</p>
+
+            <div class="wrapper margins">
+                <div class="summeryContentWrapper">
+                    <div class="summaryContent">
+                        <h3>Hushåll</h3>
+                        <p>---</p>
+                    </div>
+                    <div class="summaryContent">
+                        <h3>Ålder</h3>
+                        <p>---</p>
+                    </div>
+                </div>
+                <div class="summeryContentWrapper">
+                    <div class="summaryContent">
+                        <h3>Sysselsättning</h3>
+                        <p>---</p>
+                    </div>
+                    <div class="summaryContent">
+                        <h3>Civilstånd</h3>
+                        <p>---</p>
+                    </div>
+                </div>
             </div>
+
         </div>
 
         <div class="stepThirteen tab">
