@@ -297,7 +297,9 @@
                     Hoppa över
                 </button>
             </div>
-            <p class="margins">Om du inte har någon preferens i din hyresgäst går det lika bra att välja att hoppa över denna process.</p>
+            <div class="background">
+                <p class="margins">Om du inte har någon preferens i din hyresgäst går det lika bra att välja att hoppa över denna process.</p>
+            </div>
         </div>
 
         <div class="stepEleven tab">
@@ -396,7 +398,7 @@
 
         <div class="stepTwelve tab">
             <p class="margins">steg 12 av 13</p>
-            <h3 class="margins">Din matchning</h3>
+            <h3 class="margins">Din preferens</h3>
             <p class="margins">Här är en summering om den hyresboende du har valt som preferens.</p>
             <div class="summary margins">
                 <h3>Hushåll</h3>
