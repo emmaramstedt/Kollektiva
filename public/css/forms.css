@@ -315,17 +315,13 @@ select {
     display: flex;
     margin-top: 5%;
     margin-bottom: 5%;
+    justify-content: space-between;
 }
 
 .summeryContentWrapper {
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
     text-align: left;
-}
-.summeryContentWrapper:first-child {
-    margin-left: 0%;
-    margin-right: 35%;
 }
 
 .summeryContent {
