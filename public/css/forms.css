@@ -73,6 +73,11 @@
 
 /* Form Wrapper and general form styling */
 
+form {
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+
 .tab {
     display: none;
 }
@@ -83,6 +88,8 @@
     display: flex;
     flex-direction: column;
     justify-content: center;
+    margin-top: 5%;
+    margin-bottom: 5%;
 }
 
 /* Radiobutton wrapper */
@@ -253,7 +260,7 @@ select {
     margin-right: auto;
 }
 
-.uploadPhotosWrapper{
+.uploadPhotosWrapper {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
@@ -262,40 +269,38 @@ select {
     align-self: center;
 }
 
-.imageSrc img{
+.imageSrc img {
     width: 165px;
     height: 115px;
 }
 
 @media only screen and (min-width: 990px) {
-main{
-    max-width: 990px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    margin: auto;
-}
-.formWrapper form{
-    border: 1px solid;
-    border-color: #6D6D6D;
-    padding: 80px;
-}
+    main {
+        max-width: 990px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        margin: auto;
+    }
+    .formWrapper form {
+        border: 1px solid;
+        border-color: #6d6d6d;
+        padding: 80px;
+    }
 
-.buttonWrapper button{
-    width: 343px;
+    .buttonWrapper button {
+        width: 343px;
+    }
+    .uploadPhotosWrapper {
+        justify-content: space-between;
+        max-width: 100%;
+    }
+    .imageSrc img {
+        width: 241px;
+        height: 168px;
+    }
 }
-.uploadPhotosWrapper{
-justify-content: space-between;
-max-width: 100%;
-}
-.imageSrc img{
-    width: 241px;
-    height: 168px;
-}
-
-}
-
 
 /* Step ten */
 
