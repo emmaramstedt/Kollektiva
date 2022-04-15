@@ -582,12 +582,12 @@
 </div>
 
 <div class="buttonWrapper">
-    <button type="button" class="backButton" id="back" onclick="nextStep(-1)"><svg width="8" height="14" viewBox="0 0 8 14" fill="none" xmlns="http://www.w3.org/2000/svg">
+    <button type="button" class="backButton" id="back"><svg width="8" height="14" viewBox="0 0 8 14" fill="none" xmlns="http://www.w3.org/2000/svg">
             <path d="M7 1L1 7L7 13" stroke="#212121" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
         </svg>
         Tillbaka
     </button>
-    <button type="button" class="nextButton" id="next" onclick="nextStep(1)"></button>
+    <button type="button" class="nextButton" id="next"></button>
 </div>
 </form>
 </div>
@@ -600,8 +600,8 @@
 
     function showTab(n) {
         // This function will display the specified tab of the form ...
-        const x = document.getElementsByClassName("tab");
-        x[n].style.display = "flex";
+        let x = document.getElementsByClassName("tab");
+        x[n].style.display = "block";
         // ... and fix the Previous/Next buttons:
         if (n == 0) {
             document.getElementById("back").style.display = "none";
@@ -609,15 +609,17 @@
             document.getElementById("back").style.display = "inline";
         }
         if (n == x.length - 1) {
-            document.getElementById("next").innerHTML = "Publicera";
+            document.getElementById("next").innerHTML = "Skicka in";
         } else {
             document.getElementById("next").innerHTML = "Nästa";
         }
     }
 
-    function nextStep(n) {
+    const next = document.getElementById("next");
+    next.addEventListener("click", function nextStep(n) {
+        var n = 1;
         // This function will figure out which tab to display
-        const x = document.getElementsByClassName("tab");
+        let x = document.getElementsByClassName("tab");
         // Exit the function if any field in the current tab is invalid:
         //   if (n == 1 && !validateForm()) return false;
         // Hide the current tab:
@@ -632,7 +634,28 @@
         }
         // Otherwise, display the correct tab:
         showTab(currentTab);
-    }
+    });
+
+    const back = document.getElementById("back");
+    back.addEventListener("click", function nextStep(n) {
+        var n = -1;
+        // This function will figure out which tab to display
+        let x = document.getElementsByClassName("tab");
+        // Exit the function if any field in the current tab is invalid:
+        //   if (n == 1 && !validateForm()) return false;
+        // Hide the current tab:
+        x[currentTab].style.display = "none";
+        // Increase or decrease the current tab by 1:
+        currentTab = currentTab + n;
+        // if you have reached the end of the form... :
+        if (currentTab >= x.length) {
+            //...the form gets submitted:
+            document.getElementById("regForm").submit();
+            return false;
+        }
+        // Otherwise, display the correct tab:
+        showTab(currentTab);
+    });
 </script>
 
 @include('footer')
