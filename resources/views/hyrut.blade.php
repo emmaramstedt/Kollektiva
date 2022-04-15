@@ -9,7 +9,9 @@
             </svg>
         </button>
     </div>
+    <!-- Start of form -->
     <form>
+        <!-- introduction tab -->
         <div class="formStart tab">
             <h3 class="margins">Skapa annons</h3>
             <ul>
@@ -24,7 +26,7 @@
                     <path d="M9.99051 0.333008C4.93051 0.333008 0.833008 4.43967 0.833008 9.49967C0.833008 14.5597 4.93051 18.6663 9.99051 18.6663C15.0597 18.6663 19.1663 14.5597 19.1663 9.49967C19.1663 4.43967 15.0597 0.333008 9.99051 0.333008ZM16.343 5.83301H13.6388C13.3519 4.69768 12.9271 3.60175 12.3738 2.56967C14.0459 3.14534 15.4549 4.30375 16.343 5.83301ZM9.99967 2.20301C10.7605 3.30301 11.3563 4.52217 11.7505 5.83301H8.24884C8.64301 4.52217 9.23884 3.30301 9.99967 2.20301ZM2.90467 11.333C2.75801 10.7463 2.66634 10.1322 2.66634 9.49967C2.66634 8.86717 2.75801 8.25301 2.90467 7.66634H6.00301C5.92967 8.27134 5.87467 8.87634 5.87467 9.49967C5.87467 10.123 5.92967 10.728 6.00301 11.333H2.90467ZM3.65634 13.1663H6.36051C6.65384 14.3122 7.07551 15.4122 7.62551 16.4297C5.95164 15.8572 4.54169 14.6979 3.65634 13.1663ZM6.36051 5.83301H3.65634C4.54169 4.30142 5.95164 3.1422 7.62551 2.56967C7.07223 3.60175 6.6474 4.69768 6.36051 5.83301ZM9.99967 16.7963C9.23884 15.6963 8.64301 14.4772 8.24884 13.1663H11.7505C11.3563 14.4772 10.7605 15.6963 9.99967 16.7963ZM12.1447 11.333H7.85467C7.77217 10.728 7.70801 10.123 7.70801 9.49967C7.70801 8.87634 7.77217 8.26217 7.85467 7.66634H12.1447C12.2272 8.26217 12.2913 8.87634 12.2913 9.49967C12.2913 10.123 12.2272 10.728 12.1447 11.333ZM12.3738 16.4297C12.9238 15.4122 13.3455 14.3122 13.6388 13.1663H16.343C15.4549 14.6956 14.0459 15.854 12.3738 16.4297ZM13.9963 11.333C14.0697 10.728 14.1247 10.123 14.1247 9.49967C14.1247 8.87634 14.0697 8.27134 13.9963 7.66634H17.0947C17.2413 8.25301 17.333 8.86717 17.333 9.49967C17.333 10.1322 17.2413 10.7463 17.0947 11.333H13.9963Z" fill="#FCA82B" />
                 </svg> Svenska</button>
         </div>
-
+        <!-- step 1 -->
         <div class="stepOne tab">
             <p class="margins">steg 1 av 13</p>
             <h3 class="margins">Vad vill du hyra ut?</h3>
@@ -51,7 +53,7 @@
             </div>
             <br>
         </div>
-
+        <!-- step 2 -->
         <div class="stepTwo tab">
             <p class="margins">steg 2 av 13</p>
             <h3 class="margins">Hur stor är bostaden?</h3>
@@ -86,7 +88,7 @@
                 <option value="10">10</option>
             </select><br>
         </div>
-
+        <!-- step 3 -->
         <div class="stepThree tab">
             <p class="margins">steg 3 av 13</p>
             <h3 class="margins">vilken adress har bostaden?</h3>
@@ -101,7 +103,7 @@
             <input name="postNumber" id="postNumber" type="number" placeholder="Ange">
             <br>
         </div>
-
+        <!-- step 4 -->
         <div class="stepFour tab">
             <p class="margins">steg 4 av 13</p>
             <h3 class="margins">Vilka bekvämligheter finns i bostaden?</h3>
@@ -184,7 +186,7 @@
             </div>
             <br>
         </div>
-
+        <!-- step 5 -->
         <div class="stepFive tab">
             <p class="margins" class="margins">steg 5 av 13</p>
             <h3 class="margins">Mer om bostaden och dess skick</h3>
@@ -222,7 +224,7 @@
             </div>
             <br>
         </div>
-
+        <!-- step 6 -->
         <div class="stepSix tab">
             <p class="margins">Steg 6 av 13</p>
             <h3 class="margins">När vill du hyra ut bostaden?</h3>
@@ -243,7 +245,7 @@
             </div>
             <br>
         </div>
-
+        <!-- step 7 -->
         <div class="stepSeven tab">
             <p class="margins">Steg 7 av 13</p>
             <h3 class="margins">Beskriv din bostad</h3>
@@ -260,7 +262,7 @@
                 <li>Varför du hyr ut din bostad</li>
             </ul>
         </div>
-
+        <!-- step 8 -->
         <div class="stepEight tab">
             <p class="margins">Steg 8 av 13</p>
             <h3 class="margins">Vilken hyra hade du tänkt dig?</h3>
@@ -271,7 +273,7 @@
                 <p class="margins">Hyresgästens månadskostnad är hyran + 10 % serviceavgift. Den hyran du anger är vad du får utbetalt varje månad. En serviceavgift på 5 % tillkommer till dig som hyresvärd.</p>
             </div>
         </div>
-
+        <!-- step 9 -->
         <div class="stepNine tab">
             <p class="margins">Steg 9 av 13</p>
             <h3 class="margins">Lägg till bilder</h3>
@@ -378,6 +380,7 @@
 </div>
 </div>
 <!--end step 9 -->
+<!-- step 10 -->
 <div class="stepTen tab">
     <p class="margins">Steg 10 av 13</p>
     <h3 class="margins">Specificera din hyresgäst?</h3>
@@ -392,7 +395,7 @@
         <p class="margins">Om du inte har någon preferens i din hyresgäst går det lika bra att välja att hoppa över denna process.</p>
     </div>
 </div>
-
+<!-- step 11 -->
 <div class="stepEleven tab">
     <p class="margins">steg 11 av 13</p>
     <h3 class="margins">Specificera din hyresgäst</h3>
@@ -486,7 +489,7 @@
     </div>
     <br>
 </div>
-
+<!-- step 12 -->
 <div class="stepTwelve tab">
     <p class="margins">steg 12 av 13</p>
     <h3 class="margins">Din preferens</h3>
@@ -516,7 +519,7 @@
     </div>
 
 </div>
-
+<!-- step 13 -->
 <div class="stepThirteen tab">
     <p class="margins">steg 13 av 13</p>
     <h3 class="margins">Förhandsgranskning</h3>
@@ -565,7 +568,7 @@
         <p>Rökning ej tillåtet</p>
     </div>
 </div>
-
+<!-- last step summary -->
 <div class="formEnd tab">
     <div class="bgColor">
         <h3>Din annons är publicerad!</h3>

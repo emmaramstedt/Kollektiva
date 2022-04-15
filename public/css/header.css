@@ -93,6 +93,7 @@ header input {
     border-left: none;
     padding: 1%;
     background-color: #ef9001;
+    height: 100%;
 }
 
 /* Search form */
@@ -110,6 +111,7 @@ header input {
 
 .searchForm input {
     width: 100%;
+    height: 100%;
     border-right: none;
 }
 
@@ -252,6 +254,7 @@ hr {
         align-items: center;
         margin-right: 32px;
         border: 1px solid black;
+        background-color: white;
     }
 
     .laptopSearchForm {
@@ -343,6 +346,7 @@ hr {
 @media only screen and (min-width: 1140px) {
     .laptopSearchContainer {
         margin-right: 64px;
+        background-color: white;
     }
     /* .laptopNav ul {
         margin-left: 64px;
