@@ -369,7 +369,7 @@ hr {
 @media only screen and (min-width: 1140px) {
     .laptopSearchContainer {
         margin-right: 64px;
-        background-color: white;
+        /* background-color: white; */
     }
     .laptopNav .nav-link {
         font-size: x-large;
