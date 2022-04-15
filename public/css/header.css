@@ -266,14 +266,20 @@ hr {
         /* justify-content: center;
         align-items: center; */
         margin-right: 32px;
-        border: 1px solid black;
-        background-color: white;
     }
 
     .laptopSearchForm {
         height: 100%;
         display: flex;
         flex-direction: row;
+        align-items: center;
+    }
+    .laptopSearchForm input {
+        border: 1px solid black;
+        border-right: none;
+        background-color: white;
+        height: 100%;
+        margin-right: 0%;
     }
     .laptopSearchForm button {
         display: flex;
@@ -281,6 +287,9 @@ hr {
         justify-content: center;
         align-items: center;
         outline: none;
+        padding: 0%;
+        padding-left: 1%;
+        padding-right: 1%;
     }
     .laptopSearchForm button p {
         margin: 5%;
@@ -361,6 +370,13 @@ hr {
     .laptopSearchContainer {
         margin-right: 64px;
         background-color: white;
+    }
+    .laptopNav .nav-link {
+        font-size: x-large;
+    }
+
+    .laptopNav .underline {
+        font-size: x-large;
     }
     /* .laptopNav ul {
         margin-left: 64px;
