@@ -100,19 +100,22 @@ header input {
 
 .searchContainer {
     display: none;
-    margin: 1%;
+    /* margin: 1%; */
 }
 
 .searchForm {
     display: flex;
     flex-direction: row;
-    /* margin: 2%; */
+    border-bottom: 1px solid white;
+    margin-bottom: 2%;
+    margin-top: 2%;
 }
 
 .searchForm input {
     width: 100%;
     height: 100%;
     border-right: none;
+    background-color: white;
 }
 
 .laptopSearchForm {
@@ -250,17 +253,17 @@ hr {
     .laptopSearchContainer {
         display: flex;
         margin: 1%;
-        justify-content: center;
-        align-items: center;
+        /* justify-content: center;
+        align-items: center; */
         margin-right: 32px;
         border: 1px solid black;
         background-color: white;
     }
 
     .laptopSearchForm {
+        height: 100%;
         display: flex;
         flex-direction: row;
-        height: 45%;
     }
     .laptopSearchForm button {
         display: flex;
