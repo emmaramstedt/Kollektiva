@@ -52,20 +52,6 @@ display: none;
         align-self: normal;
     }
 
-    .closeForm {
-        margin-right: 0px;
-    }
-    .closeForm a{
-        display: flex;
-        align-items: center;
-        color: #212121;
-        font-family: 'OpenSans';
-        font-size: 24px;
-    }
-    .closeForm svg{
-        margin-left: 10px;
-    }
-
 }
 
 @media only screen and (min-width: 1440px){
