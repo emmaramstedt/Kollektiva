@@ -1,4 +1,15 @@
 /*container*/
+.formWrapper form{
+    display: flex;
+    flex-direction: column;
+    min-height: 72vh;
+    margin-bottom: 100px;
+    justify-content: space-between;
+}
+
+textarea{
+    max-width: 90%;
+}
 
 /* Form buttons */
 
@@ -7,12 +18,11 @@
 .buttonWrapper {
     display: flex;
     justify-content: center;
-    align-items: flex-end;
-    align-self: flex-end;
+    align-items: center;
+    align-self: center;
 }
 
 .firstNextButton {
-    width: 90%;
     height: 48px;
     border: 2px solid orange;
     background-color: orange;
@@ -26,7 +36,9 @@
 }
 
 .nextButton {
-    width: 164px;
+    width: 95vw;
+    padding-left: 15px;
+    padding-right: 15px;
     height: 48px;
     border: 2px solid orange;
     background-color: orange;
@@ -444,6 +456,12 @@ select {
         justify-content: center;
         margin: auto;
     }
+
+    .nextButton {
+        max-width: 343px;
+        padding-left: 15px;
+        padding-right: 15px;
+}
 }
 
 @media only screen and (min-width: 990px) {
@@ -454,6 +472,7 @@ select {
         align-items: center;
         justify-content: center;
         margin: auto;
+
     }
     .formWrapper form {
         border: 1px solid;
@@ -462,8 +481,11 @@ select {
         margin-top: 0px;
     }
 
-    .buttonWrapper button {
-        width: 343px;
+    .buttonWrapper {
+        width: 100%;
+        flex-direction: row-reverse;
+        align-self:flex-end;
+        justify-content: space-between;
     }
     .uploadPhotosWrapper {
         justify-content: space-between;
@@ -488,6 +510,45 @@ select {
     }
     .closeForm svg{
         margin-left: 10px;
+    }
+
+
+}
+
+@media only screen and (min-width: 990px) {
+    .steps{
+        width: 100%;
+        display: flex;
+        flex-direction: row-reverse;
+    }
+    .stepOneWrapper{
+        width: 100%;
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .stepOne p{
+        width: 100%;
+    }
+
+    .stepOne h2{
+        width: 100%;
+    }
+
+    .stepOne h3{
+        width: 100%;
+    }
+    .stepOne .radioWrapper{
+        width: 343px;
+        margin-bottom: 121px;
+    }
+
+    .stepOne input{
+        width: 343px;
+    }
+
+    .stepOne .checky{
+        width: auto;
     }
 }
 

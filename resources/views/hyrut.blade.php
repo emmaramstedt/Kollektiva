@@ -29,31 +29,41 @@
                     </svg> Svenska</button>
             </div>
             <!-- step 1 -->
-            <div class="stepOne tab">
-                <p class="margins">steg 1 av 13</p>
-                <h3 class="margins">Vad vill du hyra ut?</h3>
-                <p class="margins">Hel bostad eller rum?</p>
-                <div class="radioWrapper">
-                    <input class="checky" type="radio" id="room" name="living" value="room">
-                    <label for="room">Ett rum</label>
+            <div class="stepOne tab margins">
+                <div class="stepOneWrapper">
+                    <div class="steps">
+                        <div>
+                            <p>steg 1 av 13</p>
+                        </div>
+                    </div>
+                    <h2>Vad vill du hyra ut?</h2>
+                    <p>
+                    <h3>Hel bostad eller rum?</h3>
+                    </p>
+                    <div class="radioWrapper">
+                        <input class="checky" type="radio" id="room" name="living" value="room">
+                        <label for="room">Ett rum</label>
+                    </div>
+                    <br>
+                    <div class="radioWrapper">
+                        <input class="checky" type="radio" id="house" name="living" value="house">
+                        <label for="house">Hela bostaden</label>
+                    </div>
+                    <br>
+                    <p>
+                    <h3>Hyr du ut möblerat?</h3>
+                    </p>
+                    <div class="radioWrapper">
+                        <input class="checky" type="radio" id="furniture" name="furnished" value="furniture">
+                        <label for="furniture">Möblerat</label>
+                    </div>
+                    <br>
+                    <div class="radioWrapper">
+                        <input class="checky" type="radio" id="noFurniture" name="furnished" value="noFurniture">
+                        <label for="noFurniture">Omöblerat</label>
+                    </div>
+                    <br>
                 </div>
-                <br>
-                <div class="radioWrapper">
-                    <input class="checky" type="radio" id="house" name="living" value="house">
-                    <label for="house">Hela bostaden</label>
-                </div>
-                <br>
-                <p class="margins">Hyr du ut möblerat?</p>
-                <div class="radioWrapper">
-                    <input class="checky" type="radio" id="furniture" name="furnished" value="furniture">
-                    <label for="furniture">Möblerat</label>
-                </div>
-                <br>
-                <div class="radioWrapper">
-                    <input class="checky" type="radio" id="noFurniture" name="furnished" value="noFurniture">
-                    <label for="noFurniture">Omöblerat</label>
-                </div>
-                <br>
             </div>
             <!-- step 2 -->
             <div class="stepTwo tab">
@@ -586,7 +596,7 @@
     </div>
 </div>
 
-<div class="buttonWrapper">
+<div class="buttonWrapper margins" id="nextAndBack">
     <button type="button" class="backButton" id="back"><svg width="8" height="14" viewBox="0 0 8 14" fill="none" xmlns="http://www.w3.org/2000/svg">
             <path d="M7 1L1 7L7 13" stroke="#212121" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
         </svg>
