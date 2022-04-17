@@ -1,3 +1,3 @@
 @include('header')
-hyrkontrakt
+hyrkontrakt hej
 @include('footer')

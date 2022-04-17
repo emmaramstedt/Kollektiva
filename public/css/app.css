@@ -64,7 +64,7 @@ h1{
 
 h2{
     font-family: 'OpenSans';
-    font-size: 20px;
+    font-size: 24px;
     line-height: 28px;
     font-weight: 700;
     color: #033F33;
@@ -72,8 +72,8 @@ h2{
 
 h3{
     font-family: 'OpenSans';
-    font-weight: 500;
-    font-size: 24px;
+    font-weight: 700;
+    font-size: 20px;
     line-height: 28px;
     color: #033F33;
 }
@@ -84,12 +84,6 @@ h4{
     font-size: 20px;
     line-height: 15px;
     color: #FBFFF9;
-}
-
-main a{
-    font-family: 'Merriweather';
-    text-decoration: underline;
-    color:#033F33;
 }
 
 .greenText{
@@ -126,8 +120,8 @@ main a{
     }
     .margins{
         max-width: 1920px;
-        padding-left: 64px;
-        padding-right: 64px;
+        padding-left: 20px;
+        padding-right: 20px;
         margin: auto;
     }
     h1{

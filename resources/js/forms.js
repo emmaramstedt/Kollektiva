@@ -1,16 +1,21 @@
 const previews = document.querySelectorAll(".preview");
 
+if (window.location.href === 'http://127.0.0.1:8000/hyrut') {
+    document.querySelector('header').style.display = "none";
+    document.querySelector('.footerWrapper').style.display = "none";
+}
+
+
 previews.forEach((preview) => {
     preview.onchange = function (e) {
         preview.src = URL.createObjectURL(window.event.target.files[0]);
-        //put the width and height style in CSS file-------------------------------------------------------------vvvv
         preview
             .closest("div")
             .querySelector(
                 ".imageSrc"
             ).innerHTML = `<img src="${preview.src}">`;
-        preview.closest("div").querySelector(".description").style.display =
-            "block";
+        // preview.closest("div").querySelector(".description").style.display =
+        //     "block";
     };
 });
 
@@ -20,6 +25,16 @@ showTab(currentTab); // Display the current tab
 function showTab(n) {
     // This function will display the specified tab of the form ...
     let x = document.getElementsByClassName("tab");
+    // .buttonWrapper {
+    //     display: flex;
+    //     justify-content: center;
+    //     align-items: flex-end;
+    //     align-self: flex-end;
+    //     position: absolute;
+    //     right: calc(50% - 82px);
+    //     bottom:20px;
+    // }
+
     x[n].style.display = "block";
     // ... and fix the Previous/Next buttons:
     if (n == 0) {
@@ -45,6 +60,11 @@ next.addEventListener("click", function nextStep(n) {
     x[currentTab].style.display = "none";
     // Increase or decrease the current tab by 1:
     currentTab = currentTab + n;
+    window.scrollTo({
+        top: 100,
+        left: 100,
+        behavior: 'smooth'
+      });
     // if you have reached the end of the form... :
     if (currentTab >= x.length) {
         //...the form gets submitted:

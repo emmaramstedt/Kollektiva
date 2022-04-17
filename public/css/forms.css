@@ -1,3 +1,5 @@
+/*container*/
+
 /* Form buttons */
 
 /* Wraps next and back-button */
@@ -5,7 +7,8 @@
 .buttonWrapper {
     display: flex;
     justify-content: center;
-    align-items: center;
+    align-items: flex-end;
+    align-self: flex-end;
 }
 
 .firstNextButton {
@@ -28,6 +31,11 @@
     border: 2px solid orange;
     background-color: orange;
 }
+
+.firstNext{
+    width: 100%;
+    margin: 15px;
+}
 .backButton {
     width: 164px;
     height: 48px;
@@ -38,7 +46,6 @@
 /* close form button and wrapper */
 
 .closeFormWrapper {
-    width: 100%;
     display: flex;
     flex-direction: row;
     justify-content: flex-end;
@@ -51,13 +58,27 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    font-size: 20px;
-    font-family: "open sans";
-    font-weight: bold;
 }
 
 .closeForm p {
     margin-bottom: 0%;
+}
+
+.closeForm {
+    margin-top: 40px;
+    margin-bottom: 34px;
+}
+.closeForm a{
+    display: flex;
+    align-items: center;
+    color: #212121;
+    font-size: 18px;
+    font-family: "OpenSans";
+    font-weight: bold;
+}
+.closeForm svg{
+    margin-left: 10px;
+    height: 20px;
 }
 
 /* upload images, step 9 of 9 */
@@ -84,11 +105,11 @@ form {
 
 .formWrapper {
     width: 100%;
-    height: 100%;
+
+
     display: flex;
     flex-direction: column;
-    justify-content: center;
-    margin-top: 5%;
+    justify-content: flex-start;
     margin-bottom: 5%;
 }
 
@@ -274,34 +295,6 @@ select {
     height: 115px;
 }
 
-@media only screen and (min-width: 990px) {
-    main {
-        max-width: 990px;
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        justify-content: center;
-        margin: auto;
-    }
-    .formWrapper form {
-        border: 1px solid;
-        border-color: #6d6d6d;
-        padding: 80px;
-    }
-
-    .buttonWrapper button {
-        width: 343px;
-    }
-    .uploadPhotosWrapper {
-        justify-content: space-between;
-        max-width: 100%;
-    }
-    .imageSrc img {
-        width: 241px;
-        height: 168px;
-    }
-}
-
 /* Step ten */
 
 .stepTen {
@@ -444,5 +437,61 @@ select {
 .svgWrapper svg {
     height: 110px;
     width: 110px;
+}
+
+@media only screen and (min-width: 500px) {
+    .formContainer {
+        max-width: 600px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        margin: auto;
+    }
+}
+
+@media only screen and (min-width: 990px) {
+    .formContainer {
+        max-width: 990px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        margin: auto;
+    }
+    .formWrapper form {
+        border: 1px solid;
+        border-color: #6d6d6d;
+        padding: 80px;
+        margin-top: 0px;
+    }
+
+    .buttonWrapper button {
+        width: 343px;
+    }
+    .uploadPhotosWrapper {
+        justify-content: space-between;
+        max-width: 100%;
+    }
+    .imageSrc img {
+        width: 241px;
+        height: 168px;
+    }
+
+    .closeForm {
+        margin-right: 62px;
+        margin-top: 40px;
+        margin-bottom: 97px;
+    }
+    .closeForm a{
+        display: flex;
+        align-items: center;
+        color: #212121;
+        font-family: 'OpenSans';
+        font-size: 24px;
+    }
+    .closeForm svg{
+        margin-left: 10px;
+    }
 }
 
