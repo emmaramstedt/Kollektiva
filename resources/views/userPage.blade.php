@@ -88,7 +88,7 @@
             <div class="textAndButton">
                 <h2>Välkommen Agda Nilsson!</h2>
                 <p class="margins">Hos oss behöver du inte tänka på att få en full inbox med meddelanden att svara på. Med Kollektivas personliga och automatiska matchning löser vi detta åt dig. </p>
-                <button class="laptopUserpageButton">Skapa bostadsannons här</button>
+                <button class="laptopUserpageButton"><a href="/hyrut">Skapa bostadsannons här</a></button>
             </div>
         </div>
     </div>

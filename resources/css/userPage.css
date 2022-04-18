@@ -89,6 +89,10 @@
         width: 338px;
         margin-top: 65px;
     }
+    .laptopUserpageButton a {
+        text-decoration: none;
+        color: black;
+    }
 
     .textAndButton {
         display: flex;
