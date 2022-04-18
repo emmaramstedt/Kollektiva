@@ -1,6 +1,7 @@
 .userPageWrapper h2 {
     text-align: center;
     padding-bottom: 32px;
+    padding-top: 32px;
 }
 
 .bottomSpace {
@@ -47,6 +48,10 @@
     font-size: 18px;
     font-weight: 100;
 }
+.userPageNav ul li a {
+    text-decoration: none;
+    color: #ffffff;
+}
 
 .laptopUserMenu {
     display: none;
@@ -58,6 +63,17 @@
     }
     .laptopUserMenu {
         display: block;
+    }
+
+    .userPageNav {
+        color: #ffffff;
+        background-color: #033f33;
+        width: 35%;
+    }
+
+    .userPageNav ul li {
+        margin-bottom: 32px;
+        color: white;
     }
 }
 
