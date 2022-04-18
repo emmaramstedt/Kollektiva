@@ -53,27 +53,59 @@
     color: #ffffff;
 }
 
-.laptopUserMenu {
+.laptopUserView {
     display: none;
 }
 
-@media only screen and (min-width: 800px) {
+@media only screen and (min-width: 834px) {
     .mobileDropdown {
         display: none;
     }
-    .laptopUserMenu {
+    .laptopUserView {
         display: block;
+    }
+
+    .laptopUserMenu {
+        display: flex;
+        flex-direction: row;
     }
 
     .userPageNav {
         color: #ffffff;
         background-color: #033f33;
         width: 35%;
+        min-width: 250px;
     }
 
     .userPageNav ul li {
         margin-bottom: 32px;
         color: white;
+    }
+
+    .laptopUserpageButton {
+        background-color: #fca82b;
+        border: none;
+        height: 56px;
+        width: 338px;
+        margin-top: 65px;
+    }
+    .laptopUserpageButton a {
+        text-decoration: none;
+        color: black;
+    }
+
+    .textAndButton {
+        display: flex;
+        flex-direction: column;
+        margin-left: 65px;
+        text-align: left;
+    }
+    .textAndButton p {
+        padding-left: 0%;
+    }
+    .textAndButton h2 {
+        padding-left: 0%;
+        text-align: left;
     }
 }
 

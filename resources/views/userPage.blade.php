@@ -46,11 +46,8 @@
             </div>
         </div>
     </div>
-    <div class="laptopUserMenu">
-        <h2>Välkommen Agda Nilsson!</h2>
-        <p class="margins">Hos oss behöver du inte tänka på att få en full inbox med meddelanden att svara på. Med Kollektivas personliga och automatiska matchning löser vi detta åt dig. </p>
-        <button class="laptopUserpageButton">Skapa bostadsannons här</button>
-        <div class="laptopUserView">
+    <div class="laptopUserView">
+        <div class="laptopUserMenu">
             <div class="userPageNav margins">
                 <ul>
                     <li><svg width="30" height="30" viewBox="0 0 30 30" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -87,6 +84,11 @@
                             <path d="M26 16.7441L13.5 16.7441M13.5 16.7441L18.8571 21.7441M13.5 16.7441L18.8571 11.7441M26 6.74414V5.07747C26 4.19342 25.6237 3.34557 24.954 2.72045C24.2842 2.09533 23.3758 1.74414 22.4286 1.74414L4.57143 1.74414C3.62423 1.74414 2.71582 2.09533 2.04605 2.72045C1.37627 3.34557 1 4.19342 1 5.07747L1 28.4108C1 29.2949 1.37627 30.1427 2.04605 30.7678C2.71582 31.3929 3.62423 31.7441 4.57143 31.7441L22.4286 31.7441C23.3758 31.7441 24.2842 31.3929 24.954 30.7678C25.6237 30.1427 26 29.2949 26 28.4108V26.7441" stroke="#FCA82B" stroke-width="1.875" stroke-linecap="round" stroke-linejoin="round" />
                         </svg>Logga ut</li>
                 </ul>
+            </div>
+            <div class="textAndButton">
+                <h2>Välkommen Agda Nilsson!</h2>
+                <p class="margins">Hos oss behöver du inte tänka på att få en full inbox med meddelanden att svara på. Med Kollektivas personliga och automatiska matchning löser vi detta åt dig. </p>
+                <button class="laptopUserpageButton"><a href="/hyrut">Skapa bostadsannons här</a></button>
             </div>
         </div>
     </div>
