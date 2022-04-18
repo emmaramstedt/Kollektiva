@@ -146,6 +146,10 @@
                 <li>
                     <a class="nav-link" href="/contact">Kontakt</a>
                 </li>
+
+                <li>
+                    <a class="nav-link" href="/userPage">Profil</a>
+                </li>
                 <div class="menuGap">
 
 

@@ -87,6 +87,8 @@
 </div>
 <!-- Forms javascript -->
 <script src="../js/forms.js"></script>
+<!-- User page javascript -->
+<script src="../js/userPage.js"></script>
 <!-- chat API -->
 <div id="custom_fc_button" style="visibility:hidden;">
     <a id="open_fc_widget" onClick="openWidget()" style="cursor:pointer;"><img id="imageicon" src="{{asset('icons/chat.svg')}}" /></a>
