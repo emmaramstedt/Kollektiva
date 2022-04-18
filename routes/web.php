@@ -1,6 +1,7 @@
 <?php
 
 use App\Http\Controllers\ContactController;
+use App\Http\Controllers\AdController;
 use App\Http\Controllers\HelpController;
 use App\Http\Controllers\HyrkontraktController;
 use App\Http\Controllers\HyrutController;
@@ -25,3 +26,4 @@ Route::get('help', HelpController::class);
 Route::get('hyrkontrakt', HyrkontraktController::class);
 Route::get('hyrut', HyrutController::class);
 Route::get('userPage', PersonalController::class);
+Route::get('adposted', AdController::class);

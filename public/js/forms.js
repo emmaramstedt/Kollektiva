@@ -4,6 +4,11 @@ var __webpack_exports__ = {};
   !*** ./resources/js/forms.js ***!
   \*******************************/
 var previews = document.querySelectorAll(".preview");
+var tenant = document.getElementById("specifyTenant");
+var skip = document.getElementById("skip");
+var stepTen = document.querySelector(".stepTen");
+var stepEleven = document.querySelector(".stepEleven");
+var stepThirteen = document.querySelector(".stepThirteen");
 
 if (window.location.href === 'http://127.0.0.1:8000/hyrut') {
   document.querySelector('header').style.display = "none";
@@ -11,7 +16,7 @@ if (window.location.href === 'http://127.0.0.1:8000/hyrut') {
 }
 
 previews.forEach(function (preview) {
-  preview.onchange = function (e) {
+  preview.onchange = function () {
     preview.src = URL.createObjectURL(window.event.target.files[0]);
     preview.closest("div").querySelector(".imageSrc").innerHTML = "<img src=\"".concat(preview.src, "\">"); // preview.closest("div").querySelector(".description").style.display =
     //     "block";
@@ -20,6 +25,17 @@ previews.forEach(function (preview) {
 var currentTab = 0; // Current tab is set to be the first tab (0)
 
 showTab(currentTab); // Display the current tab
+//check if on step 10. If on step 10 the "next" button should be disabled
+
+function checkCurrentTabCount() {
+  if (currentTab == 10) {
+    document.getElementById("next").disabled = true;
+  } else {
+    document.getElementById("next").disabled = false;
+  }
+}
+
+function backToHome() {}
 
 function showTab(n) {
   // This function will display the specified tab of the form ...
@@ -35,7 +51,25 @@ function showTab(n) {
   }
 
   if (n == x.length - 1) {
-    document.getElementById("next").innerHTML = "Skicka in";
+    document.getElementById("next").innerHTML = "Se din annons";
+    document.getElementById("next").style.width = "343px";
+    document.getElementById("next").style.marginBottom = "18px";
+    document.getElementById("next").style.padding = "0px";
+    document.getElementById("back").innerHTML = "Stäng formulär";
+    document.getElementById("back").style.width = "343px";
+    document.getElementById("back").style.padding = "0px";
+    document.getElementById("back").style.margin = "0px";
+    document.getElementById("nextAndBack").style.flexDirection = "column-reverse";
+
+    document.getElementById("back").onclick = function () {
+      location.href = "/";
+    };
+
+    document.getElementById("next").onclick = function () {
+      location.href = "/adposted";
+    };
+  } else if (n == x.length - 2) {
+    document.getElementById("next").innerHTML = "Publicera";
   } else {
     document.getElementById("next").innerHTML = "Nästa";
   }
@@ -70,26 +104,54 @@ next.addEventListener("click", function nextStep(n) {
     document.querySelector(".buttonWrapper").style.alignSelf = "flex-end";
   }
 
-  ; // if you have reached the end of the form... :
+  ;
+  checkCurrentTabCount(); // if you have reached the end of the form... :
 
   if (currentTab >= x.length) {
     //...the form gets submitted:
     document.getElementById("regForm").submit();
     return false;
-  } // Otherwise, display the correct tab:
+  }
 
+  console.log(n); // Otherwise, display the correct tab:
 
   showTab(currentTab);
 });
+var skipped = false; //logic for "specify tenant" button on step 10
+
+tenant.addEventListener("click", function () {
+  stepTen.style.display = "none";
+  stepEleven.style.display = "block";
+  currentTab = 11;
+  checkCurrentTabCount();
+  skipped = false;
+  return skipped;
+}); //logic for "skip" button on step 10
+
+skip.addEventListener("click", function () {
+  stepTen.style.display = "none";
+  stepThirteen.style.display = "block";
+  currentTab = 13;
+  checkCurrentTabCount();
+  skipped = true;
+  document.getElementById("next").innerHTML = "Publicera";
+  return skipped;
+});
 var back = document.getElementById("back");
 back.addEventListener("click", function nextStep(n) {
+  stepEleven.style.display = "none";
   var n = -1; // This function will figure out which tab to display
 
   var x = document.getElementsByClassName("tab"); // Exit the function if any field in the current tab is invalid:
   //   if (n == 1 && !validateForm()) return false;
   // Hide the current tab:
 
-  x[currentTab].style.display = "none"; // Increase or decrease the current tab by 1:
+  x[currentTab].style.display = "none"; //correct the count if the user chose to skip on step 10:
+
+  if (skipped == true) {
+    currentTab = currentTab - 2;
+  } // Increase or decrease the current tab by 1:
+
 
   currentTab = currentTab + n; //if on first tab, style the next button accordingly
 
@@ -106,8 +168,10 @@ back.addEventListener("click", function nextStep(n) {
     //...the form gets submitted:
     document.getElementById("regForm").submit();
     return false;
-  } // Otherwise, display the correct tab:
+  }
 
+  checkCurrentTabCount();
+  console.log(n); // Otherwise, display the correct tab:
 
   showTab(currentTab);
 });

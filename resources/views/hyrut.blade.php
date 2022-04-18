@@ -15,7 +15,7 @@
         <form>
             <!-- introduction tab -->
             <div class="formStart tab">
-                <h3 class="margins">Skapa annons</h3>
+                <h2>Skapa annons</h2>
                 <ul>
                     <li>Punktliga hyresbetalningar </li>
                     <li> Skydd mot förlorad hyra</li>
@@ -42,12 +42,12 @@
                         <input class="checky" type="radio" id="room" name="living" value="room">
                         <label for="room">Ett rum</label>
                     </div>
-                    <br>
+
                     <div class="radioWrapper">
                         <input class="checky" type="radio" id="house" name="living" value="house">
                         <label for="house">Hela bostaden</label>
                     </div>
-                    <br>
+
                     <p>
                     <h3>Hyr du ut möblerat?</h3>
                     </p>
@@ -55,12 +55,11 @@
                         <input class="checky" type="radio" id="furniture" name="furnished" value="furniture">
                         <label for="furniture">Möblerat</label>
                     </div>
-                    <br>
+
                     <div class="radioWrapper">
                         <input class="checky" type="radio" id="noFurniture" name="furnished" value="noFurniture">
                         <label for="noFurniture">Omöblerat</label>
                     </div>
-                    <br>
                 </div>
             </div>
             <!-- step 2 -->
@@ -71,15 +70,15 @@
                             <p>steg 2 av 13</p>
                         </div>
                     </div>
-                    <h2>Hur stor är din bostad?</h2><br>
+                    <h2>Hur stor är din bostad?</h2>
                     <h3>Storlek</h3>
                     </label>
-                    <div class="stepTwoSize">
-                        <div class="stepTwoSizeLabel"><label for="size">
+                    <div class="alignLabelWithDivWrapper">
+                        <div class="alignLabelWithDiv"><label for="size">
                                 <input placeholder="&nbsp;&nbsp;&nbsp;&nbsp;Ange" type="number" name="size" id="size" min="5" max="1000"></div>
                         <div class="stepTwoSquareMetres">m2</div>
                         <label for="roomNumber">
-                    </div><br>
+                    </div>
                     <h3>Antal rum</h3>
                     </label>
                     <select id="roomNumber" name="roomNumber">
@@ -94,7 +93,7 @@
                         <option value="8">8</option>
                         <option value="9">9</option>
                         <option value="10">10</option>
-                    </select><br>
+                    </select>
                     <label for="peopleNumber">
                         <h3>Hur många bor här?</h3>
                     </label>
@@ -110,7 +109,7 @@
                         <option value="8">8</option>
                         <option value="9">9</option>
                         <option value="10">10</option>
-                    </select><br>
+                    </select>
                 </div>
             </div>
             <!-- step 3 -->
@@ -120,190 +119,297 @@
                         <p>steg 3 av 13</p>
                     </div>
                 </div>
-                <h3>Vilken adress har bostaden?</h3>
+                <h2>Vilken adress har bostaden?</h2>
                 <p>Vi behöver din fullständiga adress för att kunna visa ditt hem på en karta. Endast gatunamnet syns i annonsen.</p>
-                <div><label for="adress">Gatuadress</label></div>
-                <div><input name="adress" id="adress" type="text" placeholder="Ange"></div>
-                <div><label for="number">Gatunummer</label></div>
-                <div><input name="number" id="number" type="number" placeholder="Ange"></div>
-                <div><label for="postNumber">Postnummer</label></div>
-                <div><input name="postNumber" id="postNumber" type="number" placeholder="Ange"></div>
+                <div><label for="adress">
+                        <h3>Gatuadress</h3>
+                    </label></div>
+                <div><input name="adress" id="adress" type="text" placeholder="&nbsp;&nbsp;&nbsp;&nbsp;Ange""></div>
+                <div><label for=" number">
+                    <h3>Gatunummer</h3>
+                    </label>
+                </div>
+                <div><input name="number" id="number" type="number" placeholder="&nbsp;&nbsp;&nbsp;&nbsp;Ange""></div>
+                <div><label for=" postNumber">
+                    <h3>Postnummer</h3>
+                    </label>
+                </div>
+                <div><input name="postNumber" id="postNumber" type="number" placeholder="&nbsp;&nbsp;&nbsp;&nbsp;Ange" nge"></div>
+                <div><label for="city">
+                        <h3>Stad</h3>
+                    </label></div>
+                <div class="city"><input name="city" id="city" type="string" placeholder="&nbsp;&nbsp;&nbsp;&nbsp;Ange"></div>
             </div>
+
             <!-- step 4 -->
             <div class="stepFour tab">
-                <p class="margins">steg 4 av 13</p>
-                <h3 class="margins">Vilka bekvämligheter finns i bostaden?</h3>
-                <p class="margins">Kök</p>
+                <div class="steps">
+                    <div>
+                        <p>steg 4 av 13</p>
+                    </div>
+                </div>
+                <h2>Vilka bekvämligheter finns i bostaden?</h2>
+                <h3>Kök</h3>
                 <div class="radioWrapper">
                     <input class="checky" type="checkbox" name="kylskåp" id="kylskåp">
                     <label for="kylskåp">Kylskåp</label>
                 </div>
-                <br>
+
                 <div class="radioWrapper">
                     <input class="checky" type="checkbox" name="fridge" id="fridge">
                     <label for="fridge">Frys</label>
                 </div>
-                <br>
+
                 <div class="radioWrapper">
                     <input class="checky" type="checkbox" name="oven" id="oven">
                     <label for="oven">Ugn</label>
                 </div>
-                <br>
+
                 <div class="radioWrapper">
                     <input class="checky" type="checkbox" name="Spis" id="Spis">
                     <label for="Spis">Spis</label>
                 </div>
-                <br>
+
                 <div class="radioWrapper">
                     <input class="checky" type="checkbox" name="dishwasher" id="dishwasher">
                     <label for="dishwasher">Diskmaskin</label>
                 </div>
-                <br>
+
                 <div class="radioWrapper">
                     <input class="checky" type="checkbox" name="microwave" id="microwave">
                     <label for="microwave">Microvågsugn</label>
                 </div>
-                <p class="margins">Badrum</p>
+                <h3>Badrum</h3>
                 <div class="radioWrapper">
                     <input class="checky" type="checkbox" name="shower" id="shower">
                     <label for="shower">Egen dusch</label>
                 </div>
-                <br>
+
                 <div class="radioWrapper">
                     <input class="checky" type="checkbox" name="toilet" id="toilet">
                     <label for="toilet">Egen toalett</label>
                 </div>
-                <br>
+
                 <div class="radioWrapper">
                     <input class="checky" type="checkbox" name="bathtub" id="bathtub">
                     <label for="bathtub">Eget badkar</label>
                 </div>
-                <br>
-                <p class="margins">Tvätt</p>
+
+                <h3>Tvätt</h3>
                 <div class="radioWrapper">
                     <input class="checky" type="checkbox" name="washmachin" id="washmachin">
                     <label for="washmachin">Tvättmaskin</label>
                 </div>
-                <br>
+
                 <div class="radioWrapper">
                     <input class="checky" type="checkbox" name="dryer" id="dryer">
                     <label for="dryer">Torktumlare</label>
                 </div>
-                <br>
+
                 <div class="radioWrapper">
                     <input class="checky" class="checky" type="checkbox" name="laundry" id="laundry">
                     <label for="laundry">Gemensam tvättstuga</label>
                 </div>
-                <br>
-                <p class="margins">Populär</p>
+
+                <h3>Populär</h3>
                 <div class="radioWrapper">
                     <input class="checky" type="checkbox" name="all" id="all">
                     <label for="all">Alla</label>
                 </div>
-                <br>
+
                 <div class="radioWrapper">
                     <input class="checky" type="checkbox" name="single" id="single">
                     <label for="single">Ensamstående</label>
                 </div>
-                <br>
+
                 <div class="radioWrapper">
                     <input class="checky" type="checkbox" name="married" id="married">
                     <label for="married">Gift/Sambo</label>
                 </div>
-                <br>
+
+                <h3>Regler</h3>
+                <div class="radioWrapper">
+                    <input class="checky" type="checkbox" name="pets" id="pets">
+                    <label for="pets">Husdjur tillåtet</label>
+                </div>
+
+                <div class="radioWrapper">
+                    <input class="checky" type="checkbox" name="smoking" id="smoking">
+                    <label for="smoking">Rökning tillåtet</label>
+                </div>
+
             </div>
             <!-- step 5 -->
             <div class="stepFive tab">
-                <p class="margins" class="margins">steg 5 av 13</p>
-                <h3 class="margins">Mer om bostaden och dess skick</h3>
-                <p class="margins">sökande är ofta intresserade av renoveringar och när huset byggdes.</p>
-                <label class="margins" for="year">Bostadens byggnadsår</label>
-                <input placeholder="Ange" name="year" id="year" type="number">
-                <br>
-                <div class="radioWrapper">
-                    <input class="checky" name="year" id="year" type="radio">
-                    <label for="year">Vet ej</label>
+                <div class="steps">
+                    <div>
+                        <p>steg 5 av 13</p>
+                    </div>
                 </div>
-                <br>
-                <label class="margins" for="bathroom">Badrum - år sedan renovering</label>
-                <input placeholder="Ange" name="bathroom" id="bathroom" type="number">
-                <br>
-                <div class="radioWrapper">
-                    <input class="checky" name="bathroom" id="bathroom" type="radio">
-                    <label for="bathroom">Vet ej</label>
+                <h2>Mer om bostaden och dess skick</h2>
+                <p>Sökande är ofta intresserade av renoveringar och när huset byggdes.</p>
+
+                <label for="buildYear">
+                    <h3>Bostadens byggnadsår</h3>
+                </label>
+                <div>
+                    <select id="buildYear" name="buildYear">
+                        <option value="">-</option>
+                        <option value="2021 eller senare">2021 eller senare</option>
+                        <option value="2010-2020">2010-2020</option>
+                        <option value="2000-2009">2000-2009</option>
+                        <option value="1990-1999">1990-1999</option>
+                        <option value="1980-1989">1980-1989</option>
+                        <option value="1970-1979">1970-1979</option>
+                        <option value="1960-1969">1960-1969</option>
+                        <option value="1950-1959">1950-1959</option>
+                        <option value="1940-1949">1940-1949</option>
+                        <option value="1930-1939">1930-1939</option>
+                        <option value="1929 eller tidigare">1929 eller tidigare</option>
+                    </select>
                 </div>
-                <br>
-                <label class="margins" for="kitchen">Kök - år sedan renovering</label>
-                <input placeholder="Ange" name="kitchen" id="kitchen" type="number">
-                <br>
-                <div class="radioWrapper">
-                    <input class="checky" name="kitchen" id="kitchen" type="radio">
-                    <label for="kitchen">Vet ej</label>
+
+                <label for="bathroomRenovation">
+                    <h3>Badrum - år sedan renovering</h3>
+                </label>
+
+                <div>
+                    <select id="bathroomRenovation" name="bathroomRenovation">
+                        <option value="">-</option>
+                        <option value="1">1</option>
+                        <option value="2">2</option>
+                        <option value="3">3</option>
+                        <option value="4">4</option>
+                        <option value="5">5</option>
+                        <option value="6">6</option>
+                        <option value="7">7</option>
+                        <option value="8">8</option>
+                        <option value="9">9</option>
+                        <option value="10plus">10+</option>
+                        <option value="vetej">Vet ej</option>
+                    </select>
                 </div>
-                <br>
-                <label class="margins" for="energy">Energiklass (A++, A+, A, B, C, D, E)</label>
-                <input placeholder="Ange" name="energy" id="energy" type="text">
-                <br>
-                <div class="radioWrapper">
-                    <input class="checky" name="energy" id="energy" type="radio">
-                    <label for="energy">Vet ej</label>
+
+                <label for="kitchenRenovation">
+                    <h3>Kök - år sedan renovering</h3>
+                </label>
+
+                <div>
+                    <select id="kitchenRenovation" name="kitchenRenovation">
+                        <option value="">-</option>
+                        <option value="1">1</option>
+                        <option value="2">2</option>
+                        <option value="3">3</option>
+                        <option value="4">4</option>
+                        <option value="5">5</option>
+                        <option value="6">6</option>
+                        <option value="7">7</option>
+                        <option value="8">8</option>
+                        <option value="9">9</option>
+                        <option value="10plus">10+</option>
+                        <option value="vetej">Vet ej</option>
+                    </select>
                 </div>
-                <br>
+
+                <label for="energyclass">
+                    <h3>Energiklass</h3>
+                </label>
+
+                <div>
+                    <select id="energyclass" name="energyclass">
+                        <option value="">-</option>
+                        <option value="aplusplus">A++</option>
+                        <option value="aplus">A+</option>
+                        <option value="a">A</option>
+                        <option value="b">B</option>
+                        <option value="c">C</option>
+                        <option value="d">D</option>
+                        <option value="e">E</option>
+                        <option value="vetej">Vet ej</option>
+                    </select>
+                </div>
             </div>
             <!-- step 6 -->
             <div class="stepSix tab">
-                <p class="margins">Steg 6 av 13</p>
-                <h3 class="margins">När vill du hyra ut bostaden?</h3>
-                <label class="margins" for="moveIn">Inflyttningsdatum</label>
-                <input type="date" id="moveIn" name="moveIn">
-                <br>
-                <div class="radioWrapper">
-                    <input class="checky" id="moveInTwo" name="moveInTwo" type="radio">
-                    <label for="moveInTwo">Snarast</label>
+                <div class="steps">
+                    <div>
+                        <p>steg 6 av 13</p>
+                    </div>
                 </div>
-                <br>
-                <label class="margins" for="moveOut">Utflyttningsdatum</label>
-                <input type="date" id="moveOut" name="moveOut">
-                <br>
-                <div class="radioWrapper">
-                    <input class="checky" id="moveOutTwo" name="moveOutTwo" type="radio">
-                    <label for="moveOutTwo">Snarast</label>
-                </div>
-                <br>
+                <h2>När vill du hyra ut bostaden?</h2>
+                <labelfor="moveIn">
+                    <h3>Inflyttningsdatum</h3></label>
+                    <input type="date" id="moveIn" name="moveIn">
+
+                    <div class="radioWrapper">
+                        <input class="checky" id="moveInTwo" name="moveInTwo" type="radio">
+                        <label for="moveInTwo">Snarast</label>
+                    </div>
+
+                    <label for="moveOut">
+                        <h3>Utflyttningsdatum</h3>
+                    </label>
+                    <input type="date" id="moveOut" name="moveOut">
+
+                    <div class="radioWrapper">
+                        <input class="checky" id="moveOutTwo" name="moveOutTwo" type="radio">
+                        <label for="moveOutTwo">Snarast</label>
+                    </div>
+
             </div>
             <!-- step 7 -->
             <div class="stepSeven tab">
-                <p class="margins">Steg 7 av 13</p>
-                <h3 class="margins">Beskriv din bostad</h3>
-                <p class="margins">Sökande är ofta intresserade av renoveringar och när huset byggdes.</p>
+                <div class="steps">
+                    <div>
+                        <p>steg 7 av 13</p>
+                    </div>
+                </div>
+                <h2>Beskriv din bostad</h2>
+                <p>Sökande är ofta intresserade av renoveringar och när huset byggdes.</p>
                 <label for="description"></label>
-                <textarea name="description" id="description" type="textarea" placeholder="Beskrivning" rows="8" cols="35"></textarea>
-                <br>
-                <p class="margins">De flesta annonser har en beskrivning mellan 300 och 400 tecken.</p>
+                <textarea name="description" id="description" type="textarea" placeholder="Beskrivning"></textarea>
+
+                <p class="margins">De flesta annonser har en beskrivning mellan 300 och 400 tecken.</p><br>
                 <p class="margins">Saker hyresgäster ofta undrar över:</p>
                 <ul>
                     <li>Planlösning</li>
                     <li>Vad som ingår i hyran</li>
-                    <li>Kommunikation</li>
+                    <li>Kollektivtrafik</li>
                     <li>Varför du hyr ut din bostad</li>
                 </ul>
             </div>
             <!-- step 8 -->
             <div class="stepEight tab">
-                <p class="margins">Steg 8 av 13</p>
-                <h3 class="margins">Vilken hyra hade du tänkt dig?</h3>
-                <p class="margins">Enligt vår statistik på tusentals uthyrda bostäder skulle du kunna sätta hyran till: 8220 kr*.</p>
-                <label class="margins" for="rent">Hyra</label>
-                <input placeholder="Ange" name="rent" id="rent" type="number">
+                <div class="margins">
+                    <div class="steps">
+                        <div>
+                            <p>steg 8 av 13</p>
+                        </div>
+                    </div>
+                    <h2>Vilken hyra hade du tänkt dig?</h2>
+                    <p>Enligt vår statistik på tusentals uthyrda bostäder skulle du kunna sätta hyran till: 8220 kr*.</p>
+                    <div class="alignLabelWithDivWrapper">
+                        <div class="alignLabelWithDiv"><label for="rent">
+                                <input placeholder="&nbsp;&nbsp;&nbsp;&nbsp;Ange" type="number" name="rent" id="rent"></div>
+                        <div class="stepTwoSquareMetres">kr</div>
+                        <label for="roomNumber">
+                    </div>
+                </div>
                 <div class="infoText">
-                    <p class="margins">Hyresgästens månadskostnad är hyran + 10 % serviceavgift. Den hyran du anger är vad du får utbetalt varje månad. En serviceavgift på 5 % tillkommer till dig som hyresvärd.</p>
+                    <div class="margins">
+                        <p>Hyresgästens månadskostnad är hyran + 10 % serviceavgift. Den hyran du anger är vad du får utbetalt varje månad. En serviceavgift på 5 % tillkommer till dig som hyresvärd.</p>
+                    </div>
                 </div>
             </div>
             <!-- step 9 -->
             <div class="stepNine tab">
-                <p class="margins">Steg 9 av 13</p>
-                <h3 class="margins">Lägg till bilder</h3>
-                <p class="margins">Ta några bilder med din kamera eller din telefon. Bra bilder gör skillnad! Du kan alltid ta bort eller lägga till.</p>
+                <div class="steps">
+                    <div>
+                        <p>steg 9 av 13</p>
+                    </div>
+                </div>
+                <h2>Lägg till bilder</h2>
+                <p>Ta några bilder med din kamera eller din telefon. Bra bilder gör skillnad! Du kan alltid ta bort eller lägga till i efterhand.</p>
                 <div class="uploadPhotosWrapper">
                     <!-- image One -->
                     <div>
@@ -315,7 +421,7 @@
                                         <img src="{{asset('images/forms/choosephoto.svg')}}" alt="" />
                                     </picture>
                                 </div>
-                                <br>
+
                                 <input id="imageOne" type="file" name="imageOne" style="display: none;">
                         </label>
                     </div>
@@ -331,7 +437,7 @@
                                     <img src="{{asset('images/forms/choosephoto.svg')}}" alt="" />
                                 </picture>
                             </div>
-                            <br>
+
                             <input id="imageTwo" type="file" name="imageTwo" style="display: none;">
                     </label>
                 </div>
@@ -347,7 +453,7 @@
                                 <img src="{{asset('images/forms/choosephoto.svg')}}" alt="" />
                             </picture>
                         </div>
-                        <br>
+
                         <input id="imageThree" type="file" name="imageThree" style="display: none;">
                 </label>
 
@@ -364,7 +470,7 @@
                         <img src="{{asset('images/forms/choosephoto.svg')}}" alt="" />
                     </picture>
                 </div>
-                <br>
+
                 <input id="imageFour" type="file" name="imageFour" style="display: none;">
         </label>
     </div>
@@ -380,7 +486,7 @@
                     <img src="{{asset('images/forms/choosephoto.svg')}}" alt="" />
                 </picture>
             </div>
-            <br>
+
             <input id="imageFive" type="file" name="imageFive" style="display: none;">
     </label>
 </div>
@@ -396,7 +502,7 @@
                     <img src="{{asset('images/forms/choosephoto.svg')}}" alt="" />
                 </picture>
             </div>
-            <br>
+
             <input id="imageSix" type="file" name="imageSix" style="display: none;">
     </label>
 </div>
@@ -408,12 +514,16 @@
 <!--end step 9 -->
 <!-- step 10 -->
 <div class="stepTen tab">
-    <p class="margins">Steg 10 av 13</p>
-    <h3 class="margins">Specificera din hyresgäst?</h3>
-    <p class="margins">Matcha med din perfekta hyresgäst. "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </p>
+    <div class="steps">
+        <div>
+            <p>steg 10 av 13</p>
+        </div>
+    </div>
+    <h2>Specificera din hyresgäst?</h2>
+    <p>Matcha med din perfekta hyresgäst. "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </p>
     <div class="buttonWrapper">
-        <button type="button" class="nextButton">Specificera</button>
-        <button type="button" class="backButton jump">
+        <button type="button" class="nextButton" id="specifyTenant">Specificera hyresgästen</button>
+        <button type="button" class="backButton jump" id="skip">
             Hoppa över
         </button>
     </div>
@@ -430,90 +540,90 @@
         <input class="checky" type="checkbox" name="all" id="all">
         <label for="all">Alla</label>
     </div>
-    <br>
+
     <div class="radioWrapper">
         <input class="checky" type="checkbox" name="alone" id="alone">
         <label for="alone">Ensam</label>
     </div>
-    <br>
+
     <div class="radioWrapper">
         <input class="checky" type="checkbox" name="cosearcher" id="cosearcher">
         <label for="cosearcher">Medsökande</label>
     </div>
-    <br>
+
     <div class="radioWrapper">
         <input class="checky" type="checkbox" name="family" id="family">
         <label for="family">Barnfamilj</label>
     </div>
-    <br>
+
     <p class="margins">Sysselsättning</p>
     <div class="radioWrapper">
         <input class="checky" type="checkbox" name="all" id="all">
         <label for="all">Alla</label>
     </div>
-    <br>
+
     <div class="radioWrapper">
         <input class="checky" type="checkbox" name="working" id="working">
         <label for="working">Arbete</label>
     </div>
-    <br>
+
     <div class="radioWrapper">
         <input class="checky" type="checkbox" name="studying" id="studying">
         <label for="studying">Studerande</label>
     </div>
-    <br>
+
     <div class="radioWrapper">
         <input class="checky" type="checkbox" name="retired" id="retired">
         <label for="retired">Pension</label>
     </div>
-    <br>
+
     <div class="radioWrapper">
         <input class="checky" type="checkbox" name="other" id="other">
         <label for="other">Annan</label>
     </div>
-    <br>
+
     <p class="margins">Ålder</p>
     <div class="radioWrapper">
         <input class="checky" type="checkbox" name="18-25" id="18-25">
         <label for="18-25">18-25 år</label>
     </div>
-    <br>
+
     <div class="radioWrapper">
         <input class="checky" type="checkbox" name="26-32" id="26-32">
         <label for="26-32">26-32 år</label>
     </div>
-    <br>
+
     <div class="radioWrapper">
         <input class="checky" class="checky" type="checkbox" name="33-45" id="33-45">
         <label for="33-45">33-45 år</label>
     </div>
-    <br>
+
     <div class="radioWrapper">
         <input class="checky" class="checky" type="checkbox" name="46-59" id="46-59">
         <label for="46-59">46-59 år</label>
     </div>
-    <br>
+
     <div class="radioWrapper">
         <input class="checky" class="checky" type="checkbox" name="60+" id="60+">
         <label for="60+">60+ år</label>
     </div>
-    <br>
+
     <p class="margins">Civilstånd</p>
     <div class="radioWrapper">
         <input class="checky" type="checkbox" name="all" id="all">
         <label for="all">Alla</label>
     </div>
-    <br>
+
     <div class="radioWrapper">
         <input class="checky" type="checkbox" name="alone" id="alone">
         <label for="alone">Ensamstående</label>
     </div>
-    <br>
+
     <div class="radioWrapper">
         <input class="checky" type="checkbox" name="married" id="married">
         <label for="married">Gift/Sambo</label>
     </div>
-    <br>
+
 </div>
 <!-- step 12 -->
 <div class="stepTwelve tab">

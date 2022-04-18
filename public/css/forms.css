@@ -8,20 +8,33 @@
 }
 
 textarea{
-    max-width: 90%;
+    width: 100%;
 }
 
+.formWrapper ul{
+    padding-top: 24px;
+}
 
+.formWrapper p{
+    margin: 0px;
+    padding: 0px;
+}
 
+.formWrapper select{
+    width: 343px;
+    height: 48px;
+}
 /* Form buttons */
 
 /* Wraps next and back-button */
 
 .buttonWrapper {
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
     align-items: center;
     align-self: center;
+    width: 100%;
+    margin-top: 63px;
 }
 
 .firstNextButton {
@@ -51,6 +64,7 @@ textarea{
     height: 48px;
     background-color: transparent;
     margin-right: 15px;
+    border-style: solid;
 }
 
 /* close form button and wrapper */
@@ -115,7 +129,7 @@ form {
 }
 
 .steps{
-    padding-bottom: 32px;
+    padding-bottom: 24px;
 }
 
 .steps p{
@@ -131,29 +145,36 @@ form {
     margin-bottom: 5%;
 }
 
-.formWrapper h2 {
+/* .formWrapper h2 {
     padding-bottom: 24px;
-}
+} */
 
 .formWrapper h3 {
+    margin: 0px;
     padding-bottom: 18px;
+    padding-top: 24px;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 28px;
 }
 
 /* Radiobutton wrapper */
 
 .radioWrapper {
     border: 1px solid black;
-    margin: 1%;
-    padding: 1%;
+    margin: 0px;
+    padding: 0px;
+    margin-bottom: 18px;
     display: flex;
     align-items: center;
     padding: 0px;
     height: 48px;
+    width: 348px;
 }
 
 .radioWrapper label {
     margin: 0px;
-    margin-left: 2%;
+    margin-left: 24px;
 }
 
 /* Change color of checked radio and checkbox */
@@ -162,6 +183,7 @@ form {
     accent-color: #212121;
     width: 20px;
     height: 48px;
+    margin-left: 24px;
 }
 
 /* style inputfield */
@@ -169,16 +191,22 @@ form {
 input {
     background-color: transparent;
     border: 1px solid black;
-    margin: 1%;
-    padding: 1%;
+    margin: 0px;
+    padding: 0px;
     height: 48px;
+    width: 348px;
+}
+
+input[type=date]{
+    width: 348px;
+    margin-bottom: 18px;
 }
 
 select {
     background-color: transparent;
     border: 1px solid black;
-    margin: 1%;
-    padding: 1%;
+    margin: 0px;
+    padding: 0px;
 }
 
 /* description input field, step 7 of 9 */
@@ -242,13 +270,13 @@ select {
 .stepTwoWrapper label h3{
     width: 100%;
 }
-.stepTwoSize{
+.alignLabelWithDivWrapper{
     display: flex;
     width: 100%;
     height: 46px;
 }
 
-.stepTwoSize input {
+.alignLabelWithDivWrapper input {
     width: 265px;
     height: 48px;
     margin: 0px;
@@ -278,6 +306,11 @@ text-align: center;
     padding: 5px;
 }
 
+.stepThree h3{
+    margin-bottom: 0px;
+    padding-bottom: 10px;
+}
+
 /* step four */
 
 .stepFour {
@@ -298,6 +331,15 @@ text-align: center;
     padding: 5px;
 }
 
+.stepFive div{
+    height: 70px;
+}
+
+.stepFive h2{
+    margin-bottom: 23px;
+}
+
+
 /* Step six */
 
 .stepSix {
@@ -308,6 +350,9 @@ text-align: center;
     padding: 5px;
 }
 
+.stepSix label{
+    margin-bottom: 0px;
+}
 /* Step seven */
 
 .stepSeven {
@@ -324,12 +369,18 @@ text-align: center;
     /* display: flex; */
     flex-direction: column;
     justify-content: center;
-    margin: 5px;
-    padding: 5px;
+}
+
+.stepEight .alignLabelWithDivWrapper{
+    margin-top: 18px;
+    margin-bottom: 24px;
 }
 
 .infoText {
     background-color: #eefce8;
+    padding-top: 24px;
+    padding-bottom: 24px;
+    width: 100%;
 }
 
 /* Step nine */
@@ -363,6 +414,7 @@ text-align: center;
     justify-content: space-around;
     max-width: 650px;
     align-self: center;
+    margin-top: 29px;
 }
 
 .imageSrc img {
@@ -639,13 +691,13 @@ text-align: center;
     .stepTwoWrapper label h3{
         width: 100%;
     }
-    .stepTwoSize{
+    .alignLabelWithDivWrapper{
         display: flex;
         width: 100%;
         height: 54px;
     }
 
-    .stepTwoSize input {
+    .alignLabelWithDivWrapper input {
         width: 340px;
         height: 52px;
         margin: 0px;
