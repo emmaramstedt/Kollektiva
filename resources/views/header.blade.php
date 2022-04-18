@@ -10,6 +10,7 @@
     <link rel="stylesheet" href="{{asset('css/header.css')}}">
     <link rel="stylesheet" href="{{asset('css/footer.css')}}">
     <link rel="stylesheet" href="{{asset('css/helpcenter.css')}}">
+    <link rel="stylesheet" href="{{asset('css/userPage.css')}}">
     <link rel="stylesheet" href="{{asset('css/testimonies.css')}}">
     <link rel="stylesheet" href="{{asset('css/stepbystep.css')}}">
     <link rel="stylesheet" href="{{asset('css/quote.css')}}">
@@ -105,6 +106,12 @@
                         </div>
                         <li class="nav-item">
                             <a class="nav-link" href="/">Kontakt</a>
+                        </li>
+                        <div class="headerLine">
+                            <hr>
+                        </div>
+                        <li class="nav-item">
+                            <a class="nav-link" href="/userPage">Profil</a>
                         </li>
                         <div class="headerLine">
                             <hr>

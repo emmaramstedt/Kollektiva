@@ -19409,6 +19409,19 @@ var __WEBPACK_AMD_DEFINE_RESULT__;/**
 
 /***/ }),
 
+/***/ "./resources/css/testimonies.css":
+/*!***************************************!*\
+  !*** ./resources/css/testimonies.css ***!
+  \***************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+// extracted by mini-css-extract-plugin
+
+
+/***/ }),
+
 /***/ "./resources/css/stepbystep.css":
 /*!**************************************!*\
   !*** ./resources/css/stepbystep.css ***!
@@ -19474,6 +19487,19 @@ __webpack_require__.r(__webpack_exports__);
 
 /***/ }),
 
+/***/ "./resources/css/userPage.css":
+/*!************************************!*\
+  !*** ./resources/css/userPage.css ***!
+  \************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+// extracted by mini-css-extract-plugin
+
+
+/***/ }),
+
 /***/ "./resources/css/footer.css":
 /*!**********************************!*\
   !*** ./resources/css/footer.css ***!
@@ -19517,19 +19543,6 @@ __webpack_require__.r(__webpack_exports__);
 /*!**************************************!*\
   !*** ./resources/css/helpcenter.css ***!
   \**************************************/
-/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-// extracted by mini-css-extract-plugin
-
-
-/***/ }),
-
-/***/ "./resources/css/testimonies.css":
-/*!***************************************!*\
-  !*** ./resources/css/testimonies.css ***!
-  \***************************************/
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
 "use strict";
@@ -19844,16 +19857,17 @@ process.umask = function() { return 0; };
 /******/ 		// [resolve, reject, Promise] = chunk loading, 0 = chunk loaded
 /******/ 		var installedChunks = {
 /******/ 			"/js/app": 0,
-/******/ 			"css/testimonies": 0,
 /******/ 			"css/helpcenter": 0,
 /******/ 			"css/header": 0,
 /******/ 			"css/app": 0,
 /******/ 			"css/footer": 0,
+/******/ 			"css/userPage": 0,
 /******/ 			"css/forms": 0,
 /******/ 			"css/hero": 0,
 /******/ 			"css/ctaCards": 0,
 /******/ 			"css/quote": 0,
-/******/ 			"css/stepbystep": 0
+/******/ 			"css/stepbystep": 0,
+/******/ 			"css/testimonies": 0
 /******/ 		};
 /******/ 		
 /******/ 		// no chunk on demand loading
@@ -19903,17 +19917,18 @@ process.umask = function() { return 0; };
 /******/ 	// startup
 /******/ 	// Load entry module and return exports
 /******/ 	// This entry module depends on other loaded chunks and execution need to be delayed
-/******/ 	__webpack_require__.O(undefined, ["css/testimonies","css/helpcenter","css/header","css/app","css/footer","css/forms","css/hero","css/ctaCards","css/quote","css/stepbystep"], () => (__webpack_require__("./resources/js/app.js")))
-/******/ 	__webpack_require__.O(undefined, ["css/testimonies","css/helpcenter","css/header","css/app","css/footer","css/forms","css/hero","css/ctaCards","css/quote","css/stepbystep"], () => (__webpack_require__("./resources/css/footer.css")))
-/******/ 	__webpack_require__.O(undefined, ["css/testimonies","css/helpcenter","css/header","css/app","css/footer","css/forms","css/hero","css/ctaCards","css/quote","css/stepbystep"], () => (__webpack_require__("./resources/css/app.css")))
-/******/ 	__webpack_require__.O(undefined, ["css/testimonies","css/helpcenter","css/header","css/app","css/footer","css/forms","css/hero","css/ctaCards","css/quote","css/stepbystep"], () => (__webpack_require__("./resources/css/header.css")))
-/******/ 	__webpack_require__.O(undefined, ["css/testimonies","css/helpcenter","css/header","css/app","css/footer","css/forms","css/hero","css/ctaCards","css/quote","css/stepbystep"], () => (__webpack_require__("./resources/css/helpcenter.css")))
-/******/ 	__webpack_require__.O(undefined, ["css/testimonies","css/helpcenter","css/header","css/app","css/footer","css/forms","css/hero","css/ctaCards","css/quote","css/stepbystep"], () => (__webpack_require__("./resources/css/testimonies.css")))
-/******/ 	__webpack_require__.O(undefined, ["css/testimonies","css/helpcenter","css/header","css/app","css/footer","css/forms","css/hero","css/ctaCards","css/quote","css/stepbystep"], () => (__webpack_require__("./resources/css/stepbystep.css")))
-/******/ 	__webpack_require__.O(undefined, ["css/testimonies","css/helpcenter","css/header","css/app","css/footer","css/forms","css/hero","css/ctaCards","css/quote","css/stepbystep"], () => (__webpack_require__("./resources/css/quote.css")))
-/******/ 	__webpack_require__.O(undefined, ["css/testimonies","css/helpcenter","css/header","css/app","css/footer","css/forms","css/hero","css/ctaCards","css/quote","css/stepbystep"], () => (__webpack_require__("./resources/css/ctaCards.css")))
-/******/ 	__webpack_require__.O(undefined, ["css/testimonies","css/helpcenter","css/header","css/app","css/footer","css/forms","css/hero","css/ctaCards","css/quote","css/stepbystep"], () => (__webpack_require__("./resources/css/hero.css")))
-/******/ 	var __webpack_exports__ = __webpack_require__.O(undefined, ["css/testimonies","css/helpcenter","css/header","css/app","css/footer","css/forms","css/hero","css/ctaCards","css/quote","css/stepbystep"], () => (__webpack_require__("./resources/css/forms.css")))
+/******/ 	__webpack_require__.O(undefined, ["css/helpcenter","css/header","css/app","css/footer","css/userPage","css/forms","css/hero","css/ctaCards","css/quote","css/stepbystep","css/testimonies"], () => (__webpack_require__("./resources/js/app.js")))
+/******/ 	__webpack_require__.O(undefined, ["css/helpcenter","css/header","css/app","css/footer","css/userPage","css/forms","css/hero","css/ctaCards","css/quote","css/stepbystep","css/testimonies"], () => (__webpack_require__("./resources/css/userPage.css")))
+/******/ 	__webpack_require__.O(undefined, ["css/helpcenter","css/header","css/app","css/footer","css/userPage","css/forms","css/hero","css/ctaCards","css/quote","css/stepbystep","css/testimonies"], () => (__webpack_require__("./resources/css/footer.css")))
+/******/ 	__webpack_require__.O(undefined, ["css/helpcenter","css/header","css/app","css/footer","css/userPage","css/forms","css/hero","css/ctaCards","css/quote","css/stepbystep","css/testimonies"], () => (__webpack_require__("./resources/css/app.css")))
+/******/ 	__webpack_require__.O(undefined, ["css/helpcenter","css/header","css/app","css/footer","css/userPage","css/forms","css/hero","css/ctaCards","css/quote","css/stepbystep","css/testimonies"], () => (__webpack_require__("./resources/css/header.css")))
+/******/ 	__webpack_require__.O(undefined, ["css/helpcenter","css/header","css/app","css/footer","css/userPage","css/forms","css/hero","css/ctaCards","css/quote","css/stepbystep","css/testimonies"], () => (__webpack_require__("./resources/css/helpcenter.css")))
+/******/ 	__webpack_require__.O(undefined, ["css/helpcenter","css/header","css/app","css/footer","css/userPage","css/forms","css/hero","css/ctaCards","css/quote","css/stepbystep","css/testimonies"], () => (__webpack_require__("./resources/css/testimonies.css")))
+/******/ 	__webpack_require__.O(undefined, ["css/helpcenter","css/header","css/app","css/footer","css/userPage","css/forms","css/hero","css/ctaCards","css/quote","css/stepbystep","css/testimonies"], () => (__webpack_require__("./resources/css/stepbystep.css")))
+/******/ 	__webpack_require__.O(undefined, ["css/helpcenter","css/header","css/app","css/footer","css/userPage","css/forms","css/hero","css/ctaCards","css/quote","css/stepbystep","css/testimonies"], () => (__webpack_require__("./resources/css/quote.css")))
+/******/ 	__webpack_require__.O(undefined, ["css/helpcenter","css/header","css/app","css/footer","css/userPage","css/forms","css/hero","css/ctaCards","css/quote","css/stepbystep","css/testimonies"], () => (__webpack_require__("./resources/css/ctaCards.css")))
+/******/ 	__webpack_require__.O(undefined, ["css/helpcenter","css/header","css/app","css/footer","css/userPage","css/forms","css/hero","css/ctaCards","css/quote","css/stepbystep","css/testimonies"], () => (__webpack_require__("./resources/css/hero.css")))
+/******/ 	var __webpack_exports__ = __webpack_require__.O(undefined, ["css/helpcenter","css/header","css/app","css/footer","css/userPage","css/forms","css/hero","css/ctaCards","css/quote","css/stepbystep","css/testimonies"], () => (__webpack_require__("./resources/css/forms.css")))
 /******/ 	__webpack_exports__ = __webpack_require__.O(__webpack_exports__);
 /******/ 	
 /******/ })()

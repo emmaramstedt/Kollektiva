@@ -4,7 +4,9 @@ use App\Http\Controllers\ContactController;
 use App\Http\Controllers\HelpController;
 use App\Http\Controllers\HyrkontraktController;
 use App\Http\Controllers\HyrutController;
+use App\Http\Controllers\PersonalController;
 use Illuminate\Support\Facades\Route;
+
 
 /*
 |--------------------------------------------------------------------------
@@ -22,3 +24,4 @@ Route::get('contact', ContactController::class);
 Route::get('help', HelpController::class);
 Route::get('hyrkontrakt', HyrkontraktController::class);
 Route::get('hyrut', HyrutController::class);
+Route::get('userPage', PersonalController::class);
