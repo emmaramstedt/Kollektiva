@@ -11,6 +11,8 @@ textarea{
     max-width: 90%;
 }
 
+
+
 /* Form buttons */
 
 /* Wraps next and back-button */
@@ -103,7 +105,8 @@ textarea{
 /* Form Wrapper and general form styling */
 
 form {
-    margin-top: 5%;
+    margin: 0px;
+    padding: 0px;
     margin-bottom: 5%;
 }
 
@@ -111,14 +114,29 @@ form {
     display: none;
 }
 
+.steps{
+    padding-bottom: 32px;
+}
+
+.steps p{
+    padding: 0;
+    margin: 0;
+}
+
 .formWrapper {
     width: 100%;
-
-
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
     margin-bottom: 5%;
+}
+
+.formWrapper h2 {
+    padding-bottom: 24px;
+}
+
+.formWrapper h3 {
+    padding-bottom: 18px;
 }
 
 /* Radiobutton wrapper */
@@ -129,6 +147,8 @@ form {
     padding: 1%;
     display: flex;
     align-items: center;
+    padding: 0px;
+    height: 48px;
 }
 
 .radioWrapper label {
@@ -141,7 +161,7 @@ form {
 .checky {
     accent-color: #212121;
     width: 20px;
-    height: 20px;
+    height: 48px;
 }
 
 /* style inputfield */
@@ -151,6 +171,7 @@ input {
     border: 1px solid black;
     margin: 1%;
     padding: 1%;
+    height: 48px;
 }
 
 select {
@@ -199,6 +220,52 @@ select {
     justify-content: center;
     margin: 5px;
     padding: 5px;
+}
+.stepTwoWrapper{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+}
+
+.stepTwoWrapper h2{
+    width: 100%;
+}
+
+.stepTwoWrapper select{
+    margin: 0px;
+    padding: 0px;
+    height: 48px;
+    width: 342px;
+}
+
+.stepTwoWrapper label h3{
+    width: 100%;
+}
+.stepTwoSize{
+    display: flex;
+    width: 100%;
+    height: 46px;
+}
+
+.stepTwoSize input {
+    width: 265px;
+    height: 48px;
+    margin: 0px;
+    padding: 0px;
+}
+
+.stepTwoSquareMetres {
+display:flex;
+align-items: center;
+border-style:solid;
+border-width: 1px;
+border-left: none;
+height: 48px;
+margin: 0px;
+padding-left: 24px;
+padding-right: 24px;
+text-align: center;
 }
 
 /* Step three */
@@ -550,4 +617,52 @@ select {
     .stepOne .checky{
         width: auto;
     }
+
+    .stepTwoWrapper{
+        width: 100%;
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+    }
+
+    .stepTwoWrapper h2{
+        width: 100%;
+    }
+
+    .stepTwoWrapper select{
+        margin: 0px;
+        padding: 0px;
+        height: 54px;
+        width: 422px;
+    }
+
+    .stepTwoWrapper label h3{
+        width: 100%;
+    }
+    .stepTwoSize{
+        display: flex;
+        width: 100%;
+        height: 54px;
+    }
+
+    .stepTwoSize input {
+        width: 340px;
+        height: 52px;
+        margin: 0px;
+        padding: 0px;
+    }
+
+    .stepTwoSquareMetres {
+    display:flex;
+    align-items: center;
+    border-style:solid;
+    border-width: 1px;
+    border-left: none;
+    height: 52px;
+    margin: 0px;
+    padding-left: 24px;
+    padding-right: 24px;
+    text-align: center;
+    }
+
 }

@@ -14,6 +14,6 @@ class HyrkontraktController extends Controller
      */
     public function __invoke(Request $request)
     {
-        return view('/hyrkontrakt');
+        return view('/index');
     }
 }

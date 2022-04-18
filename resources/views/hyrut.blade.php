@@ -37,9 +37,7 @@
                         </div>
                     </div>
                     <h2>Vad vill du hyra ut?</h2>
-                    <p>
                     <h3>Hel bostad eller rum?</h3>
-                    </p>
                     <div class="radioWrapper">
                         <input class="checky" type="radio" id="room" name="living" value="room">
                         <label for="room">Ett rum</label>
@@ -67,53 +65,69 @@
             </div>
             <!-- step 2 -->
             <div class="stepTwo tab">
-                <p class="margins">steg 2 av 13</p>
-                <h3 class="margins">Hur stor är bostaden?</h3>
-                <label class="margins" for="size">Storlek</label>
-                <input placeholder="Ange" type="number" name="size" id="size" min="5" max="1000">
-                <label class="margins" for="roomNumber">Antal rum</label>
-                <select id="roomNumber" name="roomNumber">
-                    <option value="">-</option>
-                    <option value="1">1</option>
-                    <option value="2">2</option>
-                    <option value="3">3</option>
-                    <option value="4">4</option>
-                    <option value="5">5</option>
-                    <option value="6">6</option>
-                    <option value="7">7</option>
-                    <option value="8">8</option>
-                    <option value="9">9</option>
-                    <option value="10">10</option>
-                </select>
-                <label class="margins" for="peopleNumber">hur många bor här?</label>
-                <select id="peopleNumber" name="peopleNumber">
-                    <option value="">-</option>
-                    <option value="1">1</option>
-                    <option value="2">2</option>
-                    <option value="3">3</option>
-                    <option value="4">4</option>
-                    <option value="5">5</option>
-                    <option value="6">6</option>
-                    <option value="7">7</option>
-                    <option value="8">8</option>
-                    <option value="9">9</option>
-                    <option value="10">10</option>
-                </select><br>
+                <div class="stepTwoWrapper">
+                    <div class="steps">
+                        <div>
+                            <p>steg 2 av 13</p>
+                        </div>
+                    </div>
+                    <h2>Hur stor är din bostad?</h2><br>
+                    <h3>Storlek</h3>
+                    </label>
+                    <div class="stepTwoSize">
+                        <div class="stepTwoSizeLabel"><label for="size">
+                                <input placeholder="&nbsp;&nbsp;&nbsp;&nbsp;Ange" type="number" name="size" id="size" min="5" max="1000"></div>
+                        <div class="stepTwoSquareMetres">m2</div>
+                        <label for="roomNumber">
+                    </div><br>
+                    <h3>Antal rum</h3>
+                    </label>
+                    <select id="roomNumber" name="roomNumber">
+                        <option value="">-</option>
+                        <option value="1">1</option>
+                        <option value="2">2</option>
+                        <option value="3">3</option>
+                        <option value="4">4</option>
+                        <option value="5">5</option>
+                        <option value="6">6</option>
+                        <option value="7">7</option>
+                        <option value="8">8</option>
+                        <option value="9">9</option>
+                        <option value="10">10</option>
+                    </select><br>
+                    <label for="peopleNumber">
+                        <h3>Hur många bor här?</h3>
+                    </label>
+                    <select id="peopleNumber" name="peopleNumber">
+                        <option value="">-</option>
+                        <option value="1">1</option>
+                        <option value="2">2</option>
+                        <option value="3">3</option>
+                        <option value="4">4</option>
+                        <option value="5">5</option>
+                        <option value="6">6</option>
+                        <option value="7">7</option>
+                        <option value="8">8</option>
+                        <option value="9">9</option>
+                        <option value="10">10</option>
+                    </select><br>
+                </div>
             </div>
             <!-- step 3 -->
             <div class="stepThree tab">
-                <p class="margins">steg 3 av 13</p>
-                <h3 class="margins">vilken adress har bostaden?</h3>
-                <p class="margins">Vi behöver din fullständiga adress för att kunna visa ditt hem på en karta. Endast gatunamnet syns i annonsen.</p>
-                <label class="margins" for="adress">Gatuadress</label>
-                <input name="adress" id="adress" type="text" placeholder="Ange">
-                <br>
-                <label class="margins" for="number">Gatunummer</label>
-                <input name="number" id="number" type="number" placeholder="Ange">
-                <br>
-                <label class="margins" for="postNumber">Postnummer</label>
-                <input name="postNumber" id="postNumber" type="number" placeholder="Ange">
-                <br>
+                <div class="steps">
+                    <div>
+                        <p>steg 3 av 13</p>
+                    </div>
+                </div>
+                <h3>Vilken adress har bostaden?</h3>
+                <p>Vi behöver din fullständiga adress för att kunna visa ditt hem på en karta. Endast gatunamnet syns i annonsen.</p>
+                <div><label for="adress">Gatuadress</label></div>
+                <div><input name="adress" id="adress" type="text" placeholder="Ange"></div>
+                <div><label for="number">Gatunummer</label></div>
+                <div><input name="number" id="number" type="number" placeholder="Ange"></div>
+                <div><label for="postNumber">Postnummer</label></div>
+                <div><input name="postNumber" id="postNumber" type="number" placeholder="Ange"></div>
             </div>
             <!-- step 4 -->
             <div class="stepFour tab">
@@ -535,76 +549,32 @@
 <div class="stepThirteen tab">
     <p class="margins">steg 13 av 13</p>
     <h3 class="margins">Förhandsgranskning</h3>
-    <div class="imageWrapperForm">
-        <img class="formImage" src="{{asset('images/formExample/example.png')}}" alt="Bildspel">
+    @include('ad')
+    <!-- last step summary -->
+    <div class="formEnd tab">
+        <div class="bgColor">
+            <h3>Din annons är publicerad!</h3>
+            <div class="svgWrapper">
+                <svg width="102" height="111" viewBox="0 0 102 111" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M42.7097 3.35924C45.0089 1.41531 47.9219 0.34778 50.9328 0.345706C53.9436 0.343632 56.8581 1.40715 59.16 3.34791L97.4667 35.6366C100.34 38.0562 102 41.6262 102 45.3832V100.911C102 103.541 100.955 106.063 99.0955 107.923C97.2357 109.783 94.7134 110.828 92.0833 110.828H9.91667C7.28758 110.828 4.7661 109.784 2.90653 107.925C1.04695 106.067 0.00150233 103.546 0 100.917V45.3832C0 41.6319 1.65467 38.0732 4.51633 35.6479L42.7097 3.35924V3.35924ZM72.4427 55.7363C72.8484 55.344 73.1719 54.8749 73.3944 54.3563C73.6169 53.8376 73.7339 53.2799 73.7385 52.7156C73.7432 52.1513 73.6354 51.5917 73.4214 51.0695C73.2075 50.5473 72.8917 50.0729 72.4925 49.6741C72.0932 49.2752 71.6186 48.9599 71.0962 48.7464C70.5738 48.533 70.0141 48.4257 69.4498 48.4309C68.8855 48.436 68.3278 48.5535 67.8094 48.7765C67.291 48.9995 66.8222 49.3235 66.4303 49.7296L43.9167 72.2376L35.5867 63.9076C35.1944 63.5019 34.7253 63.1783 34.2067 62.9558C33.6881 62.7333 33.1303 62.6164 32.566 62.6117C32.0017 62.6071 31.4421 62.7149 30.9199 62.9288C30.3977 63.1428 29.9233 63.4586 29.5245 63.8578C29.1256 64.257 28.8103 64.7317 28.5968 65.2541C28.3834 65.7765 28.2761 66.3362 28.2813 66.9005C28.2864 67.4648 28.404 68.0224 28.6269 68.5408C28.8499 69.0592 29.1739 69.5281 29.58 69.9199L40.9133 81.2533C41.7102 82.0491 42.7904 82.4962 43.9167 82.4962C45.0429 82.4962 46.1231 82.0491 46.92 81.2533L72.4427 55.7363V55.7363Z" fill="#033F33" />
+                </svg>
+            </div>
+        </div>
+        <div class="margins">
+            <h3>Annonshantering</h3>
+            <p>Nu är din annons synlig för alla kollektivas användare. Våra handledare hanterar hela din process från matchning till avtal. Tjänsten är dessutom dynamisk och användarvänlig. </p>
+        </div>
     </div>
-    <div class="slideshowButtons">
-        <button class="slideButton"><svg width="8" height="14" viewBox="0 0 8 14" fill="none" xmlns="http://www.w3.org/2000/svg">
+
+    <div class="buttonWrapper margins" id="nextAndBack">
+        <button type="button" class="backButton" id="back"><svg width="8" height="14" viewBox="0 0 8 14" fill="none" xmlns="http://www.w3.org/2000/svg">
                 <path d="M7 1L1 7L7 13" stroke="#212121" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
-            </svg></button>
-        <p>Bild 1/5</p>
-        <button class="slideButton"><svg width="8" height="14" viewBox="0 0 8 14" fill="none" xmlns="http://www.w3.org/2000/svg">
-                <path d="M1 13L7 7L1 1" stroke="#212121" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
-            </svg></button>
-    </div>
-    <h3 class="margins">Södra Kroksdal/ Skärhamn</h3>
-
-    <div class="wrapper margins">
-        <div class="summeryContentWrapper">
-            <div class="summaryContent">
-                <h3>Inflyttning</h3>
-                <p>Snarast möjligt</p>
-            </div>
-            <div class="summaryContent">
-                <h3>Utflyttning</h3>
-                <p>Tillsvidare</p>
-            </div>
-        </div>
-        <div class="summeryContentWrapper">
-            <div class="summaryContent">
-                <h3>Storlek</h3>
-                <p>2 rum, 80 m2</p>
-            </div>
-            <div class="summaryContent">
-                <h3>Möblerat</h3>
-                <p>Ja</p>
-            </div>
-        </div>
-    </div>
-
-    <div class="rulesAndDescription margins">
-        <h3>Beskrivning</h3>
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat</p>
-        <h3>Regler</h3>
-        <p>Husdjur tillåtet</p>
-        <p>Rökning ej tillåtet</p>
-    </div>
-</div>
-<!-- last step summary -->
-<div class="formEnd tab">
-    <div class="bgColor">
-        <h3>Din annons är publicerad!</h3>
-        <div class="svgWrapper">
-            <svg width="102" height="111" viewBox="0 0 102 111" fill="none" xmlns="http://www.w3.org/2000/svg">
-                <path d="M42.7097 3.35924C45.0089 1.41531 47.9219 0.34778 50.9328 0.345706C53.9436 0.343632 56.8581 1.40715 59.16 3.34791L97.4667 35.6366C100.34 38.0562 102 41.6262 102 45.3832V100.911C102 103.541 100.955 106.063 99.0955 107.923C97.2357 109.783 94.7134 110.828 92.0833 110.828H9.91667C7.28758 110.828 4.7661 109.784 2.90653 107.925C1.04695 106.067 0.00150233 103.546 0 100.917V45.3832C0 41.6319 1.65467 38.0732 4.51633 35.6479L42.7097 3.35924V3.35924ZM72.4427 55.7363C72.8484 55.344 73.1719 54.8749 73.3944 54.3563C73.6169 53.8376 73.7339 53.2799 73.7385 52.7156C73.7432 52.1513 73.6354 51.5917 73.4214 51.0695C73.2075 50.5473 72.8917 50.0729 72.4925 49.6741C72.0932 49.2752 71.6186 48.9599 71.0962 48.7464C70.5738 48.533 70.0141 48.4257 69.4498 48.4309C68.8855 48.436 68.3278 48.5535 67.8094 48.7765C67.291 48.9995 66.8222 49.3235 66.4303 49.7296L43.9167 72.2376L35.5867 63.9076C35.1944 63.5019 34.7253 63.1783 34.2067 62.9558C33.6881 62.7333 33.1303 62.6164 32.566 62.6117C32.0017 62.6071 31.4421 62.7149 30.9199 62.9288C30.3977 63.1428 29.9233 63.4586 29.5245 63.8578C29.1256 64.257 28.8103 64.7317 28.5968 65.2541C28.3834 65.7765 28.2761 66.3362 28.2813 66.9005C28.2864 67.4648 28.404 68.0224 28.6269 68.5408C28.8499 69.0592 29.1739 69.5281 29.58 69.9199L40.9133 81.2533C41.7102 82.0491 42.7904 82.4962 43.9167 82.4962C45.0429 82.4962 46.1231 82.0491 46.92 81.2533L72.4427 55.7363V55.7363Z" fill="#033F33" />
             </svg>
-        </div>
+            Tillbaka
+        </button>
+        <button type="button" class="nextButton" id="next"></button>
     </div>
-    <div class="margins">
-        <h3>Annonshantering</h3>
-        <p>Nu är din annons synlig för alla kollektivas användare. Våra handledare hanterar hela din process från matchning till avtal. Tjänsten är dessutom dynamisk och användarvänlig. </p>
-    </div>
-</div>
-
-<div class="buttonWrapper margins" id="nextAndBack">
-    <button type="button" class="backButton" id="back"><svg width="8" height="14" viewBox="0 0 8 14" fill="none" xmlns="http://www.w3.org/2000/svg">
-            <path d="M7 1L1 7L7 13" stroke="#212121" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
-        </svg>
-        Tillbaka
-    </button>
-    <button type="button" class="nextButton" id="next"></button>
-</div>
-</form>
+    </form>
 </div>
 </div>
 

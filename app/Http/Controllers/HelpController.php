@@ -14,6 +14,6 @@ class HelpController extends Controller
      */
     public function __invoke(Request $request)
     {
-        return view('help');
+        return view('/index');
     }
 }

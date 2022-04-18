@@ -86,26 +86,25 @@
                             <hr>
                         </div>
                         <li class="nav-item">
-                            <a class="nav-link" href="/hyrkontrakt">Sök bostad</a>
+                            <a class="nav-link" href="/">Sök bostad</a>
                         </li>
                         <div class="headerLine">
                             <hr>
                         </div>
                         <li class="nav-item">
-                            <!-- no corresponding blade.file -->
-                            <a class="nav-link" href="#">Hur fungerar Kollektiva?</a>
+                            <a class="nav-link" href="/">Hur fungerar Kollektiva?</a>
                         </li>
                         <div class="headerLine">
                             <hr>
                         </div>
                         <li class="nav-item">
-                            <a class="nav-link" href="/help">Hjälpcenter</a>
+                            <a class="nav-link" href="/">Hjälpcenter</a>
                         </li>
                         <div class="headerLine">
                             <hr>
                         </div>
                         <li class="nav-item">
-                            <a class="nav-link" href="/contact">Kontakt</a>
+                            <a class="nav-link" href="/">Kontakt</a>
                         </li>
                         <div class="headerLine">
                             <hr>
