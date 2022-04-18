@@ -1,5 +1,11 @@
 .userPageWrapper h2 {
     text-align: center;
+    padding-bottom: 32px;
+}
+
+.bottomSpace {
+    width: 100%;
+    height: 32px;
 }
 
 .dropDownButton {
@@ -40,4 +46,17 @@
     margin-bottom: 16px;
     font-size: 18px;
     font-weight: 100;
+}
+
+.laptopUserMenu {
+    display: none;
+}
+
+@media only screen and (min-width: 800px) {
+    .mobileDropdown {
+        display: none;
+    }
+    .laptopUserMenu {
+        display: block;
+    }
 }
