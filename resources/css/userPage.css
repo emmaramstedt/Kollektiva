@@ -9,3 +9,7 @@
 
 .userPageNav {
 }
+
+.userPageNav ul {
+    list-style-type: none;
+}
