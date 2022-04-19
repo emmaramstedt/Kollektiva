@@ -503,11 +503,21 @@ text-align: center;
     padding: 5px;
 }
 
+.adContainer{
+    display: flex;
+    justify-content: center;
+
+}
+.ad{
+    max-width: 990px;
+}
+
 .imageWrapperForm {
     display: flex;
     flex-direction: column;
     justify-content: center;
 }
+
 
 .stepThirteen image {
     height: 40%;

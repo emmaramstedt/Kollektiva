@@ -93,7 +93,7 @@ header input {
     border-left: none;
     padding: 1%;
     background-color: #ef9001;
-    height: 100%;
+    height: 36px;
 }
 
 /* Search form */
@@ -119,7 +119,7 @@ header input {
 
 .searchForm input {
     width: 100%;
-    height: 100%;
+    height: 36px;
     border-right: none;
     background-color: white;
     margin-right: 0;
@@ -213,6 +213,7 @@ hr {
 /* Media queries */
 
 @media only screen and (min-width: 600px) {
+
     .openMenuButtonWrapper {
         flex-direction: row;
     }
@@ -224,8 +225,13 @@ hr {
     }
 }
 
-@media only screen and (min-width: 834px) {
+@media only screen and (min-width: 991px) {
     /* make so that buttons lie next to each other */
+
+
+    .searchForm input {
+        height: 50px;
+    }
 
     .languageAndSearchWrapper {
         margin-right: 32px;
@@ -275,7 +281,7 @@ hr {
         border: 1px solid black;
         border-right: none;
         background-color: white;
-        height: 100%;
+        height: 50px;
         margin-right: 0%;
     }
     .laptopSearchForm button {
@@ -287,6 +293,7 @@ hr {
         padding: 0%;
         padding-left: 1%;
         padding-right: 1%;
+        height: 48px;
     }
     .laptopSearchForm button p {
         margin: 5%;
