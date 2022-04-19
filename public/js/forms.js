@@ -10,7 +10,10 @@ var stepTen = document.querySelector(".stepTen");
 var stepEleven = document.querySelector(".stepEleven");
 var stepThirteen = document.querySelector(".stepThirteen");
 
-if (window.location.href === 'http://127.0.0.1:8000/hyrut') {
+if (!window.location.href.includes('/hyrut')) {
+  document.querySelector('header').style.display = "block";
+  document.querySelector('.footerWrapper').style.display = "block";
+} else {
   document.querySelector('header').style.display = "none";
   document.querySelector('.footerWrapper').style.display = "none";
 }

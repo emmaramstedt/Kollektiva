@@ -7,6 +7,10 @@
     justify-content: space-between;
 }
 
+form button{
+    font-family: "OpenSans";
+}
+
 textarea{
     width: 100%;
 }
@@ -21,7 +25,7 @@ textarea{
 }
 
 .formWrapper select{
-    width: 343px;
+    width: 100%;
     height: 48px;
 }
 /* Form buttons */
@@ -169,7 +173,7 @@ form {
     align-items: center;
     padding: 0px;
     height: 48px;
-    width: 348px;
+    width: 100%;
 }
 
 .radioWrapper label {
@@ -198,7 +202,7 @@ input {
 }
 
 input[type=date]{
-    width: 348px;
+    width: 100%;
     margin-bottom: 18px;
 }
 
@@ -264,7 +268,7 @@ select {
     margin: 0px;
     padding: 0px;
     height: 48px;
-    width: 342px;
+    width: 100%;
 }
 
 .stepTwoWrapper label h3{
@@ -306,6 +310,10 @@ text-align: center;
     padding: 5px;
 }
 
+.stepThree input{
+    width: 100%;
+}
+
 .stepThree h3{
     margin-bottom: 0px;
     padding-bottom: 10px;
@@ -320,6 +328,7 @@ text-align: center;
     margin: 5px;
     padding: 5px;
 }
+
 
 /* Step five */
 
@@ -436,18 +445,31 @@ text-align: center;
     background-color: #eefce8;
 }
 
-.stepTen .buttonWrapper {
+.tenantButtonWrapper {
     margin-top: auto;
     margin-bottom: auto;
-
     display: flex;
     flex-direction: column;
     justify-content: center;
 }
-.stepTen .buttonWrapper button {
-    width: 95%;
+.tenantButtonWrapper  button {
+    width: 95% !important;
     margin: 2%;
     border-radius: 2%;
+    font-family: 'OpenSans';
+    color: #212121;
+    border: none;
+    height: 54px;
+}
+
+.tenantButton{
+    background-color: #FCA82B;
+}
+
+.stepTen .background {
+    padding-top: 24px;
+    padding-bottom: 24px;
+    margin-top: 24px;
 }
 
 .jump {
@@ -481,17 +503,22 @@ text-align: center;
     margin-bottom: 5%;
     justify-content: space-between;
 }
-
-.summeryContentWrapper {
-    display: flex;
-    flex-direction: column;
-    text-align: left;
+.adContainer{
+    margin-top: 10px;
 }
 
-.summeryContent {
+.summaryContentWrapper{
+    margin-top: 24px;
+    width: 100%;
     display: flex;
-    flex-direction: column;
-}
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    flex-direction: row;
+    }
+    .summaryContentWrapper > * {
+        flex: 0 0 50%;
+    margin-bottom: 32px;
+    }
 
 /* Step thirteen */
 
@@ -529,6 +556,7 @@ text-align: center;
     justify-content: space-between;
     margin-top: 5%;
     align-items: center;
+    margin-bottom:20px;
 }
 
 .slideButton {
@@ -585,15 +613,17 @@ text-align: center;
         justify-content: center;
         margin: auto;
     }
+    .slideshowButtons {
+        margin-bottom:30px;
+    }
+}
 
+@media only screen and (min-width: 990px) {
     .nextButton {
         max-width: 343px;
         padding-left: 15px;
         padding-right: 15px;
 }
-}
-
-@media only screen and (min-width: 990px) {
     .formContainer {
         max-width: 990px;
         display: flex;
@@ -641,10 +671,6 @@ text-align: center;
         margin-left: 10px;
     }
 
-
-}
-
-@media only screen and (min-width: 990px) {
     .steps{
         width: 100%;
         display: flex;
@@ -654,6 +680,7 @@ text-align: center;
         width: 100%;
         display: flex;
         flex-wrap: wrap;
+        justify-content: space-between;
     }
 
     .stepOne p{
@@ -687,20 +714,15 @@ text-align: center;
         flex-direction: column;
     }
 
-    .stepTwoWrapper h2{
-        width: 100%;
-    }
 
     .stepTwoWrapper select{
         margin: 0px;
         padding: 0px;
         height: 54px;
-        width: 422px;
+        width: 420px;
     }
 
-    .stepTwoWrapper label h3{
-        width: 100%;
-    }
+
     .alignLabelWithDivWrapper{
         display: flex;
         width: 100%;
@@ -726,5 +748,96 @@ text-align: center;
     padding-right: 24px;
     text-align: center;
     }
+.addressWrapper{
+display: flex;
+flex-wrap: wrap;
+justify-content: space-between
+}
+.addressWrapper > * {
+flex: 0 0 43%;
+width: 60%;
+margin-bottom: 64px;
+}
 
+.marginBottom{
+    margin-bottom: 64px !important;
+}
+
+.stepFourContainer{
+    display: flex;
+flex-wrap: wrap;
+justify-content: space-between
+}
+
+.stepFourContainer .radioWrapper{
+    width: 50%;
+    flex: 0 0 47%;
+width: 60%;
+margin-bottom: 24px;
+}
+
+.formWrapper select{
+    width: 420px;
+}
+input[type=date]{
+    width: 420px;
+}
+.stepSix .radioWrapper{
+    width: 420px;
+}
+.stepSixWrapper{
+    display: flex;
+    flex-wrap: wrap;
+justify-content: space-between
+}
+.stepSixWrapper > * {
+    flex: 0 0 43%;
+    width: 60%;
+    margin-bottom: 64px;
+    }
+
+    .stepElevenContainer{
+        display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between
+    }
+
+    .stepElevenContainer .radioWrapper{
+        width: 50%;
+        flex: 0 0 47%;
+    width: 60%;
+    margin-bottom: 24px;
+    }
+    .stepEleven h3{
+        width: 100%;
+    }
+
+    .stepTwelve .wrapper {
+width: 50%;
+    }
+
+    .rules{
+width: 60%;
+            display: flex;
+            flex-wrap: wrap;
+        justify-content: space-between;
+    }
+    .ad > * {
+        margin-bottom: 65px;
+    }
+.summaryContentWrapper{
+width: 100%;
+display: flex;
+flex-wrap: wrap;
+justify-content: flex-start;
+flex-direction: row;
+}
+.summaryContentWrapper > * {
+    flex: 0 0 33%;
+margin-bottom: 32px;
+}
+
+.slideshowButtons {
+    margin-bottom:40px;
+}
 }
