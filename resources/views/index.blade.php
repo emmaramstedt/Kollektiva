@@ -17,8 +17,8 @@
             <p>Vi hjälper dig att hitta din nya hyresgäst eller hyresvärd.</p>
         </div>
         <div class="heroButtons">
-            <div class="heroButton"><button class="orangeButton rent">Hyr ut bostad</button></div>
             <div class="heroButton"><button class="orangeButton search">Sök bostad</button></div>
+            <div class="heroButton"><button class="orangeButton rent">Hyr ut bostad</button></div>
         </div>
     </div>
 </div>

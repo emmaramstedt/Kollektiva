@@ -1,6 +1,8 @@
 /* Mobile-first */
 /* Language and search-function at top of page */
-
+.openMenuButtonWrapper a{
+    all: unset;
+}
 header {
     color: white;
     background-color: #033f33;
@@ -51,6 +53,10 @@ header input {
     display: flex;
     justify-content: flex-end;
     margin-right: 16px;
+}
+
+.languageAndSearchWrapper > *{
+    margin-left:38px;
 }
 
 .logo {

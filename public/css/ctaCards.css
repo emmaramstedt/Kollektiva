@@ -41,6 +41,10 @@ width: 100%;
     align-items: center;
 }
 
+.ctaCardsWrapper h2{
+    margin-bottom: 18px;
+}
+
 @media only screen and (min-width: 846px) {
     .ctaCardsWrapper{
         flex-direction: row;
@@ -69,13 +73,17 @@ width: 100%;
         width: 342px;
         }
 
-        .ctaCardText{
-        max-width: 50%;
+     .ctaCardText{
+         max-width: 50%;
         align-items: flex-start;
         }
-        .ctaCardText button{
-            align-self: auto;
-            }
+    .ctaCardText button{
+        align-self: auto;
+        }
+    .ctaCardsWrapper h2{
+        margin-bottom: 32px;
+    }
+
 }
 
 @media only screen and (min-width: 1440px) {

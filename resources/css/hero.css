@@ -23,6 +23,10 @@ width: 97vw;
 margin-bottom: 1em;
 }
 
+.heroText h1{
+    margin-bottom: 28px;
+}
+
 @media only screen and (min-width: 600px) {
     .heroImage img{
         width: 80vw;
@@ -69,6 +73,10 @@ margin-bottom: 1em;
     .heroButton button{
         width: 342px;
     }
+
+    .heroText h1{
+        margin-bottom: 32px;
+    }
 }
 
 @media only screen and (min-width: 1440px) {
@@ -96,6 +104,7 @@ margin-bottom: 1em;
         display: flex;
         align-items: flex-end;
         justify-content: space-around;
+        flex-direction: row-reverse;
         width: 100%
     }
     .heroButtons .rent{

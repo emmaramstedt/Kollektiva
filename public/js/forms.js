@@ -65,7 +65,7 @@ function showTab(n) {
     document.getElementById("nextAndBack").style.flexDirection = "column-reverse";
 
     document.getElementById("back").onclick = function () {
-      location.href = "/";
+      location.href = "/userPage";
     };
 
     document.getElementById("next").onclick = function () {
