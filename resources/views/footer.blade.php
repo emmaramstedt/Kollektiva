@@ -111,7 +111,7 @@
 <script src="../js/userPage.js"></script>
 <!-- chat API -->
 <div id="custom_fc_button" style="visibility:hidden;">
-    <a id="open_fc_widget" onClick="openWidget()" style="cursor:pointer;"><img id="imageicon" src="{{asset('icons/chat.svg')}}" /></a>
+    <a id="open_fc_widget" onClick="openWidget()" style="cursor:pointer;"><img id="imageicon" src="{{asset('icons/chat.svg')}}" style="width: 80px" /></a>
 </div>
 <script src="../js/app.js"></script>
 <script src="https://wchat.freshchat.com/js/widget.js" async></script>

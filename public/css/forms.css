@@ -28,6 +28,9 @@ textarea{
     width: 100%;
     height: 48px;
 }
+.rulesAndDescription{
+    margin-bottom: 25px;
+}
 /* Form buttons */
 
 /* Wraps next and back-button */
@@ -39,6 +42,8 @@ textarea{
     align-self: center;
     width: 100%;
     margin-top: 63px;
+    padding-left: 16px;
+    padding-right: 16px;
 }
 
 .firstNextButton {
@@ -125,7 +130,7 @@ textarea{
 form {
     margin: 0px;
     padding: 0px;
-    margin-bottom: 5%;
+    height: 100%;
 }
 
 .tab {
@@ -157,7 +162,7 @@ form {
     margin: 0px;
     padding-bottom: 18px;
     padding-top: 24px;
-    font-size: 18px;
+    /* font-size: 18px; */
     font-weight: 700;
     line-height: 28px;
 }
@@ -535,9 +540,7 @@ text-align: center;
     justify-content: center;
 
 }
-.ad{
-    max-width: 990px;
-}
+
 
 .imageWrapperForm {
     display: flex;
@@ -568,6 +571,7 @@ text-align: center;
 
 .stepThirteen .wrapper {
     display: flex;
+    flex-direction: column;
     margin-top: 5%;
     margin-bottom: 5%;
     justify-content: space-between;
@@ -606,7 +610,7 @@ text-align: center;
 
 @media only screen and (min-width: 500px) {
     .formContainer {
-        max-width: 600px;
+        max-width: 990px;
         display: flex;
         flex-direction: column;
         align-items: center;
@@ -625,7 +629,6 @@ text-align: center;
         padding-right: 15px;
 }
     .formContainer {
-        max-width: 990px;
         display: flex;
         flex-direction: column;
         align-items: center;
@@ -638,6 +641,7 @@ text-align: center;
         border-color: #6d6d6d;
         padding: 80px;
         margin-top: 0px;
+        margin-bottom: 0px;
     }
 
     .buttonWrapper {
@@ -645,6 +649,9 @@ text-align: center;
         flex-direction: row-reverse;
         align-self:flex-end;
         justify-content: space-between;
+        margin-bottom: 0px;
+        padding-left: 20px;
+        padding-right: 20px;
     }
     .uploadPhotosWrapper {
         justify-content: space-between;
@@ -839,6 +846,9 @@ margin-bottom: 32px;
 
 .slideshowButtons {
     margin-bottom:40px;
+}
+.rulesAndDescription{
+    margin-bottom: 40px;
 }
 }
 

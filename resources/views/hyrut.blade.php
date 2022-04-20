@@ -26,7 +26,9 @@
                 <button class="margins backButton">
                     <svg width="20" height="19" viewBox="0 0 20 19" fill="none" xmlns="http://www.w3.org/2000/svg">
                         <path d="M9.99051 0.333008C4.93051 0.333008 0.833008 4.43967 0.833008 9.49967C0.833008 14.5597 4.93051 18.6663 9.99051 18.6663C15.0597 18.6663 19.1663 14.5597 19.1663 9.49967C19.1663 4.43967 15.0597 0.333008 9.99051 0.333008ZM16.343 5.83301H13.6388C13.3519 4.69768 12.9271 3.60175 12.3738 2.56967C14.0459 3.14534 15.4549 4.30375 16.343 5.83301ZM9.99967 2.20301C10.7605 3.30301 11.3563 4.52217 11.7505 5.83301H8.24884C8.64301 4.52217 9.23884 3.30301 9.99967 2.20301ZM2.90467 11.333C2.75801 10.7463 2.66634 10.1322 2.66634 9.49967C2.66634 8.86717 2.75801 8.25301 2.90467 7.66634H6.00301C5.92967 8.27134 5.87467 8.87634 5.87467 9.49967C5.87467 10.123 5.92967 10.728 6.00301 11.333H2.90467ZM3.65634 13.1663H6.36051C6.65384 14.3122 7.07551 15.4122 7.62551 16.4297C5.95164 15.8572 4.54169 14.6979 3.65634 13.1663ZM6.36051 5.83301H3.65634C4.54169 4.30142 5.95164 3.1422 7.62551 2.56967C7.07223 3.60175 6.6474 4.69768 6.36051 5.83301ZM9.99967 16.7963C9.23884 15.6963 8.64301 14.4772 8.24884 13.1663H11.7505C11.3563 14.4772 10.7605 15.6963 9.99967 16.7963ZM12.1447 11.333H7.85467C7.77217 10.728 7.70801 10.123 7.70801 9.49967C7.70801 8.87634 7.77217 8.26217 7.85467 7.66634H12.1447C12.2272 8.26217 12.2913 8.87634 12.2913 9.49967C12.2913 10.123 12.2272 10.728 12.1447 11.333ZM12.3738 16.4297C12.9238 15.4122 13.3455 14.3122 13.6388 13.1663H16.343C15.4549 14.6956 14.0459 15.854 12.3738 16.4297ZM13.9963 11.333C14.0697 10.728 14.1247 10.123 14.1247 9.49967C14.1247 8.87634 14.0697 8.27134 13.9963 7.66634H17.0947C17.2413 8.25301 17.333 8.86717 17.333 9.49967C17.333 10.1322 17.2413 10.7463 17.0947 11.333H13.9963Z" fill="#FCA82B" />
-                    </svg> Svenska</button>
+                    </svg>
+                    Svenska
+                </button>
             </div>
             <!-- step 1 -->
             <div class="stepOne tab margins">
@@ -42,12 +44,10 @@
                         <input class="checky" type="radio" id="room" name="living" value="room">
                         <label for="room">Ett rum</label>
                     </div>
-
                     <div class="radioWrapper">
                         <input class="checky" type="radio" id="house" name="living" value="house">
                         <label for="house">Hela bostaden</label>
                     </div>
-
                     <p>
                     <h3>Hyr du ut möblerat?</h3>
                     </p>
@@ -55,7 +55,6 @@
                         <input class="checky" type="radio" id="furniture" name="furnished" value="furniture">
                         <label for="furniture">Möblerat</label>
                     </div>
-
                     <div class="radioWrapper">
                         <input class="checky" type="radio" id="noFurniture" name="furnished" value="noFurniture">
                         <label for="noFurniture">Omöblerat</label>
@@ -139,14 +138,12 @@
                         <label for=" number">
                             <h3>Gatunummer</h3>
                         </label>
-
                         <input name="number" id="number" type="number" placeholder="&nbsp;&nbsp;&nbsp;&nbsp;Ange">
                     </div>
                     <div>
                         <label for=" postNumber">
                             <h3>Postnummer</h3>
                         </label>
-
                         <input name="postNumber" id="postNumber" type="number" placeholder="&nbsp;&nbsp;&nbsp;&nbsp;Ange">
                     </div>
                     <div class="city">
@@ -157,8 +154,6 @@
                     </div>
                 </div>
             </div>
-
-
             <!-- step 4 -->
             <div class="stepFour tab">
                 <div class="steps">
@@ -173,27 +168,22 @@
                         <input class="checky" type="checkbox" name="kylskåp" id="kylskåp">
                         <label for="kylskåp">Kylskåp</label>
                     </div>
-
                     <div class="radioWrapper">
                         <input class="checky" type="checkbox" name="fridge" id="fridge">
                         <label for="fridge">Frys</label>
                     </div>
-
                     <div class="radioWrapper">
                         <input class="checky" type="checkbox" name="oven" id="oven">
                         <label for="oven">Ugn</label>
                     </div>
-
                     <div class="radioWrapper">
                         <input class="checky" type="checkbox" name="Spis" id="Spis">
                         <label for="Spis">Spis</label>
                     </div>
-
                     <div class="radioWrapper">
                         <input class="checky" type="checkbox" name="dishwasher" id="dishwasher">
                         <label for="dishwasher">Diskmaskin</label>
                     </div>
-
                     <div class="radioWrapper">
                         <input class="checky" type="checkbox" name="microwave" id="microwave">
                         <label for="microwave">Microvågsugn</label>
@@ -205,30 +195,25 @@
                         <input class="checky" type="checkbox" name="shower" id="shower">
                         <label for="shower">Egen dusch</label>
                     </div>
-
                     <div class="radioWrapper">
                         <input class="checky" type="checkbox" name="toilet" id="toilet">
                         <label for="toilet">Egen toalett</label>
                     </div>
-
                     <div class="radioWrapper">
                         <input class="checky" type="checkbox" name="bathtub" id="bathtub">
                         <label for="bathtub">Eget badkar</label>
                     </div>
                 </div>
-
                 <h3>Tvätt</h3>
                 <div class="stepFourContainer">
                     <div class="radioWrapper">
                         <input class="checky" type="checkbox" name="washmachin" id="washmachin">
                         <label for="washmachin">Tvättmaskin</label>
                     </div>
-
                     <div class="radioWrapper">
                         <input class="checky" type="checkbox" name="dryer" id="dryer">
                         <label for="dryer">Torktumlare</label>
                     </div>
-
                     <div class="radioWrapper">
                         <input class="checky" class="checky" type="checkbox" name="laundry" id="laundry">
                         <label for="laundry">Gemensam tvättstuga</label>
@@ -240,12 +225,10 @@
                         <input class="checky" type="checkbox" name="all" id="all">
                         <label for="all">Alla</label>
                     </div>
-
                     <div class="radioWrapper">
                         <input class="checky" type="checkbox" name="single" id="single">
                         <label for="single">Ensamstående</label>
                     </div>
-
                     <div class="radioWrapper">
                         <input class="checky" type="checkbox" name="married" id="married">
                         <label for="married">Gift/Sambo</label>
@@ -257,7 +240,6 @@
                         <input class="checky" type="checkbox" name="pets" id="pets">
                         <label for="pets">Husdjur tillåtet</label>
                     </div>
-
                     <div class="radioWrapper">
                         <input class="checky" type="checkbox" name="smoking" id="smoking">
                         <label for="smoking">Rökning tillåtet</label>
@@ -292,11 +274,9 @@
                         <option value="1929 eller tidigare">1929 eller tidigare</option>
                     </select>
                 </div>
-
                 <label for="bathroomRenovation">
                     <h3>Badrum - år sedan renovering</h3>
                 </label>
-
                 <div>
                     <select id="bathroomRenovation" name="bathroomRenovation">
                         <option value="">-</option>
@@ -313,11 +293,9 @@
                         <option value="vetej">Vet ej</option>
                     </select>
                 </div>
-
                 <label for="kitchenRenovation">
                     <h3>Kök - år sedan renovering</h3>
                 </label>
-
                 <div>
                     <select id="kitchenRenovation" name="kitchenRenovation">
                         <option value="">-</option>
@@ -334,11 +312,9 @@
                         <option value="vetej">Vet ej</option>
                     </select>
                 </div>
-
                 <label for="energyclass">
                     <h3>Energiklass</h3>
                 </label>
-
                 <div>
                     <select id="energyclass" name="energyclass">
                         <option value="">-</option>
@@ -367,7 +343,6 @@
                             <h3>Inflyttningsdatum</h3>
                         </label>
                         <input type="date" id="moveIn" name="moveIn">
-
                         <div class="radioWrapper">
                             <input class="checky" id="moveInTwo" name="moveInTwo" type="radio">
                             <label for="moveInTwo">Snarast</label>
@@ -396,8 +371,8 @@
                 <p>Sökande är ofta intresserade av renoveringar och när huset byggdes.</p>
                 <label for="description"></label>
                 <textarea name="description" id="description" type="textarea" placeholder="Beskrivning"></textarea>
-
-                <p class="margins">De flesta annonser har en beskrivning mellan 300 och 400 tecken.</p><br>
+                <p class="margins">De flesta annonser har en beskrivning mellan 300 och 400 tecken.</p>
+                <br>
                 <p class="margins">Saker hyresgäster ofta undrar över:</p>
                 <ul>
                     <li>Planlösning</li>
@@ -417,8 +392,10 @@
                     <h2>Vilken hyra hade du tänkt dig?</h2>
                     <p>Enligt vår statistik på tusentals uthyrda bostäder skulle du kunna sätta hyran till: 8220 kr*.</p>
                     <div class="alignLabelWithDivWrapper">
-                        <div class="alignLabelWithDiv"><label for="rent">
-                                <input placeholder="&nbsp;&nbsp;&nbsp;&nbsp;Ange" type="number" name="rent" id="rent"></div>
+                        <div class="alignLabelWithDiv">
+                            <label for="rent">
+                                <input placeholder="&nbsp;&nbsp;&nbsp;&nbsp;Ange" type="number" name="rent" id="rent">
+                        </div>
                         <div class="stepTwoSquareMetres">kr</div>
                         <label for="roomNumber">
                     </div>
@@ -449,7 +426,6 @@
                                         <img src="{{asset('images/forms/choosephoto.svg')}}" alt="" />
                                     </picture>
                                 </div>
-
                                 <input id="imageOne" type="file" name="imageOne" style="display: none;">
                         </label>
                     </div>
@@ -465,7 +441,6 @@
                                     <img src="{{asset('images/forms/choosephoto.svg')}}" alt="" />
                                 </picture>
                             </div>
-
                             <input id="imageTwo" type="file" name="imageTwo" style="display: none;">
                     </label>
                 </div>
@@ -481,10 +456,8 @@
                                 <img src="{{asset('images/forms/choosephoto.svg')}}" alt="" />
                             </picture>
                         </div>
-
                         <input id="imageThree" type="file" name="imageThree" style="display: none;">
                 </label>
-
             </div>
     </div>
     <!-- end image three -->
@@ -498,7 +471,6 @@
                         <img src="{{asset('images/forms/choosephoto.svg')}}" alt="" />
                     </picture>
                 </div>
-
                 <input id="imageFour" type="file" name="imageFour" style="display: none;">
         </label>
     </div>
@@ -514,7 +486,6 @@
                     <img src="{{asset('images/forms/choosephoto.svg')}}" alt="" />
                 </picture>
             </div>
-
             <input id="imageFive" type="file" name="imageFive" style="display: none;">
     </label>
 </div>
@@ -530,13 +501,11 @@
                     <img src="{{asset('images/forms/choosephoto.svg')}}" alt="" />
                 </picture>
             </div>
-
             <input id="imageSix" type="file" name="imageSix" style="display: none;">
     </label>
 </div>
 </div>
 <!-- end image Six -->
-
 </div>
 </div>
 <!--end step 9 -->
@@ -573,102 +542,84 @@
             <input class="checky" type="checkbox" name="all" id="all">
             <label for="all">Alla</label>
         </div>
-
         <div class="radioWrapper">
             <input class="checky" type="checkbox" name="alone" id="alone">
             <label for="alone">Ensam</label>
         </div>
-
         <div class="radioWrapper">
             <input class="checky" type="checkbox" name="cosearcher" id="cosearcher">
             <label for="cosearcher">Medsökande</label>
         </div>
-
         <div class="radioWrapper">
             <input class="checky" type="checkbox" name="family" id="family">
             <label for="family">Barnfamilj</label>
         </div>
-
         <h3>Sysselsättning</h3>
         <div class="radioWrapper">
             <input class="checky" type="checkbox" name="all" id="all">
             <label for="all">Alla</label>
         </div>
-
         <div class="radioWrapper">
             <input class="checky" type="checkbox" name="working" id="working">
             <label for="working">Arbete</label>
         </div>
-
         <div class="radioWrapper">
             <input class="checky" type="checkbox" name="studying" id="studying">
             <label for="studying">Studerande</label>
         </div>
-
         <div class="radioWrapper">
             <input class="checky" type="checkbox" name="retired" id="retired">
             <label for="retired">Pension</label>
         </div>
-
         <div class="radioWrapper">
             <input class="checky" type="checkbox" name="other" id="other">
             <label for="other">Annan</label>
         </div>
-
         <h3>Ålder</h3>
         <div class="radioWrapper">
             <input class="checky" type="checkbox" name="18-25" id="18-25">
             <label for="18-25">18-25 år</label>
         </div>
-
         <div class="radioWrapper">
             <input class="checky" type="checkbox" name="26-32" id="26-32">
             <label for="26-32">26-32 år</label>
         </div>
-
         <div class="radioWrapper">
             <input class="checky" class="checky" type="checkbox" name="33-45" id="33-45">
             <label for="33-45">33-45 år</label>
         </div>
-
         <div class="radioWrapper">
             <input class="checky" class="checky" type="checkbox" name="46-59" id="46-59">
             <label for="46-59">46-59 år</label>
         </div>
-
         <div class="radioWrapper">
             <input class="checky" class="checky" type="checkbox" name="60+" id="60+">
             <label for="60+">60+ år</label>
         </div>
-
         <h3>Civilstånd</h3>
         <div class="radioWrapper">
             <input class="checky" type="checkbox" name="all" id="all">
             <label for="all">Alla</label>
         </div>
-
         <div class="radioWrapper">
             <input class="checky" type="checkbox" name="alone" id="alone">
             <label for="alone">Ensamstående</label>
         </div>
-
         <div class="radioWrapper">
             <input class="checky" type="checkbox" name="married" id="married">
             <label for="married">Gift/Sambo</label>
         </div>
     </div>
-
 </div>
 <!-- step 12 -->
 <div class="stepTwelve tab">
     <div class="steps">
         <div>
-            <p>steg 11 av 13</p>
+            <p>steg 12 av 13</p>
         </div>
     </div>
     <h2>Din preferens</h2>
     <p>Här är en summering om den hyresboende du har valt som preferens.</p>
-
     <div class="wrapper">
         <div class="summeryContentWrapper">
             <div class="summaryContent">
@@ -691,7 +642,6 @@
             </div>
         </div>
     </div>
-
 </div>
 <!-- step 13 -->
 <div class="stepThirteen tab">
@@ -718,9 +668,9 @@
         <p>Nu är din annons synlig för alla kollektivas användare. Våra handledare hanterar hela din process från matchning till avtal. Tjänsten är dessutom dynamisk och användarvänlig. </p>
     </div>
 </div>
-
-<div class="buttonWrapper margins" id="nextAndBack">
-    <button type="button" class="backButton" id="back"><svg width="8" height="14" viewBox="0 0 8 14" fill="none" xmlns="http://www.w3.org/2000/svg">
+<div class="buttonWrapper" id="nextAndBack">
+    <button type="button" class="backButton" id="back">
+        <svg width="8" height="14" viewBox="0 0 8 14" fill="none" xmlns="http://www.w3.org/2000/svg">
             <path d="M7 1L1 7L7 13" stroke="#212121" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
         </svg>
         Tillbaka
@@ -730,5 +680,4 @@
 </form>
 </div>
 </div>
-
 @include('footer')
