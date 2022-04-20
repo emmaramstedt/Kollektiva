@@ -1,6 +1,6 @@
 /* Mobile-first */
 /* Language and search-function at top of page */
-.openMenuButtonWrapper a{
+.openMenuButtonWrapper a {
     all: unset;
 }
 header {
@@ -55,8 +55,8 @@ header input {
     margin-right: 16px;
 }
 
-.languageAndSearchWrapper > *{
-    margin-left:38px;
+.languageAndSearchWrapper > * {
+    margin-left: 38px;
 }
 
 .logo {
@@ -216,10 +216,13 @@ hr {
     display: none;
 }
 
+.headerLogo {
+    margin-left: 5%;
+}
+
 /* Media queries */
 
 @media only screen and (min-width: 600px) {
-
     .openMenuButtonWrapper {
         flex-direction: row;
     }
@@ -233,7 +236,6 @@ hr {
 
 @media only screen and (min-width: 991px) {
     /* make so that buttons lie next to each other */
-
 
     .searchForm input {
         height: 50px;

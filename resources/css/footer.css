@@ -1,5 +1,5 @@
-.footerWrapper{
-    background-color: #033F33;
+.footerWrapper {
+    background-color: #033f33;
     padding-bottom: 40px;
 }
 footer {
@@ -9,22 +9,22 @@ footer {
     padding-right: 16px;
 }
 
-footer hr{
+footer hr {
     height: 1px;
     border: none;
-    background-color: #FBFFF9;
+    background-color: #fbfff9;
 }
 
 footer > * {
     margin-top: 0.2em;
 }
 
-footer ul{
+footer ul {
     padding: 0;
 }
 footer li {
-   list-style: none;
-   line-height: 3em;
+    list-style: none;
+    line-height: 3em;
 }
 
 footer li img {
@@ -36,60 +36,65 @@ footer svg {
     margin-right: 0.2em;
 }
 
-footer h4{
+footer h4 {
     margin-bottom: 40px;
 }
 
-.footerAbout{
+.footerAbout {
     vertical-align: middle;
 }
 
-.footerSocial svg{
-width: 42px;
+.footerSocial svg {
+    width: 42px;
 }
 
-.footerOrg{
-margin-top: 1.2em;
+.footerOrg {
+    margin-top: 1.2em;
 }
+
+.footerLogo {
+    margin-left: 5%;
+}
+
 @media only screen and (min-width: 481px) {
-    footer p{
+    footer p {
         max-width: 300px;
     }
 }
 
 @media only screen and (min-width: 834px) {
-    .footerLine{
+    .footerLine {
         display: none;
     }
 
-    footer{
-    flex-direction: row;
-    flex-wrap: wrap;
-    justify-content: space-between;
-    width: 90vw;
-    margin-left: 32px;
+    footer {
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        width: 90vw;
+        margin-left: 32px;
     }
 
-    footer p{
+    footer p {
         max-width: 390px;
     }
 
-    .footerDescription{
-    width: 90vw;
-    margin-bottom: 80px;
+    .footerDescription {
+        width: 90vw;
+        margin-bottom: 80px;
     }
 
-    .footerOrg{
-    width: 100vw;
-    margin-top: 80px;
+    .footerOrg {
+        width: 100vw;
+        margin-top: 80px;
     }
-  }
+}
 
-  @media only screen and (min-width: 1578px) {
-    footer{
-    padding-left: 64px;
-    padding-right: 64px;
-    align-content: space-evenly;
-    justify-content: space-evenly;
+@media only screen and (min-width: 1578px) {
+    footer {
+        padding-left: 64px;
+        padding-right: 64px;
+        align-content: space-evenly;
+        justify-content: space-evenly;
     }
-  }
+}
