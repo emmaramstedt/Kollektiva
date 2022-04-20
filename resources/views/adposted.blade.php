@@ -1,3 +1,5 @@
 @include('header')
-@include('ad')
+<div class="adPage">
+    @include('ad')
+</div>
 @include('footer')
