@@ -119,7 +119,7 @@
                     </ul>
                     <div class="openMenuButtonWrapper">
                         <button class="menuButton">Logga ut</button>
-                        <button class="menuButton"><a href="/userPage">Mina sidor</a></button>
+                        <button href="/userPage" class="menuButton"><a href="/userPage">Mina sidor</a></button>
                     </div>
                 </div>
             </nav>
@@ -145,10 +145,6 @@
 
                 <li>
                     <a class="nav-link" href="/contact">Kontakt</a>
-                </li>
-
-                <li>
-                    <a class="nav-link" href="/userPage">Profil</a>
                 </li>
                 <div class="menuGap">
 
