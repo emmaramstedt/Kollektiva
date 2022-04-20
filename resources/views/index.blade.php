@@ -14,7 +14,7 @@
             <h1 class="greenText">Kollektiva -<br>
                 tillsammans för ditt hem
             </h1>
-            <p>Vi hjälper dig att hitta din nya hyresgäst eller hyresvärd.</p>
+            <p>Vi hjälper dig att hitta din nya hyresgäst eller din nya hyresvärd.</p>
         </div>
         <div class="heroButtons">
             <div class="heroButton"><button class="orangeButton search">Sök bostad</button></div>
@@ -37,9 +37,10 @@
         <div class="ctaCardText">
             <h2>Vi hjälper dig hela vägen - från A till Ö</h2>
             <p>
-                Allt ingår när du hyr ut via oss. Utöver ett säkert hyresavtal får du alltid skydd mot hyresförlust, skräddarsydd försäkring, punktliga hyresbetalningar och personlig service under hela uthyrningen.
+                Vill du flytta utan att sälja ditt hus? Kollektiva riktar sig till dig, 55+ som önskar att hyra ut ditt hus eller ett rum, och inte vill behöva att tänka på att lösa allt själv.
             </p>
-            <button class="orangeButton">Läs mer om Kollektiva</button>
+            <p>Vi hjälper dig att hitta din hyresgäst! Läs mer om kostnad här: <a>Hur funkar Kollektiva?</a></p>
+            <button class="orangeButton">Läs om Kollektiva</button>
         </div>
     </div>
 
@@ -54,7 +55,7 @@
         <div class="ctaCardText">
             <h2>Hyr ett hus eller rum - vi matchar er</h2>
             <p>
-                Låt oss hjälpa dig att hitta huset eller rummet efter dina önskemål, antigen om du är en barnfamilj eller en gäng studenter som önskar bo i kollektiv. Läs mer om hur vi går tillväga under <a href="">Hur fungerar Kollektiva?</a>
+                Barnfamiljen eller kompisgänget – låt oss hjälpa dig att hitta huset eller rummet efter dina önskemål.
             <p>Vid hjälp av personlig matchning hjälper vi er att hitta varandra!</p>
             </p>
             <button class="orangeButton">Sök bostad</button>
@@ -78,7 +79,7 @@
                 <div class="stepByStepIcon"><img src="{{asset('icons/care.svg')}}"></div>
                 <div class="stepByStep">
                     <h3>Enkelt och beskymmersfritt</h3>
-                    <p>Enkelt, tryggt och digitalt. Vi hjälper dig hitta din nya hyresgäst eller hyresvärd som stämmer överens med dina önskemål. </p>
+                    <p>Våra handlera hanterar hela din process från matchning till avtal. Tjänsten är dessutom dynamisk och användarvänlig. </p>
                 </div>
             </div>
 
@@ -86,15 +87,15 @@
                 <div class="stepByStepIcon"><img src="{{asset('icons/people.svg')}}"></div>
                 <div class="stepByStep">
                     <h3>Personlig matchning</h3>
-                    <p>För att båda parter ska känna sig trygga, erbjuder vi personlig matchning. Det ska vara trivsamt att dela. </p>
+                    <p>Baserat på personlig matchning både för hyresvärd och hyresgäst – det ska vara trivsamt att dela ett hem.</p>
                 </div>
             </div>
 
             <div class="stepByStepCard">
                 <div class="stepByStepIcon"><img src="{{asset('icons/sun.svg')}}"></div>
                 <div class="stepByStep">
-                    <h3>Vi finns alltid här för dig</h3>
-                    <p>Vi skapar de bästa förutsättningarna för att ni ska trivas och känna er trygga. Skulle något uppstå når ni oss på telefon 031-094021</p>
+                    <h3>Vi är alltid tillgänglig för dig</h3>
+                    <p>I pratbubblan som följer med på vår sida, kan du välja att chatta eller ringa oss - känn dig trygg med ditt val.</p>
                 </div>
             </div>
         </div>
@@ -154,7 +155,7 @@
                 <p>Vi är här för att hjälpa dig! Har du några funderingar på hur du skall gå till väga, läs igenom vårt hjälpcenter eller kontakta oss:</p>
                 <p>
                     <span>Telefon: +44 20 387 556</span>
-                    <span>Mail: kollektiva@gmail.com</span>
+                    <span>Mail: info@kollektiva.se</span>
                     <button class="orangeButton">Hjälpcenter/Vanliga frågor</button>
                 </p>
             </div>
