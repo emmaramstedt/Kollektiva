@@ -2164,6 +2164,14 @@ module.exports = {
 
 __webpack_require__(/*! ./bootstrap */ "./resources/js/bootstrap.js");
 
+if (!window.location.href.includes('/hyrut')) {
+  document.querySelector('header').style.display = "block";
+  document.querySelector('.footerWrapper').style.display = "block";
+} else {
+  document.querySelector('header').style.display = "none";
+  document.querySelector('.footerWrapper').style.display = "none";
+}
+
 /***/ }),
 
 /***/ "./resources/js/bootstrap.js":

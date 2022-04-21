@@ -5,15 +5,6 @@ const stepTen = document.querySelector(".stepTen");
 const stepEleven = document.querySelector(".stepEleven");
 const stepThirteen = document.querySelector(".stepThirteen");
 
-if (!window.location.href.includes('/hyrut')) {
-    document.querySelector('header').style.display = "block";
-    document.querySelector('.footerWrapper').style.display = "block";
-}
-else{
-    document.querySelector('header').style.display = "none";
-    document.querySelector('.footerWrapper').style.display = "none";
-}
-
 
 previews.forEach((preview) => {
     preview.onchange = function () {

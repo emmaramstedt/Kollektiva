@@ -105,8 +105,6 @@
         </div>
     </footer>
 </div>
-<!-- Forms javascript -->
-<script src="../js/forms.js"></script>
 <!-- User page javascript -->
 <script src="../js/userPage.js"></script>
 <!-- chat API -->

@@ -9,15 +9,6 @@ var skip = document.getElementById("skip");
 var stepTen = document.querySelector(".stepTen");
 var stepEleven = document.querySelector(".stepEleven");
 var stepThirteen = document.querySelector(".stepThirteen");
-
-if (!window.location.href.includes('/hyrut')) {
-  document.querySelector('header').style.display = "block";
-  document.querySelector('.footerWrapper').style.display = "block";
-} else {
-  document.querySelector('header').style.display = "none";
-  document.querySelector('.footerWrapper').style.display = "none";
-}
-
 previews.forEach(function (preview) {
   preview.onchange = function () {
     preview.src = URL.createObjectURL(window.event.target.files[0]);

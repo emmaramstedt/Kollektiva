@@ -680,4 +680,6 @@
 </form>
 </div>
 </div>
+<!-- Forms javascript -->
+<script src="../js/forms.js"></script>
 @include('footer')
