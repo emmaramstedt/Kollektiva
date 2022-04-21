@@ -135,7 +135,7 @@
         <div class="testimonyCard testimonyDesktop">
             <div class="testimonyImage">
                 <picture>
-                    <img src="{{asset('images/testimonies/testimonythreedesktop.png')}}" srcset="{{asset('images/testimonies/testimonythreedesktop.png')}} '1440w')}}">
+                    <img src="{{asset('images/testimonies/testimonythreedesktop.png')}}">
                 </picture>
             </div>
             <div class="testimony"></div>
