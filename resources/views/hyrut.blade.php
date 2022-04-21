@@ -682,5 +682,5 @@
 </div>
 <!-- Forms javascript -->
 {{asset('js/forms.js.')}}
-<script src="{{asset('js/forms.js.')}}"></script>
+<script src="{{asset('js/forms.js')}}"></script>
 @include('footer')
