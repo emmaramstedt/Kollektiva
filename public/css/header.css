@@ -217,6 +217,10 @@ hr {
 }
 
 .headerLogo {
+    display: none;
+}
+
+.mobileLogo {
     margin-left: 5%;
 }
 
@@ -401,5 +405,13 @@ hr {
         padding-left: 0%;
         margin-left: 64px;
     } */
+
+    .mobileLogo {
+        display: none;
+    }
+
+    .headerLogo {
+        display: block;
+    }
 }
 
