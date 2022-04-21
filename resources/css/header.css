@@ -378,6 +378,14 @@ hr {
     .menuGap {
         margin-left: 3%;
     }
+
+    .mobileLogo {
+        display: none;
+    }
+
+    .headerLogo {
+        display: block;
+    }
 }
 
 /* laptop */
@@ -405,12 +413,4 @@ hr {
         padding-left: 0%;
         margin-left: 64px;
     } */
-
-    .mobileLogo {
-        display: none;
-    }
-
-    .headerLogo {
-        display: block;
-    }
 }
