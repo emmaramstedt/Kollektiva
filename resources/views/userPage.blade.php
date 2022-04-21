@@ -121,4 +121,6 @@
     </div>
 </div>
 <div class="bottomSpace"></div>
+<!-- User page javascript -->
+<script src="../js/userPage.js"></script>
 @include('footer')

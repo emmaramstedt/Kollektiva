@@ -105,9 +105,8 @@ next.addEventListener("click", function nextStep(n) {
     //...the form gets submitted:
     document.getElementById("regForm").submit();
     return false;
-  }
+  } // Otherwise, display the correct tab:
 
-  console.log(n); // Otherwise, display the correct tab:
 
   showTab(currentTab);
 });
@@ -164,8 +163,7 @@ back.addEventListener("click", function nextStep(n) {
     return false;
   }
 
-  checkCurrentTabCount();
-  console.log(n); // Otherwise, display the correct tab:
+  checkCurrentTabCount(); // Otherwise, display the correct tab:
 
   showTab(currentTab);
 });

@@ -2,7 +2,7 @@
 <div class="footerWrapper whiteText">
     <footer>
         <div class="footerDescription">
-            <img class="footerLogo" src=""><svg width="200" height="41" viewBox="0 0 215 41" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <svg width="200" height="41" viewBox="0 0 215 41" fill="none" xmlns="http://www.w3.org/2000/svg">
                 <g clip-path="url(#clip0_719_43)">
                     <path d="M24.1354 34.9745V15.5696L20.9263 15.1033V8.08975H33.039L19.803 1.07617C19.3412 0.831379 18.7855 0.831379 18.3198 1.07617L0.833606 10.3473C0.320919 10.6193 0 11.1477 0 11.7267V38.1568C0 39.0194 0.704456 39.7188 1.57329 39.7188H20.8871V35.363L24.1354 34.9745Z" fill="#FCA82B" />
                     <path d="M46.9719 35.9691C46.3848 35.1259 45.4494 33.7076 44.1736 31.7143C42.6864 29.3829 41.4262 27.479 40.3969 26.0024C39.6025 24.8678 38.8471 23.943 38.127 23.2203C37.9078 23.0027 37.6926 22.8045 37.4813 22.6219L38.127 21.9031L45.9347 13.2187L48.9482 12.7524V10.8096H39.2815V12.7524L42.569 13.2187L38.127 18.4682L31.0629 26.8184V13.2187L34.3112 12.7524V10.8096H23.6661V12.7524L26.8753 13.2187V37.3873L23.627 37.7759V39.6798H34.6243V37.7759L31.0629 37.3873V29.888L35.0157 25.4584C35.4853 25.9752 36.0254 26.6863 36.6398 27.5955C37.1056 28.2833 37.5987 29.0721 38.127 29.9658C38.2953 30.2455 38.4636 30.5369 38.6358 30.84C39.352 32.0951 39.7903 32.8644 39.9469 33.152C41.2227 35.4056 42.2089 37.057 42.9017 38.1062C43.5905 39.1553 44.1579 39.6798 44.6041 39.6798H50.2006V37.7759L48.3612 37.3485C48.0207 37.2708 47.5589 36.8084 46.9719 35.9691Z" fill="white" />
@@ -23,7 +23,7 @@
                     </clipPath>
                 </defs>
             </svg></img>
-            <p>Vi på Kollektiva är din mellanperson som tar sig av allt – ta steget i dag du också!</p>
+            <p>Vi på Kollektiva är din mellanperson som tar sig av allt - ta steget i dag du också!</p>
         </div>
         <div class="footerLine">
             <hr>
@@ -105,8 +105,7 @@
         </div>
     </footer>
 </div>
-<!-- User page javascript -->
-<script src="../js/userPage.js"></script>
+
 <!-- chat API -->
 <div id="custom_fc_button" style="visibility:hidden;">
     <a id="open_fc_widget" onClick="openWidget()" style="cursor:pointer;"><img id="imageicon" src="{{asset('icons/chat.svg')}}" style="width: 80px" /></a>
