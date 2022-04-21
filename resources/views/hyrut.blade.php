@@ -76,7 +76,7 @@
                     </label>
                     <div class="alignLabelWithDivWrapper">
                         <div class="alignLabelWithDiv">
-                            <input placeholder="&nbsp;&nbsp;&nbsp;&nbsp;Ange" type="number" name="size" id="size" min="5" max="1000">
+                            <input placeholder="&nbsp;&nbsp;&nbsp;&nbsp;Ex. 52" type="number" name="size" id="size" min="5" max="1000">
                         </div>
                         <div class="stepTwoSquareMetres">m2</div>
                     </div>
@@ -132,25 +132,25 @@
                         <label for="adress">
                             <h3>Gatuadress</h3>
                         </label>
-                        <input name="adress" id="adress" type="text" placeholder="&nbsp;&nbsp;&nbsp;&nbsp;Ange">
+                        <input name="adress" id="adress" type="text" placeholder="&nbsp;&nbsp;&nbsp;&nbsp;Ex. Basargatan">
                     </div>
                     <div>
                         <label for=" number">
                             <h3>Gatunummer</h3>
                         </label>
-                        <input name="number" id="number" type="number" placeholder="&nbsp;&nbsp;&nbsp;&nbsp;Ange">
+                        <input name="number" id="number" type="number" placeholder="&nbsp;&nbsp;&nbsp;&nbsp;Ex. 12">
                     </div>
                     <div>
                         <label for=" postNumber">
                             <h3>Postnummer</h3>
                         </label>
-                        <input name="postNumber" id="postNumber" type="number" placeholder="&nbsp;&nbsp;&nbsp;&nbsp;Ange">
+                        <input name="postNumber" id="postNumber" type="number" placeholder="&nbsp;&nbsp;&nbsp;&nbsp;Ex. 111 00">
                     </div>
                     <div class="city">
                         <label for="city">
                             <h3>Stad</h3>
                         </label>
-                        <input name="city" id="city" type="string" placeholder="&nbsp;&nbsp;&nbsp;&nbsp;Ange">
+                        <input name="city" id="city" type="string" placeholder="&nbsp;&nbsp;&nbsp;&nbsp;Ex. Göteborg">
                     </div>
                 </div>
             </div>
@@ -394,7 +394,7 @@
                     <div class="alignLabelWithDivWrapper">
                         <div class="alignLabelWithDiv">
                             <label for="rent">
-                                <input placeholder="&nbsp;&nbsp;&nbsp;&nbsp;Ange" type="number" name="rent" id="rent">
+                                <input placeholder="&nbsp;&nbsp;&nbsp;&nbsp;Ex. 7000" type="number" name="rent" id="rent">
                         </div>
                         <div class="stepTwoSquareMetres">kr</div>
                         <label for="roomNumber">
