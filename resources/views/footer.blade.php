@@ -149,7 +149,7 @@
 </script>
 
 <!-- Header javascript -->
-<script src="../js/header.js"></script>
+<script src="{{asset('js/header.js')}}"></script>
 
 
 <!-- bootstrap (for header) -->
