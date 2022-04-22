@@ -1,106 +1,109 @@
 @font-face {
-    font-family: 'Merriweather';
-    src: url('../fonts/Merriweather/Merriweather-Regular.woff2') format('woff2');
+    font-family: "Merriweather";
+    src: url("../fonts/Merriweather/Merriweather-Regular.woff2") format("woff2");
     font-weight: 400;
     font-style: normal;
 }
 @font-face {
-    font-family: 'Merriweather';
-    src: url('../fonts/Merriweather/Merriweather-Bold.woff2') format('woff2');
+    font-family: "Merriweather";
+    src: url("../fonts/Merriweather/Merriweather-Bold.woff2") format("woff2");
     font-weight: 700;
     font-style: bold;
 }
 @font-face {
-    font-family: 'OpenSans';
-    src: url('../fonts/OpenSans/OpenSans-Bold.woff2') format('woff2');
+    font-family: "OpenSans";
+    src: url("../fonts/OpenSans/OpenSans-Bold.woff2") format("woff2");
     font-weight: 700;
     font-style: bold;
 }
 
 @font-face {
-    font-family: 'OpenSans';
-    src: url('../fonts/OpenSans/OpenSans-Medium.woff') format('woff2');
+    font-family: "OpenSans";
+    src: url("../fonts/OpenSans/OpenSans-Medium.woff") format("woff2");
     font-weight: 600;
     font-style: medium;
 }
 
 @font-face {
-    font-family: 'OpenSans';
-    src: url('../fonts/OpenSans/OpenSans-MediumItalic.woff2') format('woff2');
+    font-family: "OpenSans";
+    src: url("../fonts/OpenSans/OpenSans-MediumItalic.woff2") format("woff2");
     font-weight: 600;
     font-style: italic;
 }
 
 body {
-    background-color: #FBFFF9;
-    font-family: 'Merriweather';
+    background-color: #fbfff9;
+    font-family: "Merriweather";
     font-size: 18px;
     font-weight: 400;
     line-height: 22px;
     margin: 0px;
     color: #212121;
 }
-main{
+main {
     line-height: 28px;
-    }
+}
 
 /* margin left och right:
 mobile: 16px
 tablet: 38px
 desktop: 64px
 sätt på varje objekt och inte i main pga att det förstör bakgrundsfärger annars*/
-.margins{
+.margins {
     padding-left: 16px;
     padding-right: 16px;
 }
 
-h1{
-    font-family: 'OpenSans';
+h1 {
+    font-family: "OpenSans";
     font-size: 40px;
     line-height: 40px;
     font-weight: 700;
-    color: #033F33;
+    color: #033f33;
 }
 
-h2{
-    font-family: 'OpenSans';
+h2 {
+    font-family: "OpenSans";
     font-size: 24px;
     line-height: 28px;
     font-weight: 700;
-    color: #033F33;
+    color: #033f33;
 }
 
-h3{
-    font-family: 'OpenSans';
+h3 {
+    font-family: "OpenSans";
     font-weight: 700;
     font-size: 20px;
     line-height: 28px;
-    color: #033F33;
+    color: #033f33;
 }
 
-h4{
-    font-family: 'OpenSans';
+h4 {
+    font-family: "OpenSans";
     font-weight: 600;
     font-size: 20px;
     line-height: 15px;
-    color: #FBFFF9;
+    color: #fbfff9;
 }
 
 li {
     font-family: "OpenSans";
 }
 
-.greenText{
-    color: #033F33;
+.greenText {
+    color: #033f33;
+    font-family: "OpenSans";
+    font-style: italic;
+    font-size: 28px;
 }
 
-.whiteText{
-    color: #FBFFF9;
+.whiteText {
+    color: #fbfff9;
 }
 
 .orangeButton {
-    font-family: 'OpenSans';
-    background-color: #FCA82B;
+    font-family: "OpenSans";
+    background-color: #fca82b;
     color: #212121;
     width: 324px;
     height: 48px;
@@ -112,34 +115,34 @@ li {
     right: 1px;
     bottom: 20px;
     width: 80px;
-  }
-  #imageicon {
+}
+#imageicon {
     width: 280px;
-  }
+}
 
-  @media only screen and (min-width: 1440px) {
+@media only screen and (min-width: 1440px) {
     body {
         font-size: 20px;
         line-height: 32px;
     }
-    .margins{
+    .margins {
         max-width: 1920px;
         padding-left: 20px;
         padding-right: 20px;
         margin: auto;
     }
-    h1{
-        font-size:64px;
+    h1 {
+        font-size: 64px;
         line-height: 70px;
     }
 
-    h2{
+    h2 {
         font-size: 40px;
         line-height: 52px;
         font-weight: 700;
     }
 
-    h3{
+    h3 {
         font-weight: 700;
         font-size: 24px;
         line-height: 32px;
@@ -153,8 +156,12 @@ li {
         right: 1px;
         bottom: 20px;
         width: 118px;
-      }
-      #imageicon {
+    }
+    #imageicon {
         width: 330px;
-      }
-  }
+    }
+
+    .greenText {
+        font-size: 48px;
+    }
+}
