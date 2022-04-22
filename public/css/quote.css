@@ -9,8 +9,8 @@
 }
 
 .quote{
-font-family: 'OpenSansSemiBoldItalic';
-font-size: 28px;
+    font-style: italic;
+    font-size: 28px;
 line-height: 43px;
 font-weight: 600;
 }
