@@ -143,7 +143,7 @@
                         </div>
                     </ul>
                     <div class="openMenuButtonWrapper">
-                        <button class="menuButton">Logga ut</button>
+                        <a href="/"><button class="menuButton">Logga ut</button></a>
                         <a href="/userPage"><button href="/userPage" class="menuButton">Mina sidor</button></a>
                     </div>
                 </div>

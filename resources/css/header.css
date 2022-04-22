@@ -12,6 +12,9 @@ header ul {
     background-color: white;
     margin: 5%;
 }
+.openMenuButtonWrapper a{
+    width: 100%;
+}
 
 .headerHr {
     height: 1px;
