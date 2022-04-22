@@ -67,7 +67,7 @@
 <!-- Quote -->
 <div class="quoteWrapper">
     <div class="quote">
-        <p class="greenText margins">”Kollektiva hjälper dig att upprätthålla ditt hus värde. Står huset tomt eller delvis tomt, kan det leda till sämre skick.”</p>
+        <p class="greenText margins">”Kollektiva hjälper dig att upprätthålla ditt hus värde. Står huset tomt eller delvis tomt, kan det leda till sämre skick - bo efter ditt behov.”</p>
     </div>
 </div>
 <!-- End Quote -->
